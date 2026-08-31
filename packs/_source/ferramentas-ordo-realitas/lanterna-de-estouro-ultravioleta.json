@@ -2,7 +2,7 @@
   "_id": "NOH4j1dMyeceqXsf",
   "name": "Lanterna de Estouro Ultravioleta",
   "type": "ferramenta",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/op2e-playtest/assets/icones/lanterna-uv.svg",
   "folder": null,
   "sort": 300000,
   "ownership": {

@@ -2,7 +2,7 @@
   "_id": "dXSGqNNU0WtQEsYU",
   "name": "Laser de Varredura",
   "type": "ferramenta",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/op2e-playtest/assets/icones/laser-de-varredura.svg",
   "folder": null,
   "sort": 400000,
   "ownership": {

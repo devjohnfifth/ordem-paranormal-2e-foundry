@@ -2,7 +2,7 @@
   "_id": "FmuWj2I0PaOtZINT",
   "name": "Medidor EMF",
   "type": "ferramenta",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/op2e-playtest/assets/icones/medidor-emf.svg",
   "folder": null,
   "sort": 600000,
   "ownership": {
