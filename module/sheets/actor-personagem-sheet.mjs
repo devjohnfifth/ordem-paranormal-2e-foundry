@@ -39,6 +39,14 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
 
   static async #rolarPericia(event, target) {
     const { pericia, campo } = target.dataset;
+
+    // Clique simples: rola na hora, com a DT padrão. Shift+clique: abre o diálogo de opções
+    // (DT customizada, aumento/redução de passo, dados extras — "Regras Adicionais de Testes").
+    if (!event.shiftKey) {
+      await this.actor.rolarPericia(pericia, { campo: campo || undefined });
+      return;
+    }
+
     const opcoes = await OP2PersonagemSheet.#abrirDialogoTeste(pericia, campo);
     if (!opcoes) return;
     await this.actor.rolarPericia(pericia, { campo: campo || undefined, ...opcoes });
@@ -85,14 +93,11 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
         </div>
       </div>`;
 
-    const dados = await foundry.applications.api.DialogV2.prompt({
+    const dados = await foundry.applications.api.DialogV2.input({
       window: { title: game.i18n.format("OP2E.Dialogo.Teste.Titulo", { pericia: rotuloPericia }) },
       content,
       rejectClose: false,
-      ok: {
-        label: game.i18n.localize("OP2E.Dialogo.Teste.Rolar"),
-        callback: (evt, button) => new foundry.applications.ux.FormDataExtended(button.form).object
-      }
+      ok: { label: game.i18n.localize("OP2E.Dialogo.Teste.Rolar") }
     });
     if (!dados) return null;
 
@@ -114,14 +119,11 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
         <label>${game.i18n.localize("OP2E.Dialogo.GastarImpeto.Quantidade")}</label>
         <input type="number" name="quantidade" value="1" min="1" max="${this.actor.system.impeto.max}">
       </div>`;
-    const dados = await foundry.applications.api.DialogV2.prompt({
+    const dados = await foundry.applications.api.DialogV2.input({
       window: { title: game.i18n.localize("OP2E.Dialogo.GastarImpeto.Titulo") },
       content: conteudo,
       rejectClose: false,
-      ok: {
-        label: game.i18n.localize("OP2E.Dialogo.GastarImpeto.Confirmar"),
-        callback: (evt, button) => new foundry.applications.ux.FormDataExtended(button.form).object
-      }
+      ok: { label: game.i18n.localize("OP2E.Dialogo.GastarImpeto.Confirmar") }
     });
     if (!dados) return;
     await this.actor.gastarImpeto(Number(dados.quantidade));
