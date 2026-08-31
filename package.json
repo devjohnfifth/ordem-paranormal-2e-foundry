@@ -5,6 +5,7 @@
   "description": "Sistema não-oficial para Foundry VTT do Playtest Alpha de Ordem Paranormal RPG 2.",
   "type": "module",
   "scripts": {
+    "sync-lang": "node scripts/sync-lang.mjs",
     "build:packs": "node scripts/build-packs.mjs",
     "extract:packs": "node scripts/extract-packs.mjs"
   },
