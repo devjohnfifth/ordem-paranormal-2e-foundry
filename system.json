@@ -56,6 +56,17 @@
   },
   "packs": [
     {
+      "name": "personagens-prontos",
+      "label": "Personagens Prontos",
+      "system": "op2e-playtest",
+      "path": "packs/personagens-prontos",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "ferramentas-ordo-realitas",
       "label": "Ferramentas da Ordo Realitas",
       "system": "op2e-playtest",
@@ -82,6 +93,17 @@
       "label": "Compêndio da Ordem (GM)",
       "system": "op2e-playtest",
       "path": "packs/compendio-da-ordem",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "materiais-de-jogo",
+      "label": "Materiais de Jogo (Mapas e Handouts)",
+      "system": "op2e-playtest",
+      "path": "packs/materiais-de-jogo",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",

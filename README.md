@@ -46,14 +46,25 @@ trazer as mudanças de volta para os arquivos-fonte (e poder commitar o diff).
 ## O que já está pronto
 
 - **Ficha de Personagem**: perfil, ocupação, papel (sobrevivente/agente), nível, NEX,
-  os 3 atributos e as 20 perícias (incluindo os 6 campos de Aptidão), PV/PD, habilidades,
-  inventário e ferramentas, com botões de rolagem de perícia e de testes de
-  ferimento/trauma.
+  os 3 atributos e as 20 perícias (incluindo os 6 campos de Aptidão), PV/PD, Ímpeto
+  (quando o personagem tem essa habilidade), habilidades, inventário e ferramentas.
 - **Ficha de Ameaça**: PV e notas — deliberadamente simples, já que o playtest não trouxe
   ainda regras de criaturas/combate completo.
-- **Mecânica de Teste**: 1 dado de atributo + 1 dado de perícia (até 4 dados com bônus,
-  somando os 3 melhores), DT padrão 7, detecção automática de sucesso/falha crítica,
-  RA/RB, tudo publicado como card de chat.
+- **Mecânica de Teste, de verdade jogável**: clicar em qualquer perícia abre um diálogo
+  onde dá pra ajustar a DT, aplicar aumento/redução de passo (regra de Ajuda e vantagens
+  situacionais) e adicionar até 2 dados extras (regra de "Modificando Testes", máx. 4
+  dados somando os 3 melhores) antes de rolar. Detecta sucesso/falha crítica e RA/RB
+  automaticamente, publica um card no chat, e preenche a barra de Ímpeto sozinho quando o
+  teste falha.
+- **Ímpeto**: recurso rastreável (não só texto) para os perfis Executor que o possuem,
+  com botão para gastar espaços preenchidos.
+- **Testes de Ferimento (0 PV) e Trauma (0 PD)**: botões dedicados, com a DT escalando
+  +3 a cada tentativa, exatamente como a regra descreve.
+- **Compêndio "Personagens Prontos"**: os 10 pregens oficiais de "A Maldição do Ídolo de
+  Pedra" — Alan, Edgar, Eloísa, Kênia e Victor (Ato I, sobreviventes nível 2) e Amanda,
+  Antônio, Heitor, Raven e Val (Ato II, agentes nível 6) — com atributos, perícias e
+  habilidades transcritos das fichas oficiais, retrato, token e histórico (imagem oficial)
+  na biografia.
 - **Compêndio "Ferramentas da Ordo Realitas"**: os 9 equipamentos de investigação do Ato II
   (Laboratório Portátil, Câmera Modificada, Lanterna UV, Laser de Varredura, Leitor
   Infravermelho, Medidor EMF, Pó Revelador, Rádio Modificado, Termômetro Diferencial) mais
@@ -63,21 +74,32 @@ trazer as mudanças de volta para os arquivos-fonte (e poder commitar o diff).
   ferimentos/traumas, combate provisório), visível a jogadores.
 - **Compêndio "Compêndio da Ordem (GM)"**: os 5 casos catalogados (elementos, códigos e
   pistas) e uma tabela-resumo de sinais por elemento, visível apenas ao mestre.
+- **Compêndio "Materiais de Jogo"**: os 4 mapas oficiais e os 24 handouts de "A Maldição
+  do Ídolo de Pedra" (Ato I e II), como páginas de imagem em Journals, visível apenas ao
+  mestre.
+
+## Usando os mapas e a trilha sonora
+
+Por segurança (o schema de Scene mudou bastante entre o Foundry v13 e v14, e eu não
+consigo testar ao vivo neste ambiente), os mapas ficam disponíveis como imagens no
+compêndio **Materiais de Jogo**, não como Cenas prontas. Para criar a cena: abra a
+página do mapa no Journal, clique com o botão direito na imagem e escolha **"Criar
+Cena"** (ou arraste o arquivo de `assets/mapas/` direto para a aba Cenas) — o próprio
+Foundry monta a Scene no formato certo para a sua versão.
+
+A trilha sonora ("O Porão" e "O Ídolo") está em `assets/audio/`, fora dos compêndios pelo
+mesmo motivo — arraste os arquivos `.mp3` para a aba Playlists para usá-los.
 
 ## O que falta (de propósito)
 
-- **Personagens prontos (pregens)**: as fichas dos personagens jogáveis de "A Maldição do
-  Ídolo de Pedra" (Alan, Victor, Eloísa, Edgar, Kênia no Ato I; Amanda, Antônio, Heitor, Val,
-  Raven no Ato II) são apresentadas como **imagens/diagramação gráfica** no PDF, não como
-  texto — não foi possível extrair os valores exatos de atributos, perícias e habilidades
-  deles automaticamente. Se você tiver as fichas em outro formato (ou puder me passar os
-  valores manualmente), eu monto os Actors prontos no compêndio.
-- **A missão "A Maldição do Ídolo de Pedra"** (mapas, pontos de interesse sala-a-sala,
-  handouts) não foi transcrita para Journal/Scene: é conteúdo narrativo extenso e protegido
-  por direitos autorais da Jambô Editora, então não deve ser reproduzido em massa mesmo para
-  uso pessoal. Ficam prontas a estrutura de dados (Actor/Item) e a mecânica para você
-  popular essa aventura com suas próprias palavras, ou usando os handouts oficiais do PDF
-  diretamente como imagens/anexos no seu mundo.
+- **A missão "A Maldição do Ídolo de Pedra"** (pontos de interesse sala-a-sala, com DTs,
+  perícias e textos de investigação) não foi transcrita para Journal: é conteúdo
+  narrativo extenso e protegido por direitos autorais da Jambô Editora — reproduzi-lo por
+  completo, mesmo para uso pessoal, ultrapassa o que é razoável. Os mapas e handouts
+  oficiais (que a própria editora distribui como "arquivos para o público") já estão no
+  compêndio; a descrição de cada ponto de interesse fica por sua conta, com o PDF em mãos.
+- **Cenas e Playlist prontas**: ver seção acima — é rápido de montar você mesmo pelo
+  Foundry.
 - **Rituais, poderes e NEX**: fora do escopo deste playtest.
 
 ## Estrutura do projeto
@@ -97,6 +119,10 @@ lang/                     pt-BR (padrão) e en
 css/                      Estilos da ficha
 packs/_source/             Fonte editável dos compêndios (JSON solto)
 packs/                     Compêndios compilados (gerado, não versionar manualmente)
+assets/personagens/         Retratos, tokens e históricos dos 10 pregens
+assets/mapas/                Os 4 mapas oficiais (Ato I e II)
+assets/handouts/              Os 24 handouts oficiais
+assets/audio/                  As 2 faixas de trilha sonora
 scripts/                   build-packs.mjs / extract-packs.mjs
 ```
 
