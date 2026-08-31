@@ -3,6 +3,13 @@
   color: var(--color-text-primary, #191813);
 }
 
+.op2e .op2e-ficha {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
 .op2e .op2e-cabecalho {
   display: flex;
   gap: 0.75rem;
@@ -75,6 +82,8 @@
 .op2e .op2e-corpo {
   padding: 0.5rem;
   overflow-y: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 .op2e .op2e-atributos {
