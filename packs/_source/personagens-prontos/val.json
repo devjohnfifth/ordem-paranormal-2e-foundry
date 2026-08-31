@@ -20,7 +20,7 @@
       "_id": "V4PiSXxfIVrUlO2f",
       "name": "Prontidão",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "ln7EgaX0RAWFtrHI",
       "name": "Técnica Medicinal",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -54,7 +54,7 @@
       "_id": "3J3CQPdmeOuULAsy",
       "name": "Varredura Ampla",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {

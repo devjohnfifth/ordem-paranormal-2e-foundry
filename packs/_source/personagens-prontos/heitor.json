@@ -20,7 +20,7 @@
       "_id": "kCwUo1MxLRwgeemc",
       "name": "Ímpeto",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "W3eyugoJJ0IUfVhA",
       "name": "Linha de Tiro",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -54,7 +54,7 @@
       "_id": "oo8ZmIa4tkspDzNJ",
       "name": "Incansável",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {

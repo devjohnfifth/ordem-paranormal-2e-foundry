@@ -20,7 +20,7 @@
       "_id": "qopSjN8udttM1kis",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "Akwn5V62E1KFjWDw",
       "name": "Foco Mental",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -54,7 +54,7 @@
       "_id": "1XDlGt21qdyWDCRf",
       "name": "Olhar Infalível",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {

@@ -20,7 +20,7 @@
       "_id": "fQuKk0ScIyhLrvo2",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "j14eSE8GThVtHrX7",
       "name": "Foco Emocional",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {

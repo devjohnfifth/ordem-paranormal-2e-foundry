@@ -20,7 +20,7 @@
       "_id": "yreL9gUJHwstKbIC",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "c271uTQQRRYvDMu4",
       "name": "Conhecimento Técnico",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {

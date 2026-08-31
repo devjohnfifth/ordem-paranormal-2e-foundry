@@ -20,7 +20,7 @@
       "_id": "kzWIJRe1mRKb01aF",
       "name": "Ímpeto",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -37,7 +37,7 @@
       "_id": "UmKXtyHHMfMqPjhL",
       "name": "Para Bellum",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -54,7 +54,7 @@
       "_id": "2v7838aEQE9JkeXu",
       "name": "Estoico",
       "type": "habilidade",
-      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "img": "icons/svg/item-bag.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {
