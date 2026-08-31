@@ -13,6 +13,12 @@ lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
 Compatível com **Foundry VTT v13+** (testado como alvo a v14.365 — verifique o número exato
 da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambiente).
 
+> O sistema só tem conteúdo em português. Se a interface do **Foundry em si** (menus,
+> botões como "Search"/"Create") aparecer em inglês, isso é uma configuração global do
+> Foundry, não deste sistema — mude em *Configuração* (ícone de engrenagem na tela de
+> Setup, ou dentro do mundo em *Configurar Configurações* → *Idioma*) para
+> **Português (Brasil)**.
+
 ## Instalação
 
 1. Feche o Foundry, se estiver aberto.
@@ -115,7 +121,7 @@ module/                  Código-fonte (ESM)
   dice/                    Mecânica de Teste (2 dados, RA/RB, críticos)
   helpers/                 Helpers de Handlebars
 templates/                Fichas e chat card (.hbs)
-lang/                     pt-BR (padrão) e en
+lang/                     pt-BR (único idioma do sistema)
 css/                      Estilos da ficha
 packs/_source/             Fonte editável dos compêndios (JSON solto)
 packs/                     Compêndios compilados (gerado, não versionar manualmente)
