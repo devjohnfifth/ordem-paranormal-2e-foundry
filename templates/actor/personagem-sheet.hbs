@@ -99,14 +99,6 @@
           <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
-
-      <h4>{{localize "OP2E.Pericia.aptidao"}}</h4>
-      {{#each (array "artes" "atualidades" "burocracia" "exatas" "humanas" "tatica") as |campo|}}
-        <div class="op2e-pericia-linha">
-          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{campo}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Aptidao." campo)}}</button>
-          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{campo}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup ../system.pericias.aptidao.campos campo)}}</select>
-        </div>
-      {{/each}}
     </div>
 
     <div class="op2e-pericias-coluna">
@@ -115,6 +107,16 @@
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
           <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="op2e-pericias-coluna">
+      <h4>{{localize "OP2E.Pericia.aptidao"}}</h4>
+      {{#each (array "artes" "atualidades" "burocracia" "exatas" "humanas" "tatica") as |campo|}}
+        <div class="op2e-pericia-linha">
+          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{campo}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Aptidao." campo)}}</button>
+          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{campo}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup ../system.pericias.aptidao.campos campo)}}</select>
         </div>
       {{/each}}
     </div>
