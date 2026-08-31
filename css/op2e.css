@@ -9,6 +9,15 @@
   min-width: 0;
 }
 
+/* O core do Foundry costuma esticar <select> para 100% do contêiner. Nas fichas, os selects
+   de dado (d4-d20) são sempre curtos, então travamos a largura deles em vez de deixar o
+   layout flexível "adivinhar" — do contrário eles tomam todo o espaço da linha e o rótulo
+   ao lado (nome do atributo/perícia) fica sem espaço nenhum para aparecer. */
+.op2e select.op2e-dado {
+  flex: 0 0 auto;
+  width: 4.5em;
+}
+
 .op2e .op2e-ficha {
   display: flex;
   flex-direction: column;
@@ -144,10 +153,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.op2e .op2e-pericia-linha select {
-  flex-shrink: 0;
 }
 
 .op2e .op2e-pericia-nome:hover {

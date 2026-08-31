@@ -66,15 +66,15 @@
     <h3>{{localize "OP2E.Secao.Atributos"}}</h3>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.fisico"}}</span>
-      <select name="system.atributos.fisico.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.fisico.dado}}</select>
+      <select class="op2e-dado" name="system.atributos.fisico.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.fisico.dado}}</select>
     </div>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.mente"}}</span>
-      <select name="system.atributos.mente.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.mente.dado}}</select>
+      <select class="op2e-dado" name="system.atributos.mente.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.mente.dado}}</select>
     </div>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.emocao"}}</span>
-      <select name="system.atributos.emocao.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.emocao.dado}}</select>
+      <select class="op2e-dado" name="system.atributos.emocao.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.emocao.dado}}</select>
     </div>
   </section>
 
@@ -86,7 +86,7 @@
       {{#each (array "acrobacia" "atletismo" "crime" "furtividade" "luta" "pontaria" "vigor") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
     </div>
@@ -96,7 +96,7 @@
       {{#each (array "maquinas" "medicina" "ocultismo" "percepcao" "pesquisar" "sobrevivencia" "tecnologia") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
 
@@ -104,7 +104,7 @@
       {{#each (array "artes" "atualidades" "burocracia" "exatas" "humanas" "tatica") as |campo|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{campo}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Aptidao." campo)}}</button>
-          <select name="system.pericias.aptidao.campos.{{campo}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup ../system.pericias.aptidao.campos campo)}}</select>
+          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{campo}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup ../system.pericias.aptidao.campos campo)}}</select>
         </div>
       {{/each}}
     </div>
@@ -114,7 +114,7 @@
       {{#each (array "disciplina" "enganacao" "intimidar" "intuicao" "persuasao") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
     </div>
