@@ -1,0 +1,23 @@
+{
+  "_id": "NOH4j1dMyeceqXsf",
+  "name": "Lanterna de Estouro Ultravioleta",
+  "type": "ferramenta",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": true,
+    "cargas": {
+      "value": 3,
+      "max": 3
+    },
+    "elementosDetectados": "Vestígios visuais invisíveis à luz comum",
+    "descricao": "<p>Uma lanterna comum modificada pela Ordem para emitir um pulso intenso de luz ultravioleta. Revela vestígios paranormais invisíveis à luz normal e pode provocar reações específicas em certos elementos expostos a ela. Só possui 3 cargas; usá-la apenas como lanterna comum não consome cargas.</p>",
+    "mecanica": "<p>O efeito de cada pulso é específico do ponto de interesse — consulte a descrição contextual de cada ponto para saber o que o burst de luz UV revela ali.</p>"
+  },
+  "effects": [],
+  "_key": "!items!NOH4j1dMyeceqXsf"
+}

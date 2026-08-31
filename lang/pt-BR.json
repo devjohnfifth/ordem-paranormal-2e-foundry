@@ -1,0 +1,140 @@
+{
+  "TYPES": {
+    "Actor": {
+      "personagem": "Personagem",
+      "ameaca": "Ameaça"
+    },
+    "Item": {
+      "habilidade": "Habilidade",
+      "ferramenta": "Ferramenta",
+      "item": "Item"
+    }
+  },
+
+  "OP2E": {
+    "Nome": "Nome",
+    "Nivel": "Nível",
+    "Ocupacao": "Ocupação",
+    "Descricao": "Descrição",
+    "Outro": "Outro",
+    "ListaVazia": "Nada por aqui ainda.",
+
+    "Perfil": {
+      "Label": "Perfil",
+      "executor": "Executor",
+      "analista": "Analista",
+      "vigilante": "Vigilante"
+    },
+
+    "Papel": {
+      "Label": "Papel",
+      "sobrevivente": "Sobrevivente",
+      "agente": "Agente da Ordo Realitas"
+    },
+
+    "Atributo": {
+      "fisico": "Físico",
+      "mente": "Mente",
+      "emocao": "Emoção"
+    },
+
+    "Pericia": {
+      "acrobacia": "Acrobacia",
+      "aptidao": "Aptidão",
+      "atletismo": "Atletismo",
+      "crime": "Crime",
+      "disciplina": "Disciplina",
+      "enganacao": "Enganação",
+      "furtividade": "Furtividade",
+      "intimidar": "Intimidar",
+      "intuicao": "Intuição",
+      "luta": "Luta",
+      "maquinas": "Máquinas",
+      "medicina": "Medicina",
+      "ocultismo": "Ocultismo",
+      "percepcao": "Percepção",
+      "persuasao": "Persuasão",
+      "pesquisar": "Pesquisar",
+      "pontaria": "Pontaria",
+      "sobrevivencia": "Sobrevivência",
+      "tecnologia": "Tecnologia",
+      "vigor": "Vigor"
+    },
+
+    "Aptidao": {
+      "artes": "Artes",
+      "atualidades": "Atualidades",
+      "burocracia": "Burocracia",
+      "exatas": "Exatas",
+      "humanas": "Humanas",
+      "tatica": "Tática"
+    },
+
+    "Elemento": {
+      "Label": "Elemento",
+      "sangue": "Sangue",
+      "morte": "Morte",
+      "conhecimento": "Conhecimento",
+      "energia": "Energia",
+      "medo": "Medo"
+    },
+
+    "Recurso": {
+      "PV": "PV",
+      "PD": "PD"
+    },
+
+    "Teste": {
+      "Ferimento": "Teste de Ferimento (Vigor)",
+      "Trauma": "Teste de Trauma (Disciplina)"
+    },
+
+    "Secao": {
+      "Atributos": "Atributos",
+      "Pericias": "Perícias",
+      "Habilidades": "Habilidades",
+      "Ferramentas": "Ferramentas da Ordo Realitas",
+      "Itens": "Itens",
+      "Biografia": "Biografia",
+      "Notas": "Notas"
+    },
+
+    "Origem": {
+      "perfil": "Perfil",
+      "ocupacao": "Ocupação",
+      "nivel": "Nível",
+      "outro": "Outro"
+    },
+
+    "Item": {
+      "NovoNome": "Novo(a) {tipo}",
+      "Origem": "Origem",
+      "PossuiCargas": "Possui cargas",
+      "Cargas": "Cargas",
+      "ElementosDetectados": "Elementos que detecta",
+      "Mecanica": "Mecânica (uso pelo mestre)",
+      "Quantidade": "Quantidade"
+    },
+
+    "Acao": {
+      "Criar": "Criar",
+      "Editar": "Editar",
+      "Excluir": "Excluir",
+      "Usar": "Enviar para o chat"
+    },
+
+    "Aviso": {
+      "RegrasCombate": "As regras completas de combate e criaturas ainda não foram publicadas neste playtest. Use este campo de notas livremente até o próximo pacote trazer as regras oficiais."
+    },
+
+    "Chat": {
+      "Teste": "Teste de {atributo} + {pericia}",
+      "Total": "Total",
+      "DT": "DT",
+      "Sucesso": "Sucesso",
+      "Falha": "Falha",
+      "SucessoCritico": "Sucesso crítico!",
+      "FalhaCritica": "Falha crítica!"
+    }
+  }
+}

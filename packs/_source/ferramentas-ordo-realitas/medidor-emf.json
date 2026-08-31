@@ -1,0 +1,23 @@
+{
+  "_id": "FmuWj2I0PaOtZINT",
+  "name": "Medidor EMF",
+  "type": "ferramenta",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Resíduos com forma de onda",
+    "descricao": "<p>Medidor de campo eletromagnético modificado pela Ordo Realitas para captar resíduos paranormais, reagindo à maior parte dos elementos que se manifestam como forma de onda. Ao ser usado em um ponto de interesse correto, apita em uma frequência específica.</p>",
+    "mecanica": "<p>Toque para o jogador o áudio indicado no ponto de interesse que ele investiga (uma sequência de bipes), como se ele estivesse segurando o medidor. Ele deve comparar o padrão sonoro ouvido com as imagens de ondas do Compêndio da Ordem para identificar a frequência correspondente. Sem áudio disponível, o mestre pode reproduzir os bipes com a própria voz.</p>"
+  },
+  "effects": [],
+  "_key": "!items!FmuWj2I0PaOtZINT"
+}

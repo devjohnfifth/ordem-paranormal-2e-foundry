@@ -1,0 +1,23 @@
+{
+  "_id": "YVbBOCu6iu31DR67",
+  "name": "Leitor Infravermelho",
+  "type": "ferramenta",
+  "img": "icons/tools/scribal/ink-pen-orange.webp",
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Gradientes infravermelhos paranormais",
+    "descricao": "<p>Formato de pistola, com empunhadura ergonômica, gatilho, tela digital traseira e lente frontal para medição de temperatura à distância. Lê gradientes infravermelhos paranormais — como silhuetas residuais, fluxos térmicos e padrões de movimento — em pontos onde a Membrana sofreu dano, embora as leituras exijam interpretação.</p>",
+    "mecanica": "<p>O efeito de cada leitura é específico do ponto de interesse — consulte a descrição contextual de cada ponto para saber o que o leitor infravermelho revela ali.</p>"
+  },
+  "effects": [],
+  "_key": "!items!YVbBOCu6iu31DR67"
+}

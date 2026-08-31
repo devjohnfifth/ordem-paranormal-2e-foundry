@@ -1,0 +1,23 @@
+{
+  "_id": "mcTvPQ14g4b6RfWB",
+  "name": "Pó Revelador",
+  "type": "ferramenta",
+  "img": "icons/consumables/potions/bottle-bulb-corked-tan.webp",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": true,
+    "cargas": {
+      "value": 5,
+      "max": 5
+    },
+    "elementosDetectados": "Reage em tons e formas diferentes por elemento",
+    "descricao": "<p>Pó branco, neutro e fino que, aplicado sobre superfícies, reage em tons e formas diferentes conforme o elemento paranormal presente. Quantidade suficiente para 5 usos.</p>",
+    "mecanica": "<p>O efeito de cada aplicação é específico do ponto de interesse — consulte a descrição contextual de cada ponto para saber como o pó revelador reage ali.</p>"
+  },
+  "effects": [],
+  "_key": "!items!mcTvPQ14g4b6RfWB"
+}

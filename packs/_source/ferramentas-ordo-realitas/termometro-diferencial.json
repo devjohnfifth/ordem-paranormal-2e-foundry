@@ -1,0 +1,23 @@
+{
+  "_id": "Loas9LAzUKb3QS6b",
+  "name": "Termômetro Diferencial",
+  "type": "ferramenta",
+  "img": "icons/tools/cooking/mortar-stone-yellow.webp",
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Distorções de temperatura",
+    "descricao": "<p>Dispositivo compacto de mão com tela digital central e sondas de medição de temperatura. Entidades do Outro Lado distorcem a temperatura de maneiras diferentes, e essa distorção é uma pista importante da natureza de uma manifestação — o termômetro compara a temperatura de um objeto com o restante do ambiente, evidenciando variações sutis indetectáveis por aparelhos comuns.</p>",
+    "mecanica": "<p>Pode ser usado quantas vezes o jogador quiser. Ao investigar um ponto de interesse com ele, informe se a temperatura aferida ali é mais quente, mais fria ou igual à do ambiente ao redor.</p>"
+  },
+  "effects": [],
+  "_key": "!items!Loas9LAzUKb3QS6b"
+}

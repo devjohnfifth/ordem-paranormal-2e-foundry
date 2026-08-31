@@ -1,0 +1,231 @@
+.op2e.sheet {
+  font-family: var(--font-primary, sans-serif);
+  color: var(--color-text-primary, #191813);
+}
+
+.op2e .op2e-cabecalho {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+.op2e .op2e-retrato {
+  width: 72px;
+  height: 72px;
+  border: 2px solid var(--color-border-dark, #4b4a44);
+  border-radius: 4px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.op2e .op2e-titulo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.op2e .op2e-titulo > input[name="name"] {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  background: transparent;
+}
+
+.op2e .op2e-linha {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.op2e .op2e-linha label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.op2e .op2e-recursos {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-top: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+
+.op2e .op2e-recurso {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.op2e .op2e-recurso-valores {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.op2e .op2e-recurso input[type="number"] {
+  width: 3em;
+  text-align: center;
+}
+
+.op2e .op2e-corpo {
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+.op2e .op2e-atributos {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.op2e .op2e-atributo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: bold;
+}
+
+.op2e .op2e-pericias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.op2e .op2e-pericias h3 {
+  grid-column: 1 / -1;
+}
+
+.op2e .op2e-pericias-coluna h4 {
+  margin: 0.5rem 0 0.15rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.op2e .op2e-pericia-linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1rem 0;
+}
+
+.op2e .op2e-pericia-nome {
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  flex: 1;
+}
+
+.op2e .op2e-pericia-nome:hover {
+  text-decoration: underline;
+  color: var(--color-text-hyperlink, #ff6400);
+}
+
+.op2e .op2e-lista {
+  margin-bottom: 0.75rem;
+}
+
+.op2e .op2e-lista header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+
+.op2e .op2e-lista ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.op2e .op2e-item-linha {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.op2e .op2e-item-linha img {
+  width: 24px;
+  height: 24px;
+  border: none;
+  object-fit: cover;
+}
+
+.op2e .op2e-item-linha .nome {
+  flex: 1;
+  cursor: pointer;
+}
+
+.op2e .op2e-item-linha .origem,
+.op2e .op2e-item-linha .cargas,
+.op2e .op2e-item-linha .quantidade {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.op2e .op2e-vazio {
+  opacity: 0.6;
+  font-style: italic;
+  padding: 0.25rem 0;
+}
+
+.op2e .op2e-biografia textarea,
+.op2e .op2e-editor textarea {
+  width: 100%;
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.op2e .op2e-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.op2e .op2e-aviso {
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.op2e.chat-teste {
+  padding: 0.25rem;
+}
+
+.op2e.chat-teste .op2e-dados {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
+.op2e.chat-teste .op2e-resultado-linha {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.op2e.chat-teste .op2e-veredito {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.op2e.chat-teste.sucesso .op2e-veredito {
+  color: #2e7d32;
+}
+
+.op2e.chat-teste.falha .op2e-veredito {
+  color: #b71c1c;
+}

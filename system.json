@@ -1,0 +1,96 @@
+{
+  "id": "op2e-playtest",
+  "title": "Ordem Paranormal RPG 2 (Playtest)",
+  "description": "Sistema não-oficial para Foundry VTT baseado no primeiro Playtest Alpha de Ordem Paranormal RPG 2, de Rafael \"Cellbit\" Lange e Jambô Editora. Feito para uso pessoal de mesa durante o período de playtest.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.365"
+  },
+  "authors": [
+    {
+      "name": "Compêndio de mesa (não-oficial)",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["module/op2e.mjs"],
+  "styles": ["css/op2e.css"],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "personagem": {
+        "htmlFields": ["biografia"]
+      },
+      "ameaca": {
+        "htmlFields": ["notas"]
+      }
+    },
+    "Item": {
+      "habilidade": {
+        "htmlFields": ["descricao"]
+      },
+      "ferramenta": {
+        "htmlFields": ["descricao", "mecanica"]
+      },
+      "item": {
+        "htmlFields": ["descricao"]
+      }
+    }
+  },
+  "primaryTokenAttribute": "recursos.pv",
+  "secondaryTokenAttribute": "recursos.pd",
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "packs": [
+    {
+      "name": "ferramentas-ordo-realitas",
+      "label": "Ferramentas da Ordo Realitas",
+      "system": "op2e-playtest",
+      "path": "packs/ferramentas-ordo-realitas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras-referencia",
+      "label": "Regras do Playtest (Resumo)",
+      "system": "op2e-playtest",
+      "path": "packs/regras-referencia",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "compendio-da-ordem",
+      "label": "Compêndio da Ordem (GM)",
+      "system": "op2e-playtest",
+      "path": "packs/compendio-da-ordem",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

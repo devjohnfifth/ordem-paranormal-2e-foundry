@@ -1,0 +1,140 @@
+{
+  "TYPES": {
+    "Actor": {
+      "personagem": "Character",
+      "ameaca": "Threat"
+    },
+    "Item": {
+      "habilidade": "Ability",
+      "ferramenta": "Tool",
+      "item": "Item"
+    }
+  },
+
+  "OP2E": {
+    "Nome": "Name",
+    "Nivel": "Level",
+    "Ocupacao": "Occupation",
+    "Descricao": "Description",
+    "Outro": "Other",
+    "ListaVazia": "Nothing here yet.",
+
+    "Perfil": {
+      "Label": "Profile",
+      "executor": "Executor",
+      "analista": "Analyst",
+      "vigilante": "Watcher"
+    },
+
+    "Papel": {
+      "Label": "Role",
+      "sobrevivente": "Survivor",
+      "agente": "Ordo Realitas Agent"
+    },
+
+    "Atributo": {
+      "fisico": "Body",
+      "mente": "Mind",
+      "emocao": "Emotion"
+    },
+
+    "Pericia": {
+      "acrobacia": "Acrobatics",
+      "aptidao": "Aptitude",
+      "atletismo": "Athletics",
+      "crime": "Crime",
+      "disciplina": "Discipline",
+      "enganacao": "Deception",
+      "furtividade": "Stealth",
+      "intimidar": "Intimidate",
+      "intuicao": "Intuition",
+      "luta": "Fight",
+      "maquinas": "Machines",
+      "medicina": "Medicine",
+      "ocultismo": "Occultism",
+      "percepcao": "Perception",
+      "persuasao": "Persuasion",
+      "pesquisar": "Research",
+      "pontaria": "Marksmanship",
+      "sobrevivencia": "Survival",
+      "tecnologia": "Technology",
+      "vigor": "Fortitude"
+    },
+
+    "Aptidao": {
+      "artes": "Arts",
+      "atualidades": "Current Events",
+      "burocracia": "Bureaucracy",
+      "exatas": "Exact Sciences",
+      "humanas": "Humanities",
+      "tatica": "Tactics"
+    },
+
+    "Elemento": {
+      "Label": "Element",
+      "sangue": "Blood",
+      "morte": "Death",
+      "conhecimento": "Knowledge",
+      "energia": "Energy",
+      "medo": "Fear"
+    },
+
+    "Recurso": {
+      "PV": "HP",
+      "PD": "DP"
+    },
+
+    "Teste": {
+      "Ferimento": "Wound Save (Fortitude)",
+      "Trauma": "Trauma Save (Discipline)"
+    },
+
+    "Secao": {
+      "Atributos": "Attributes",
+      "Pericias": "Skills",
+      "Habilidades": "Abilities",
+      "Ferramentas": "Ordo Realitas Tools",
+      "Itens": "Items",
+      "Biografia": "Biography",
+      "Notas": "Notes"
+    },
+
+    "Origem": {
+      "perfil": "Profile",
+      "ocupacao": "Occupation",
+      "nivel": "Level",
+      "outro": "Other"
+    },
+
+    "Item": {
+      "NovoNome": "New {tipo}",
+      "Origem": "Source",
+      "PossuiCargas": "Has charges",
+      "Cargas": "Charges",
+      "ElementosDetectados": "Elements it detects",
+      "Mecanica": "Mechanic (GM use)",
+      "Quantidade": "Quantity"
+    },
+
+    "Acao": {
+      "Criar": "Create",
+      "Editar": "Edit",
+      "Excluir": "Delete",
+      "Usar": "Post to chat"
+    },
+
+    "Aviso": {
+      "RegrasCombate": "Full combat and creature rules haven't been published in this playtest yet. Use this notes field freely until a future packet brings the official rules."
+    },
+
+    "Chat": {
+      "Teste": "{atributo} + {pericia} Test",
+      "Total": "Total",
+      "DT": "DC",
+      "Sucesso": "Success",
+      "Falha": "Failure",
+      "SucessoCritico": "Critical success!",
+      "FalhaCritica": "Critical failure!"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "T15HjVOz00TWdtgU",
+  "name": "Resumo das Regras (Playtest Alpha)",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "shXQ4x3pLHoBphbx",
+      "name": "Perfis Psicológicos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ordem Paranormal 2 substitui as classes de personagem por três <strong>perfis psicológicos</strong>, que descrevem <em>como</em> o personagem age (não o que ele faz — isso vem de atributos, perícias e ocupação). Cada perfil concede uma habilidade própria.</p><ul><li><strong>Executor</strong>: age primeiro e pensa depois; persistente, tira força dos próprios fracassos.</li><li><strong>Analista</strong>: observa, entende e se prepara antes de agir; mais lento, porém extremamente preciso.</li><li><strong>Vigilante</strong>: está sempre atento aos arredores, aproveita brechas e se adapta bem sob pressão.</li></ul><p>O perfil não limita o que o personagem pode fazer — apenas descreve o estilo natural dele. Nenhum perfil é mecanicamente melhor que outro.</p>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.shXQ4x3pLHoBphbx"
+    },
+    {
+      "_id": "jKX8eQ8cvXKWp6Ud",
+      "name": "Atributos e Perícias",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Atributos e perícias operam em uma escala de dados de <strong>d4 a d12</strong> (atributos podem raramente chegar a d20 sob influência paranormal, fora do escopo deste playtest).</p><h2>Atributos</h2><ul><li><strong>Físico</strong>: força, coordenação, velocidade, fôlego.</li><li><strong>Mente</strong>: raciocínio, educação, percepção.</li><li><strong>Emoção</strong>: força de vontade, magnetismo social, instintos.</li></ul><h2>Perícias (20 no total)</h2><p>Acrobacia, Aptidão (com os campos Artes, Atualidades, Burocracia, Exatas, Humanas e Tática), Atletismo, Crime, Disciplina, Enganação, Furtividade, Intimidar, Intuição, Luta, Máquinas, Medicina, Ocultismo, Percepção, Persuasão, Pesquisar, Pontaria, Sobrevivência, Tecnologia e Vigor. Cada perícia tem um atributo-base sugerido, mas o mestre pode julgar outro conforme a cena.</p><p>Escala de treino: <strong>d4</strong> destreinado, <strong>d6</strong> treinado, <strong>d8</strong> especialista, <strong>d10</strong> mestre, <strong>d12</strong> grão-mestre.</p>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.jKX8eQ8cvXKWp6Ud"
+    },
+    {
+      "_id": "Cx3qJT6JRftgd7rB",
+      "name": "Testes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Um teste soma <strong>um dado de atributo + um dado de perícia</strong> e compara o total com a Dificuldade (DT). Neste playtest a DT padrão é <strong>7</strong>, salvo indicação em contrário.</p><h2>Rolagem alta e rolagem baixa</h2><p>RA (rolagem alta) e RB (rolagem baixa) são, respectivamente, o maior e o menor resultado individual entre os dados rolados — não importa se veio do dado de atributo ou de perícia. Várias regras (dano desarmado, esquiva etc.) usam RA ou RB.</p><h2>Ajuda</h2><p>Gastando uma ação, um personagem pode ajudar outro em uma perícia na qual tenha pelo menos d6, concedendo um aumento de passo ao teste ajudado (dois passos se a perícia de quem ajuda for d10 ou d12).</p><h2>Modificando testes</h2><p>Dados extras podem ser rolados (máximo 4 dados por teste, somam-se os 3 melhores). Efeitos também podem aumentar ou diminuir o <strong>passo</strong> do dado, na escala d4 &lt; d6 &lt; d8 &lt; d10 &lt; d12 (raramente até d20).</p><h2>Críticos</h2><p><strong>Sucesso crítico:</strong> dois ou mais dados empatam em um valor ≥ 6 — sucesso automático, e em cenas de investigação também garante uma informação adicional.</p><p><strong>Falha crítica:</strong> todos os dados rolados mostram 1 — falha automática, mais uma penalidade adicional (efeito escolhido pelo mestre ou por 1d8 em uma tabela de contratempos: vexame, ferimento leve em um atributo até o fim da cena, perda de PV/PD, ou perda de um item/oportunidade de compra).</p>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.Cx3qJT6JRftgd7rB"
+    },
+    {
+      "_id": "OkKsvWCKYIL7p0no",
+      "name": "Cenas de Investigação",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Este playtest foca inteiramente nas cenas de investigação. Uma cena de investigação apresenta <strong>pontos de interesse</strong> (lugares, objetos ou pessoas) que os personagens exploram em busca de pistas, uma ação por vez.</p><h2>Ações de investigação</h2><ul><li><strong>Investigar → Examinar</strong>: teste de uma perícia do quadro de informações do ponto de interesse. Se não revelar nenhuma informação nova, o personagem perde 1 PD pelo esforço frustrado.</li><li><strong>Investigar → Interagir</strong>: uma ação descritiva livre com o ponto de interesse, resolvida pelo mestre com base na descrição contextual (sem rolagem).</li><li><strong>Recapitular</strong>: o jogador interpreta o personagem recapitulando o que já se sabe; se fizer sentido, testa Intuição (DT 10) para descobrir uma pista nova. Só pode ser bem-sucedida uma vez por cena.</li><li><strong>Compartilhar</strong>: o jogador conta uma pista para um aliado, que testa Pesquisar (DT 10) como ação livre para deduzir algo novo. Também só funciona uma vez por cena.</li><li><strong>Usar habilidades e itens</strong>: algumas habilidades e itens (incluindo as Ferramentas da Ordo Realitas) têm efeitos próprios em cenas de investigação, normalmente concedendo um aumento de passo no teste.</li></ul>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.OkKsvWCKYIL7p0no"
+    },
+    {
+      "_id": "3RpyW1OJ8f5thz0z",
+      "name": "Desafios de Acesso",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Pistas às vezes ficam bloqueadas atrás de um obstáculo. Este playtest traz quatro tipos de desafio de acesso:</p><h2>Fechaduras</h2><p><strong>Destrancar</strong> (técnica): o mestre rola em segredo uma sequência de dados (a \"senha\"), e o jogador tenta adivinhar os valores; a cada rodada o mestre informa, número a número, se cada palpite está alto, baixo ou exato. O número de tentativas por rodada depende do dado de Crime do personagem (d4 = 1 tentativa, d6 = 2, d8 = 3, d10 = 4, d12 = 5), e a fechadura tem um limite total de tentativas antes de travar de vez.</p><p><strong>Arrombar</strong> (força): custa 1 PV; teste de Atletismo contra uma DT do objeto, acumulando pontuação igual à RA a cada sucesso, até atingir a Pontuação Alvo (PA) definida pelo objeto.</p><h2>Hackear dispositivos</h2><p><strong>Hack técnico:</strong> teste de Tecnologia seguido de um problema matemático resolvido em 10 segundos (dificuldade inversamente proporcional ao resultado do teste). <strong>Hack social:</strong> teste de Intuição para poder responder perguntas sobre o dono do dispositivo e adivinhar a senha; a cada 3 pontos que o resultado exceder a DT, ganha-se uma chance extra de erro.</p><h2>Alcançar</h2><p><strong>Do jeito seguro:</strong> duas ações de Acrobacia em sequência (uma DT do ambiente cada); falhar em qualquer uma causa dano igual à RB e reinicia a tentativa. <strong>Do jeito arriscado:</strong> uma ação, DT do ambiente +3; falhar causa dano igual à RA.</p><h2>Sustentar</h2><p>Custa 1 PV e um teste de Atletismo para erguer/segurar algo pesado; sustentar por mais rodadas exige novos testes, com redução de um passo por rodada (fadiga acumulada).</p>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.3RpyW1OJ8f5thz0z"
+    },
+    {
+      "_id": "N2rdlbP71rLd4027",
+      "name": "Ferimentos e Traumas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Esta é a versão simplificada usada neste playtest — o jogo completo trará ferimentos permanentes e regras de trauma menos letais.</em></p><h2>Ferimentos (0 PV)</h2><p>Ao ser reduzido a 0 PV, ou sofrer dano já estando com 0 PV, o personagem faz um teste de Vigor contra DT 7 (+3 de DT a cada novo teste desse tipo já realizado na cena). Sucesso: continua agindo. Falha: morre.</p><h2>Traumas (0 PD)</h2><p>Ao ser reduzido a 0 PD, ou sofrer dano emocional já estando com 0 PD, o personagem faz um teste de Disciplina contra a mesma progressão de DT (7, +3 por teste já feito). Sucesso: continua agindo. Falha: colapso mental e morte.</p><h2>Sobrecarga mental</h2><p>Cenas de investigação muito longas cobram um preço da mente: a partir de certa rodada (definida pelo mestre conforme o ambiente), os personagens passam a sofrer dano emocional automático no fim de cada rodada, em progressão crescente. É um lembrete para o mestre ritmar a cena e para os jogadores saberem quando é hora de encerrar a investigação.</p>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.N2rdlbP71rLd4027"
+    },
+    {
+      "_id": "KSEm9vEBmTxlxKXN",
+      "name": "Combate Simplificado (regra provisória)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>O combate completo ainda não foi publicado — chegará em um playtest futuro. Para emergências neste pacote, use apenas o seguinte:</p><ul><li>Dois personagens em luta corporal fazem um <strong>teste oposto de Luta</strong>. Quem vencer causa dano igual à sua RA (se estiver armado) ou RB (se estiver desarmado).</li><li><strong>Esquiva:</strong> em vez de atacar, o defensor faz um teste de Acrobacia oposto ao teste de Luta do agressor, com +d6 no teste; se vencer, ninguém sofre dano.</li><li><strong>Múltiplos agressores:</strong> um personagem só pode lutar (ou esquivar) contra um atacante por vez; os demais fazem um teste de Luta (DT 7) para acertar automaticamente se passarem.</li></ul>"
+      },
+      "_key": "!journal.pages!T15HjVOz00TWdtgU.KSEm9vEBmTxlxKXN"
+    }
+  ],
+  "categories": [],
+  "_key": "!journal!T15HjVOz00TWdtgU"
+}

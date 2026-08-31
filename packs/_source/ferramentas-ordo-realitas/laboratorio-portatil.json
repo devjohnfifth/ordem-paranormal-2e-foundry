@@ -1,0 +1,23 @@
+{
+  "_id": "sYhpq1dsMQVxLIDl",
+  "name": "Laboratório Portátil",
+  "type": "ferramenta",
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Todos (análise química de amostras)",
+    "descricao": "<p>Uma maleta rígida que se abre em compartimentos organizados com minigeradores, sensores, reagentes e instrumentos de medição compactos, usada para coletar e analisar amostras de substâncias em campo.</p>",
+    "mecanica": "<p>Ao analisar uma amostra indicada pelo ponto de interesse, o jogador rola de 4 a 6 dados (conforme instrução da cena), um de cada vez, começando em d4 e aumentando um passo a cada rolagem, até o limite do dado de Aptidão (Exatas) do personagem. Cada rolagem precisa ser igual ou maior que a anterior para a análise continuar; o jogador pode repetir um número de rolagens igual à metade do atributo Mente (arredondado para baixo).</p>"
+  },
+  "effects": [],
+  "_key": "!items!sYhpq1dsMQVxLIDl"
+}

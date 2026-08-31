@@ -1,0 +1,139 @@
+{
+  "_id": "D2vj8fLKfp3pTLfi",
+  "name": "Compêndio da Ordem (Casos Catalogados)",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "EDLuZ2rc8Q6WGCgg",
+      "name": "Como Usar",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Apenas para o mestre.</strong> Este é o conteúdo do item \"Compêndio da Ordem\" usado no Ato II da missão introdutória (agentes da Ordo Realitas). Ele reúne cinco manifestações paranormais catalogadas como casos abertos. Os agentes investigam o ambiente, comparam pistas e leituras de ferramentas com os casos abaixo e tentam deduzir qual manifestação está presente — tendo em mente que anomalias e pistas falsas acontecem, e que a manifestação real também pode não corresponder a nenhum caso catalogado (nesse caso, a Ordem abre um novo arquivo).</p>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.EDLuZ2rc8Q6WGCgg"
+    },
+    {
+      "_id": "CDjp8043lC7nUwSE",
+      "name": "Elementos e Sinais de Detecção",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ordem Paranormal 2 mantém os cinco elementos paranormais da primeira edição: <strong>Sangue, Morte, Conhecimento, Energia e Medo</strong>. Cada elemento tende a produzir sinais característicos nas ferramentas de investigação (resumo aproximado, use como guia de improviso):</p><table><thead><tr><th>Elemento</th><th>Sinais típicos</th></tr></thead><tbody><tr><td><strong>Sangue</strong></td><td>Temperatura mais quente; pó revelador forma ondas/contornos irregulares com tom avermelhado; leitor infravermelho mostra vultos e fluxos quentes em movimento violento.</td></tr><tr><td><strong>Morte</strong></td><td>Temperatura mais fria; pó revelador forma ondas/espirais escuras ou acinzentadas; luz UV é repelida pela evidência; leitor infravermelho mostra silhuetas frias em loop; câmera modificada capta vultos acinzentados e ruído excessivo.</td></tr><tr><td><strong>Conhecimento</strong></td><td>Sem reação de temperatura perceptível; pó revelador se organiza em formas lineares/geométricas e revela escritas ou símbolos ocultos sob luz UV; câmera modificada mostra objetos, sigilos ou auras surgindo/desaparecendo; rádio modificado toca ecos de falas e sons repetidos.</td></tr><tr><td><strong>Energia</strong></td><td>Reação forte e inconsistente de temperatura (varia entre checagens); rádio modificado sofre ruído excessivo e funcionamento irregular; laboratório portátil aponta amostras \"em autofagia\", se destruindo sozinhas; câmera modificada mostra resultado distorcido, vultos coloridos ou fontes de luz que não deveriam existir.</td></tr><tr><td><strong>Medo</strong></td><td>Pode reproduzir sinais de qualquer um dos outros quatro elementos — é o mais imprevisível de identificar por ferramentas isoladas.</td></tr></tbody></table><p>Use esta tabela como inspiração para descrever reações de ferramentas em pontos de interesse originais, mantendo o padrão \"ferramenta + elemento → sinal característico\" do playtest.</p>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.CDjp8043lC7nUwSE"
+    },
+    {
+      "_id": "dFDO76xUq5c2NcEV",
+      "name": "Manifestação A — RIT-SMC-0887",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Elementos:</strong> Sangue, Conhecimento, Morte</p><ul><li>Registros em diversas culturas de um símbolo específico capaz de prolongar a vida através de transferência física da carne.</li><li>Descrições de um processo ritualístico longo, com várias etapas.</li><li>Relatos de expostos com traumas psicológicos e físicos duradouros ou permanentes.</li></ul><p><em>É o caso que corresponde à Maldição do Ídolo de Pedra — a estatueta funciona como uma ferramenta de \"contrato\" que prolonga a vida de alguns à custa da vida de outros.</em></p>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.dFDO76xUq5c2NcEV"
+    },
+    {
+      "_id": "0OSmYCNvwYKdqiBB",
+      "name": "Manifestação B — ART-MS?-2115",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Elementos:</strong> Morte, Sangue, Medo</p><ul><li>Transferência de \"energia potencial\" envolvendo um artefato físico de uma civilização isolada e em ruínas.</li><li>A manifestação funciona como canal para que a força vital sacrificada por um exposto prolongue e intensifique a de outro.</li><li>Descrições de um \"vínculo invisível\" entre os expostos envolvidos.</li></ul>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.0OSmYCNvwYKdqiBB"
+    },
+    {
+      "_id": "uL5f37fhK0Oyulcu",
+      "name": "Manifestação C — CRT-CME-9803",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Elementos:</strong> Conhecimento, Morte, Energia</p><ul><li>Manifestação incorpórea, associada a relatos de \"assombração\".</li><li>Age principalmente no âmbito psicológico, danificando partes da memória e causando grandes lapsos existenciais.</li><li>Insônias profundas ou confusão sobre a própria identidade.</li></ul>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.uL5f37fhK0Oyulcu"
+    },
+    {
+      "_id": "a50NYDn2LShc7C1o",
+      "name": "Manifestação D — CRT-ESC-1010",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Elementos:</strong> Energia, Sangue, Conhecimento</p><ul><li>Comportamento descrito como similar a uma \"possessão\".</li><li>Instala-se secretamente em vítimas, causando confusão ou assimetria de memórias.</li><li>Sensação constante de uma \"presença invisível\"; espasmos em vítimas e corpos.</li><li>Registro fotográfico anômalo: expostos associados a este caso afirmam ver, de forma consistente, entidades que não aparecem na imagem para outros.</li></ul>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.a50NYDn2LShc7C1o"
+    },
+    {
+      "_id": "Iz5Q3heRagbUHkqr",
+      "name": "Manifestação E — NDI-?CE-2203",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Elementos:</strong> Medo, Conhecimento, Energia</p><ul><li>Manifestação sem identificação definida e sem forma física descrita pelos expostos.</li><li>Vítimas têm dificuldade de contextualizar o que viveram; relatos inconsistentes dos mesmos eventos.</li><li>Símbolo central não catalogado anteriormente nos arquivos da Ordem, associado a cultos de adoração à imortalidade e à eternidade.</li></ul><p><strong>Nenhuma das opções:</strong> sempre existe a possibilidade de a manifestação real não corresponder a nenhum caso catalogado. Se as evidências não baterem com nenhum dos cinco arquivos, a Ordem abre um novo caso, catalogando o que os agentes encontraram para referência futura no C.R.I.S.</p>"
+      },
+      "_key": "!journal.pages!D2vj8fLKfp3pTLfi.Iz5Q3heRagbUHkqr"
+    }
+  ],
+  "categories": [],
+  "_key": "!journal!D2vj8fLKfp3pTLfi"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "99oiO6DozmmbYF38",
+  "name": "Compêndio da Ordem",
+  "type": "ferramenta",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": null,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "",
+    "descricao": "<p>Documento confidencial desenvolvido pela equipe de pesquisa da Ordo Realitas com o auxílio do sistema C.R.I.S., reunindo informações sobre manifestações paranormais já catalogadas. A cópia trazida para esta investigação contém cinco potenciais manifestações registradas como casos abertos.</p><p>Consulte a compêndio <strong>Compêndio da Ordem (GM)</strong> deste sistema para o conteúdo completo dos cinco casos e da tabela de sinais por elemento.</p>",
+    "mecanica": "<p>Defina qual personagem carrega o Compêndio. Esse personagem — e qualquer outro que ele permita, desde que no mesmo ambiente — pode consultá-lo a qualquer momento para comparar as evidências coletadas com os casos catalogados.</p>"
+  },
+  "effects": [],
+  "_key": "!items!99oiO6DozmmbYF38"
+}

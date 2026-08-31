@@ -1,0 +1,23 @@
+{
+  "_id": "H32IfVPZ9nLEjgth",
+  "name": "Rádio Modificado",
+  "type": "ferramenta",
+  "img": "icons/tools/instruments/harp-yellow-brown.webp",
+  "folder": null,
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Registros sonoros deixados por dano à Membrana",
+    "descricao": "<p>Rádio modificado capaz de resgatar registros sonoros deixados por momentos que danificaram a Membrana. Interpretar essas leituras exige concentração e treinamento.</p>",
+    "mecanica": "<p>É um jogo de palavras: entregue ao jogador vários conjuntos de palavras, dos quais apenas alguns são verdadeiros (os demais são \"ruído\", conjuntos falsos) — ele precisa ordená-los para formar frases coerentes. Ao usar o rádio em um ponto de interesse apropriado, peça um teste de Tecnologia e remova conjuntos falsos conforme o resultado: 6 ou menos, nenhum; 7-9, remove 2; 10-12, remove 3; 13 ou mais, remove todos.</p>"
+  },
+  "effects": [],
+  "_key": "!items!H32IfVPZ9nLEjgth"
+}

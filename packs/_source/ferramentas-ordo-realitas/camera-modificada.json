@@ -1,0 +1,23 @@
+{
+  "_id": "uTAnoAPJN5BzIeFm",
+  "name": "Câmera Modificada",
+  "type": "ferramenta",
+  "img": "icons/tools/scribal/quill-black.webp",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Resíduos paranormais imagéticos",
+    "descricao": "<p>Câmera fotográfica profissional modificada, com lentes intercambiáveis que acomodam filtros para espectros de luz invisíveis a olho nu. Ao mirar em um ponto de interesse, pode revelar sinais paranormais deixados no local.</p>",
+    "mecanica": "<p>Quando o jogador fotografa um ponto de interesse com resíduos paranormais imagéticos, o mestre entrega o handout correspondente: uma espécie de vislumbre visual do passado daquele local.</p>"
+  },
+  "effects": [],
+  "_key": "!items!uTAnoAPJN5BzIeFm"
+}

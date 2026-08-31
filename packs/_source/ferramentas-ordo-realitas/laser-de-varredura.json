@@ -1,0 +1,23 @@
+{
+  "_id": "dXSGqNNU0WtQEsYU",
+  "name": "Laser de Varredura",
+  "type": "ferramenta",
+  "img": "icons/tools/navigation/compass-brass-blue.webp",
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "possuiCargas": false,
+    "cargas": {
+      "value": 0,
+      "max": 0
+    },
+    "elementosDetectados": "Pontos onde a Membrana está fragilizada",
+    "descricao": "<p>Três emissores de laser montados sobre tripés e controlados via tablet, formando uma malha de feixes por interferometria. Serve para identificar quais objetos de um ambiente têm maior chance de reagir às demais ferramentas de investigação, evitando desperdício de recursos.</p>",
+    "mecanica": "<p>Ativado no ambiente em que o personagem está: entregue ao jogador o handout de varredura correspondente ao local, que lista quais pontos de interesse foram identificados pelo laser como relevantes.</p>"
+  },
+  "effects": [],
+  "_key": "!items!dXSGqNNU0WtQEsYU"
+}
