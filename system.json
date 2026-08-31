@@ -20,6 +20,11 @@
       "lang": "pt-BR",
       "name": "Português (Brasil)",
       "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "Português (Brasil)",
+      "path": "lang/en.json"
     }
   ],
   "documentTypes": {

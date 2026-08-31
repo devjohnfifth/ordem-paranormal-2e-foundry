@@ -6,7 +6,7 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static DEFAULT_OPTIONS = {
     classes: ["op2e", "sheet", "actor", "personagem"],
-    position: { width: 680, height: 780 },
+    position: { width: 760, height: 780 },
     window: { resizable: true },
     form: { submitOnChange: true },
     actions: {
