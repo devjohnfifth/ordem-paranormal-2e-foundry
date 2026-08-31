@@ -81,7 +81,8 @@
 
     "Recurso": {
       "PV": "PV",
-      "PD": "PD"
+      "PD": "PD",
+      "Impeto": "Ímpeto"
     },
 
     "Teste": {
@@ -124,7 +125,24 @@
     },
 
     "Aviso": {
-      "RegrasCombate": "As regras completas de combate e criaturas ainda não foram publicadas neste playtest. Use este campo de notas livremente até o próximo pacote trazer as regras oficiais."
+      "RegrasCombate": "As regras completas de combate e criaturas ainda não foram publicadas neste playtest. Use este campo de notas livremente até o próximo pacote trazer as regras oficiais.",
+      "ImpetoInsuficiente": "Espaços de Ímpeto insuficientes para esse gasto."
+    },
+
+    "Dialogo": {
+      "Teste": {
+        "Titulo": "Rolar {pericia}",
+        "DT": "Dificuldade (DT)",
+        "Passo": "Aumento/Redução de Passo",
+        "DadoExtra": "Dado Extra",
+        "Nenhum": "Nenhum",
+        "Rolar": "Rolar"
+      },
+      "GastarImpeto": {
+        "Titulo": "Gastar Ímpeto",
+        "Quantidade": "Quantos espaços gastar?",
+        "Confirmar": "Gastar"
+      }
     },
 
     "Chat": {

@@ -1,0 +1,177 @@
+{
+  "_id": "CKszyU7Wm2X1QSbK",
+  "name": "Val",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/val-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Val",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/val-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "V4PiSXxfIVrUlO2f",
+      "name": "Prontidão",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>No início de qualquer conflito, você pode gastar 3 PD. Se fizer isso, ganha uma rodada na qual pode agir antes dos demais personagens e NPCs.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.V4PiSXxfIVrUlO2f"
+    },
+    {
+      "_id": "ln7EgaX0RAWFtrHI",
+      "name": "Técnica Medicinal",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Sempre que você usa um efeito que cura pontos de vida, esse efeito cura +1 PV adicional (ou +1 PV por dado, se a cura envolver múltiplos dados).</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.ln7EgaX0RAWFtrHI"
+    },
+    {
+      "_id": "3J3CQPdmeOuULAsy",
+      "name": "Varredura Ampla",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "nivel",
+        "descricao": "<p>Quando investiga um ponto de interesse, você pode escolher duas perícias e receber as informações de ambas.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.3J3CQPdmeOuULAsy"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "agente",
+    "perfil": "vigilante",
+    "ocupacao": "Médico",
+    "nivel": 6,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/val-historico.webp\" alt=\"Histórico de Val\">",
+    "atributos": {
+      "fisico": {
+        "dado": 6
+      },
+      "mente": {
+        "dado": 10
+      },
+      "emocao": {
+        "dado": 8
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 4
+      },
+      "crime": {
+        "dado": 4
+      },
+      "disciplina": {
+        "dado": 10
+      },
+      "enganacao": {
+        "dado": 6
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 8
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 10
+      },
+      "ocultismo": {
+        "dado": 8
+      },
+      "percepcao": {
+        "dado": 6
+      },
+      "persuasao": {
+        "dado": 8
+      },
+      "pesquisar": {
+        "dado": 6
+      },
+      "pontaria": {
+        "dado": 10
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 10
+      },
+      "vigor": {
+        "dado": 4
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 10,
+          "humanas": 4,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 18,
+        "max": 18
+      },
+      "pd": {
+        "value": 32,
+        "max": 32
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!CKszyU7Wm2X1QSbK"
+}

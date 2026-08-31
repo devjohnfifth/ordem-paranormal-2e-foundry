@@ -64,6 +64,12 @@ export default class PersonagemData extends foundry.abstract.TypeDataModel {
         })
       }),
 
+      /** Barra de Ímpeto (habilidade de perfil do Executor). max=0 significa que o personagem não a possui. */
+      impeto: new SchemaField({
+        value: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        max: new NumberField({ required: true, integer: true, min: 0, initial: 0 })
+      }),
+
       testesFerimento: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       testesTrauma: new NumberField({ required: true, integer: true, min: 0, initial: 0 })
     };

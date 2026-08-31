@@ -81,7 +81,8 @@
 
     "Recurso": {
       "PV": "HP",
-      "PD": "DP"
+      "PD": "DP",
+      "Impeto": "Momentum"
     },
 
     "Teste": {
@@ -124,7 +125,24 @@
     },
 
     "Aviso": {
-      "RegrasCombate": "Full combat and creature rules haven't been published in this playtest yet. Use this notes field freely until a future packet brings the official rules."
+      "RegrasCombate": "Full combat and creature rules haven't been published in this playtest yet. Use this notes field freely until a future packet brings the official rules.",
+      "ImpetoInsuficiente": "Not enough filled Momentum slots for that cost."
+    },
+
+    "Dialogo": {
+      "Teste": {
+        "Titulo": "Roll {pericia}",
+        "DT": "Difficulty (DC)",
+        "Passo": "Step Increase/Decrease",
+        "DadoExtra": "Extra Die",
+        "Nenhum": "None",
+        "Rolar": "Roll"
+      },
+      "GastarImpeto": {
+        "Titulo": "Spend Momentum",
+        "Quantidade": "How many slots to spend?",
+        "Confirmar": "Spend"
+      }
     },
 
     "Chat": {

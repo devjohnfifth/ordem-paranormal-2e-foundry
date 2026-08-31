@@ -1,0 +1,337 @@
+{
+  "_id": "RTPTGOOsXBqzVWX6",
+  "name": "Handouts — Ato I",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": -1
+  },
+  "pages": [
+    {
+      "_id": "tLcdX7IxvrhKNLo7",
+      "name": "Handout 01 — Conversa Eloísa",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-01-conversa-eloisa.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.tLcdX7IxvrhKNLo7"
+    },
+    {
+      "_id": "7VnBQXfi7A2roX9K",
+      "name": "Handout 02 — Símbolo no Teto",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-02-simbolo-no-teto.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.7VnBQXfi7A2roX9K"
+    },
+    {
+      "_id": "cx7PgcO2JbBPaqZ4",
+      "name": "Handout 03 — RG de Gustavo",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-03-rg-de-gustavo.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.cx7PgcO2JbBPaqZ4"
+    },
+    {
+      "_id": "Vd8bDyz6gV4XtXRI",
+      "name": "Handout 04 — Anotações Arqueológicas",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-04-anotacoes-arqueologicas.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.Vd8bDyz6gV4XtXRI"
+    },
+    {
+      "_id": "y9Ae4BBzlMNIUcOD",
+      "name": "Handout 05A — Conversa Grupo",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-05a-conversa-grupo.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.y9Ae4BBzlMNIUcOD"
+    },
+    {
+      "_id": "k72hN8dosrVAthKy",
+      "name": "Handout 05B — Conversa Alan",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-05b-conversa-alan.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.k72hN8dosrVAthKy"
+    },
+    {
+      "_id": "Fjgew7TUJMNuVoKG",
+      "name": "Handout 05C — Conversa Victor",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-05c-conversa-victor.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.Fjgew7TUJMNuVoKG"
+    },
+    {
+      "_id": "yUKGEZvZSJdNNBr7",
+      "name": "Handout 06 — Estante de Livros",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-06-estante-de-livros.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.yUKGEZvZSJdNNBr7"
+    },
+    {
+      "_id": "3pzriW8dypzTobmp",
+      "name": "Handout 07 — Pôster Lutadores de Rua",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-07-poster-lutadores-de-rua.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.3pzriW8dypzTobmp"
+    },
+    {
+      "_id": "lhp4GlLNHWMxSBQj",
+      "name": "Handout 08 — Pôster Unidos do Invisível Futebol Clube",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-08-poster-unidos-do-invisivel-futebol-clube.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.lhp4GlLNHWMxSBQj"
+    },
+    {
+      "_id": "FpoykftihGwNgCfT",
+      "name": "Handout 09 — Pôster Eric Tufão 3: A Explosão Explosiva",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-9-poster-eric-tufao-3-a-explosao-explosiva.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.FpoykftihGwNgCfT"
+    },
+    {
+      "_id": "JiDH2eZsuJSxGZIc",
+      "name": "Handout 10 — Thunderland 2008",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-10-thunderland-2008.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.JiDH2eZsuJSxGZIc"
+    },
+    {
+      "_id": "MzSlyhjYMOGC2Wg7",
+      "name": "Handout 11 — RG de Alan",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-11-rg-de-alan.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.MzSlyhjYMOGC2Wg7"
+    },
+    {
+      "_id": "Q2AJX1InAbNEWBMQ",
+      "name": "Handout 12A — E-mail de Gustavo 1",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-12a-e-mail-de-gustavo-1.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.Q2AJX1InAbNEWBMQ"
+    },
+    {
+      "_id": "JKkFOReEfdJ8UMFE",
+      "name": "Handout 12B — E-mail de Gustavo 2",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-12b-email-de-gustavo-2.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.JKkFOReEfdJ8UMFE"
+    },
+    {
+      "_id": "1FqYtdVKMhiTLA0J",
+      "name": "Handout 12C — E-mail de Gustavo 3",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-12c-e-mail-de-gustavo-3.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.1FqYtdVKMhiTLA0J"
+    },
+    {
+      "_id": "D11qMXXjQyuQezzt",
+      "name": "Handout 13 — Cadáver de Gustavo",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-13-cadaver-de-gustavo.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.D11qMXXjQyuQezzt"
+    },
+    {
+      "_id": "JFIXirkduCTeUjgf",
+      "name": "Handout 14 — Foto de Aniversário",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato1-handout-14-foto-de-aniversario.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!RTPTGOOsXBqzVWX6.JFIXirkduCTeUjgf"
+    }
+  ],
+  "categories": [],
+  "_key": "!journal!RTPTGOOsXBqzVWX6"
+}

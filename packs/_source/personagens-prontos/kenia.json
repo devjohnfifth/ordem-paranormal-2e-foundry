@@ -1,0 +1,160 @@
+{
+  "_id": "7oBJTN9yNnQ0ipbT",
+  "name": "Kênia",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/kenia-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Kênia",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/kenia-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "yreL9gUJHwstKbIC",
+      "name": "Avaliação",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.yreL9gUJHwstKbIC"
+    },
+    {
+      "_id": "c271uTQQRRYvDMu4",
+      "name": "Conhecimento Técnico",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Você possui uma perícia mental aumentada para d6 (já contabilizado na ficha).</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.c271uTQQRRYvDMu4"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "sobrevivente",
+    "perfil": "analista",
+    "ocupacao": "Profissional de Escritório",
+    "nivel": 2,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/kenia-historico.webp\" alt=\"Histórico de Kênia\">",
+    "atributos": {
+      "fisico": {
+        "dado": 6
+      },
+      "mente": {
+        "dado": 10
+      },
+      "emocao": {
+        "dado": 6
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 6
+      },
+      "atletismo": {
+        "dado": 6
+      },
+      "crime": {
+        "dado": 4
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 6
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 6
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 6
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 8
+      },
+      "vigor": {
+        "dado": 6
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 6,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 4,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 12,
+        "max": 12
+      },
+      "pd": {
+        "value": 12,
+        "max": 12
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!7oBJTN9yNnQ0ipbT"
+}

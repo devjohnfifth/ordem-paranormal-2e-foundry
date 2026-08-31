@@ -1,0 +1,177 @@
+{
+  "_id": "YsGGShnCS3P7oxKf",
+  "name": "Amanda",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/amanda-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Amanda",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/amanda-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "qopSjN8udttM1kis",
+      "name": "Avaliação",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.qopSjN8udttM1kis"
+    },
+    {
+      "_id": "Akwn5V62E1KFjWDw",
+      "name": "Foco Mental",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Quando faz um teste mental, você pode gastar 4 PD para receber +d8 no teste.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.Akwn5V62E1KFjWDw"
+    },
+    {
+      "_id": "1XDlGt21qdyWDCRf",
+      "name": "Olhar Infalível",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "nivel",
+        "descricao": "<p>Quando faz um teste de examinar, você pode gastar 2 PD para rolar novamente um dos dados do teste.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.1XDlGt21qdyWDCRf"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "agente",
+    "perfil": "analista",
+    "ocupacao": "Cientista",
+    "nivel": 6,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/amanda-historico.webp\" alt=\"Histórico de Amanda\">",
+    "atributos": {
+      "fisico": {
+        "dado": 8
+      },
+      "mente": {
+        "dado": 8
+      },
+      "emocao": {
+        "dado": 8
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 4
+      },
+      "crime": {
+        "dado": 6
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 6
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 8
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 6
+      },
+      "medicina": {
+        "dado": 6
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 10
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 10
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 10
+      },
+      "vigor": {
+        "dado": 4
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 8,
+          "exatas": 8,
+          "humanas": 4,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 26,
+        "max": 26
+      },
+      "pd": {
+        "value": 26,
+        "max": 26
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!YsGGShnCS3P7oxKf"
+}

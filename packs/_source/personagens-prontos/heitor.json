@@ -1,0 +1,177 @@
+{
+  "_id": "ml3z0VxEZmS2jwIN",
+  "name": "Heitor",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/heitor-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Heitor",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/heitor-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "kCwUo1MxLRwgeemc",
+      "name": "Ímpeto",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você possui uma barra de Ímpeto com 5 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>2 espaços</strong> — receber +d10 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li><li><strong>5 espaços</strong> — fazer uma ação extra na rodada.</li></ul>"
+      },
+      "effects": [],
+      "_key": "!actors.items!ml3z0VxEZmS2jwIN.kCwUo1MxLRwgeemc"
+    },
+    {
+      "_id": "W3eyugoJJ0IUfVhA",
+      "name": "Linha de Tiro",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Você recebe proficiência com armas de fogo. Quando faz um teste de ataque com essas armas, pode gastar 4 PD para receber +d10 no teste.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!ml3z0VxEZmS2jwIN.W3eyugoJJ0IUfVhA"
+    },
+    {
+      "_id": "oo8ZmIa4tkspDzNJ",
+      "name": "Incansável",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "nivel",
+        "descricao": "<p>Uma vez por cena de conflito, você pode gastar 5 PV para fazer uma ação extra.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!ml3z0VxEZmS2jwIN.oo8ZmIa4tkspDzNJ"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "agente",
+    "perfil": "executor",
+    "ocupacao": "Policial",
+    "nivel": 6,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/heitor-historico.webp\" alt=\"Histórico de Heitor\">",
+    "atributos": {
+      "fisico": {
+        "dado": 10
+      },
+      "mente": {
+        "dado": 6
+      },
+      "emocao": {
+        "dado": 8
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 10
+      },
+      "crime": {
+        "dado": 4
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 6
+      },
+      "intuicao": {
+        "dado": 4
+      },
+      "luta": {
+        "dado": 10
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 10
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 6
+      },
+      "pontaria": {
+        "dado": 8
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 4
+      },
+      "vigor": {
+        "dado": 8
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 4,
+          "tatica": 8
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 34,
+        "max": 34
+      },
+      "pd": {
+        "value": 20,
+        "max": 20
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 5
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!ml3z0VxEZmS2jwIN"
+}

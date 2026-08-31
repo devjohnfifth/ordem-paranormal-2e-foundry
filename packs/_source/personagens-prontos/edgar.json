@@ -1,0 +1,160 @@
+{
+  "_id": "rReVtNVD13o2ojJg",
+  "name": "Edgar",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/edgar-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Edgar",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/edgar-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "x1NaWnKbpncszK37",
+      "name": "Esforço e Suor",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Você possui uma perícia física aumentada para d6 (já contabilizado na ficha).</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!rReVtNVD13o2ojJg.x1NaWnKbpncszK37"
+    },
+    {
+      "_id": "kGGZHK4Su8AFLDgf",
+      "name": "Ímpeto",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você possui uma barra de Ímpeto com 3 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li></ul>"
+      },
+      "effects": [],
+      "_key": "!actors.items!rReVtNVD13o2ojJg.kGGZHK4Su8AFLDgf"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "sobrevivente",
+    "perfil": "executor",
+    "ocupacao": "Operário",
+    "nivel": 2,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/edgar-historico.webp\" alt=\"Histórico de Edgar\">",
+    "atributos": {
+      "fisico": {
+        "dado": 10
+      },
+      "mente": {
+        "dado": 6
+      },
+      "emocao": {
+        "dado": 6
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 8
+      },
+      "crime": {
+        "dado": 6
+      },
+      "disciplina": {
+        "dado": 4
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 6
+      },
+      "intuicao": {
+        "dado": 4
+      },
+      "luta": {
+        "dado": 6
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 6
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 4
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 6
+      },
+      "tecnologia": {
+        "dado": 4
+      },
+      "vigor": {
+        "dado": 6
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 4,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 18,
+        "max": 18
+      },
+      "pd": {
+        "value": 10,
+        "max": 10
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 3
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!rReVtNVD13o2ojJg"
+}

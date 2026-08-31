@@ -1,0 +1,177 @@
+{
+  "_id": "uTGBc0tEeYMDTXRI",
+  "name": "Antônio",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/antonio-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Antônio",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/antonio-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "GPRa1JJO9VecEOyl",
+      "name": "Avaliação",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!uTGBc0tEeYMDTXRI.GPRa1JJO9VecEOyl"
+    },
+    {
+      "_id": "rcjg8OzAW3rBrN2y",
+      "name": "Mentoria",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Quando ajuda outro personagem, você pode fazer um teste da perícia que usou para ajudar contra DT 7. Se passar, o personagem ajudado pode substituir um dos dados rolados por ele pela sua rolagem alta (RA).</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!uTGBc0tEeYMDTXRI.rcjg8OzAW3rBrN2y"
+    },
+    {
+      "_id": "eytYH737RCAtvsef",
+      "name": "Amor pela Descoberta",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "nivel",
+        "descricao": "<p>Quando examina um ponto de interesse e recebe uma informação nova, você recupera 1 PD.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!uTGBc0tEeYMDTXRI.eytYH737RCAtvsef"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "agente",
+    "perfil": "analista",
+    "ocupacao": "Professor",
+    "nivel": 6,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/antonio-historico.webp\" alt=\"Histórico de Antônio\">",
+    "atributos": {
+      "fisico": {
+        "dado": 6
+      },
+      "mente": {
+        "dado": 12
+      },
+      "emocao": {
+        "dado": 6
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 4
+      },
+      "crime": {
+        "dado": 8
+      },
+      "disciplina": {
+        "dado": 10
+      },
+      "enganacao": {
+        "dado": 8
+      },
+      "furtividade": {
+        "dado": 6
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 8
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 10
+      },
+      "percepcao": {
+        "dado": 8
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 4
+      },
+      "pontaria": {
+        "dado": 6
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 6
+      },
+      "vigor": {
+        "dado": 8
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 8,
+          "exatas": 4,
+          "humanas": 10,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 24,
+        "max": 24
+      },
+      "pd": {
+        "value": 24,
+        "max": 24
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!uTGBc0tEeYMDTXRI"
+}

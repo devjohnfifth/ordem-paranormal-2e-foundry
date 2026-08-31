@@ -1,0 +1,160 @@
+{
+  "_id": "fvodPiiEls2rgHFp",
+  "name": "Eloísa",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/eloisa-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Eloísa",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/eloisa-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "fQuKk0ScIyhLrvo2",
+      "name": "Avaliação",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!fvodPiiEls2rgHFp.fQuKk0ScIyhLrvo2"
+    },
+    {
+      "_id": "j14eSE8GThVtHrX7",
+      "name": "Foco Emocional",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Quando faz um teste emocional, você pode gastar 2 PD para receber +d4 no teste.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!fvodPiiEls2rgHFp.j14eSE8GThVtHrX7"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "sobrevivente",
+    "perfil": "analista",
+    "ocupacao": "Artista",
+    "nivel": 2,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/eloisa-historico.webp\" alt=\"Histórico de Eloísa\">",
+    "atributos": {
+      "fisico": {
+        "dado": 8
+      },
+      "mente": {
+        "dado": 8
+      },
+      "emocao": {
+        "dado": 6
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 6
+      },
+      "atletismo": {
+        "dado": 4
+      },
+      "crime": {
+        "dado": 6
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 8
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 6
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 6
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 6
+      },
+      "vigor": {
+        "dado": 4
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 4,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 12,
+        "max": 12
+      },
+      "pd": {
+        "value": 14,
+        "max": 14
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!fvodPiiEls2rgHFp"
+}

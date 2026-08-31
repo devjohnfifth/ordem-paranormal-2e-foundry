@@ -1,0 +1,160 @@
+{
+  "_id": "rcrVMqcUiDYYGWM7",
+  "name": "Victor",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/victor-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Victor",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/victor-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "zwnp2AjaKjHVmzbd",
+      "name": "Prontidão",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>No início de qualquer conflito, você pode gastar 3 PD. Se fizer isso, ganha uma rodada na qual pode agir antes dos demais personagens e NPCs.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!rcrVMqcUiDYYGWM7.zwnp2AjaKjHVmzbd"
+    },
+    {
+      "_id": "SN6X8RiQmeJNlU6s",
+      "name": "Mentoria",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Quando ajuda outro personagem, você pode fazer um teste da perícia que usou para ajudar contra DT 7. Se passar, o personagem ajudado pode substituir um dos dados rolados por ele pela sua rolagem alta (RA).</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!rcrVMqcUiDYYGWM7.SN6X8RiQmeJNlU6s"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "sobrevivente",
+    "perfil": "vigilante",
+    "ocupacao": "Professor",
+    "nivel": 2,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/victor-historico.webp\" alt=\"Histórico de Victor\">",
+    "atributos": {
+      "fisico": {
+        "dado": 8
+      },
+      "mente": {
+        "dado": 6
+      },
+      "emocao": {
+        "dado": 8
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 6
+      },
+      "crime": {
+        "dado": 4
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 4
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 6
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 8
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 4
+      },
+      "vigor": {
+        "dado": 6
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 6,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 14,
+        "max": 14
+      },
+      "pd": {
+        "value": 14,
+        "max": 14
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 0
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!rcrVMqcUiDYYGWM7"
+}

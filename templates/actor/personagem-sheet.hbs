@@ -46,6 +46,17 @@
     </div>
     <button type="button" data-action="rolarTrauma">{{localize "OP2E.Teste.Trauma"}}</button>
   </div>
+  {{#if system.impeto.max}}
+  <div class="op2e-recurso op2e-impeto">
+    <label>{{localize "OP2E.Recurso.Impeto"}}</label>
+    <div class="op2e-recurso-valores">
+      <input type="number" name="system.impeto.value" value="{{system.impeto.value}}" min="0" data-dtype="Number">
+      <span>/</span>
+      <input type="number" name="system.impeto.max" value="{{system.impeto.max}}" min="0" data-dtype="Number">
+    </div>
+    <button type="button" data-action="gastarImpeto">{{localize "OP2E.Dialogo.GastarImpeto.Titulo"}}</button>
+  </div>
+  {{/if}}
 </section>
 
 <div class="op2e-corpo">

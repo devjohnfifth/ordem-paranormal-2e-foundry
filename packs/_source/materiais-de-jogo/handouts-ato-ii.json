@@ -1,0 +1,121 @@
+{
+  "_id": "l3C6OQj5DFvJOJLt",
+  "name": "Handouts — Ato II",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": -1
+  },
+  "pages": [
+    {
+      "_id": "nDl5mZzmoOyLJPgA",
+      "name": "Handout 02A — Laser Porão",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-02a-laser-porao.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.nDl5mZzmoOyLJPgA"
+    },
+    {
+      "_id": "AKtgNxodnHTcua5H",
+      "name": "Handout 02B — Laser Sala Secreta",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-02b-laser-sala-secreta.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.AKtgNxodnHTcua5H"
+    },
+    {
+      "_id": "2QjRBd3fGiZPbAEt",
+      "name": "Handout 03 — Foto do Altar de Madeira",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-03-foto-do-altar-de-madeira.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.2QjRBd3fGiZPbAEt"
+    },
+    {
+      "_id": "jHUQkRsdhLtxZKYK",
+      "name": "Handout 04 — Foto Dentro do Depósito B",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-04-foto-dentro-do-deposito-b.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.jHUQkRsdhLtxZKYK"
+    },
+    {
+      "_id": "qOQCiGr1AB0fSAq0",
+      "name": "Handout 05 — Ritual de Alterar Memória",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-05-ritual-de-alterar-memoria.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.qOQCiGr1AB0fSAq0"
+    },
+    {
+      "_id": "ocMXeMMl1skdtdm2",
+      "name": "Handout 06 — Foto do Freezer",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/handouts/ato2-handout-06-foto-do-freezer.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!l3C6OQj5DFvJOJLt.ocMXeMMl1skdtdm2"
+    }
+  ],
+  "categories": [],
+  "_key": "!journal!l3C6OQj5DFvJOJLt"
+}

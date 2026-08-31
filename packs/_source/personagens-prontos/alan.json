@@ -1,0 +1,160 @@
+{
+  "_id": "vvDcT6oeKXcrWPQy",
+  "name": "Alan",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/alan-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Alan",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/alan-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "kU1gMmva8zYwOtFV",
+      "name": "Foco Mental",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Quando faz um teste mental, você pode gastar 2 PD para receber +d4 no teste.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!vvDcT6oeKXcrWPQy.kU1gMmva8zYwOtFV"
+    },
+    {
+      "_id": "B7QIUTOxv8PYMPpw",
+      "name": "Ímpeto",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você possui uma barra de Ímpeto com 3 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li></ul>"
+      },
+      "effects": [],
+      "_key": "!actors.items!vvDcT6oeKXcrWPQy.B7QIUTOxv8PYMPpw"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "sobrevivente",
+    "perfil": "executor",
+    "ocupacao": "Cientista",
+    "nivel": 2,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/alan-historico.webp\" alt=\"Histórico de Alan\">",
+    "atributos": {
+      "fisico": {
+        "dado": 6
+      },
+      "mente": {
+        "dado": 8
+      },
+      "emocao": {
+        "dado": 8
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 4
+      },
+      "crime": {
+        "dado": 6
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 6
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 4
+      },
+      "intuicao": {
+        "dado": 4
+      },
+      "luta": {
+        "dado": 4
+      },
+      "maquinas": {
+        "dado": 4
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 8
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 6
+      },
+      "pontaria": {
+        "dado": 4
+      },
+      "sobrevivencia": {
+        "dado": 4
+      },
+      "tecnologia": {
+        "dado": 4
+      },
+      "vigor": {
+        "dado": 6
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 6,
+          "tatica": 4
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 10,
+        "max": 10
+      },
+      "pd": {
+        "value": 16,
+        "max": 16
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 3
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!vvDcT6oeKXcrWPQy"
+}

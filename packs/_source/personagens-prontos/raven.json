@@ -1,0 +1,177 @@
+{
+  "_id": "sK3kx4jwAYQutx3y",
+  "name": "Raven",
+  "type": "personagem",
+  "img": "systems/op2e-playtest/assets/personagens/raven-retrato.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Raven",
+    "actorLink": true,
+    "texture": {
+      "src": "systems/op2e-playtest/assets/personagens/raven-token.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "kzWIJRe1mRKb01aF",
+      "name": "Ímpeto",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "perfil",
+        "descricao": "<p>Você possui uma barra de Ímpeto com 3 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li></ul>"
+      },
+      "effects": [],
+      "_key": "!actors.items!sK3kx4jwAYQutx3y.kzWIJRe1mRKb01aF"
+    },
+    {
+      "_id": "UmKXtyHHMfMqPjhL",
+      "name": "Para Bellum",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "ocupacao",
+        "descricao": "<p>Você recebe proficiência com armas de fogo, e seu dano com essas armas aumenta em +2.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!sK3kx4jwAYQutx3y.UmKXtyHHMfMqPjhL"
+    },
+    {
+      "_id": "2v7838aEQE9JkeXu",
+      "name": "Estoico",
+      "type": "habilidade",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "system": {
+        "origem": "nivel",
+        "descricao": "<p>Você recebe +6 em testes de trauma e, na primeira vez em cada cena em que faz um teste de trauma, recupera 9 PD.</p>"
+      },
+      "effects": [],
+      "_key": "!actors.items!sK3kx4jwAYQutx3y.2v7838aEQE9JkeXu"
+    }
+  ],
+  "effects": [],
+  "system": {
+    "papel": "agente",
+    "perfil": "executor",
+    "ocupacao": "Militar",
+    "nivel": 6,
+    "nex": 0,
+    "biografia": "<p><em>Histórico oficial (Arquivos Secretos, Jambô Editora):</em></p><img src=\"systems/op2e-playtest/assets/personagens/raven-historico.webp\" alt=\"Histórico de Raven\">",
+    "atributos": {
+      "fisico": {
+        "dado": 10
+      },
+      "mente": {
+        "dado": 8
+      },
+      "emocao": {
+        "dado": 6
+      }
+    },
+    "pericias": {
+      "acrobacia": {
+        "dado": 4
+      },
+      "atletismo": {
+        "dado": 8
+      },
+      "crime": {
+        "dado": 4
+      },
+      "disciplina": {
+        "dado": 6
+      },
+      "enganacao": {
+        "dado": 4
+      },
+      "furtividade": {
+        "dado": 4
+      },
+      "intimidar": {
+        "dado": 6
+      },
+      "intuicao": {
+        "dado": 4
+      },
+      "luta": {
+        "dado": 6
+      },
+      "maquinas": {
+        "dado": 10
+      },
+      "medicina": {
+        "dado": 4
+      },
+      "ocultismo": {
+        "dado": 4
+      },
+      "percepcao": {
+        "dado": 8
+      },
+      "persuasao": {
+        "dado": 4
+      },
+      "pesquisar": {
+        "dado": 4
+      },
+      "pontaria": {
+        "dado": 10
+      },
+      "sobrevivencia": {
+        "dado": 8
+      },
+      "tecnologia": {
+        "dado": 4
+      },
+      "vigor": {
+        "dado": 10
+      },
+      "aptidao": {
+        "campos": {
+          "artes": 4,
+          "atualidades": 4,
+          "burocracia": 4,
+          "exatas": 4,
+          "humanas": 4,
+          "tatica": 10
+        }
+      }
+    },
+    "recursos": {
+      "pv": {
+        "value": 28,
+        "max": 28
+      },
+      "pd": {
+        "value": 24,
+        "max": 24
+      }
+    },
+    "impeto": {
+      "value": 0,
+      "max": 3
+    },
+    "testesFerimento": 0,
+    "testesTrauma": 0
+  },
+  "_key": "!actors!sK3kx4jwAYQutx3y"
+}

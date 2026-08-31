@@ -1,0 +1,85 @@
+{
+  "_id": "0L8b4kooJtAuurZ8",
+  "name": "Mapas — A Maldição do Ídolo de Pedra",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "eAYu776bbq97c4So",
+      "name": "Ato I — O Porão",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/mapas/ato1-mapa-01-o-porao.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!0L8b4kooJtAuurZ8.eAYu776bbq97c4So"
+    },
+    {
+      "_id": "oyK1eoJDolMJWphy",
+      "name": "Ato I — O Porão + Sala Secreta",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/mapas/ato1-mapa-02-o-porao-sala-secreta.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!0L8b4kooJtAuurZ8.oyK1eoJDolMJWphy"
+    },
+    {
+      "_id": "zderrcVoi1CGGi0v",
+      "name": "Ato I — O Porão + Sala Secreta + Duto de Ventilação (completo)",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/mapas/ato1-mapa-03-o-porao-sala-secreta-duto-de-ventilacao-completo.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!0L8b4kooJtAuurZ8.zderrcVoi1CGGi0v"
+    },
+    {
+      "_id": "8YGAciSjger1VHGF",
+      "name": "Ato II — O Porão",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "src": "systems/op2e-playtest/assets/mapas/ato2-mapa-01-o-porao.webp",
+      "image": {
+        "caption": ""
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!0L8b4kooJtAuurZ8.8YGAciSjger1VHGF"
+    }
+  ],
+  "categories": [],
+  "_key": "!journal!0L8b4kooJtAuurZ8"
+}
