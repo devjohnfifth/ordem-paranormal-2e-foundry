@@ -136,7 +136,8 @@
         "Passo": "Aumento/Redução de Passo",
         "DadoExtra": "Dado Extra",
         "Nenhum": "Nenhum",
-        "Rolar": "Rolar"
+        "Rolar": "Rolar",
+        "Dica": "Clique para rolar. Shift+clique para opções (DT, passo, dados extras)."
       },
       "GastarImpeto": {
         "Titulo": "Gastar Ímpeto",
