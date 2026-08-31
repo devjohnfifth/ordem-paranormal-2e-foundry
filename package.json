@@ -1,0 +1,17 @@
+{
+  "name": "op2e-playtest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema não-oficial para Foundry VTT do Playtest Alpha de Ordem Paranormal RPG 2.",
+  "type": "module",
+  "scripts": {
+    "build:packs": "node scripts/build-packs.mjs",
+    "extract:packs": "node scripts/extract-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0"
+  },
+  "allowScripts": {
+    "classic-level@1.4.1": true
+  }
+}

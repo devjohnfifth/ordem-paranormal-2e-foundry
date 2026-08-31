@@ -1,0 +1,26 @@
+<header class="op2e-cabecalho">
+  <img class="op2e-retrato" data-action="editImage" data-edit="img" src="{{actor.img}}" alt="{{actor.name}}">
+  <div class="op2e-titulo">
+    <input type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'OP2E.Nome'}}">
+    <label>{{localize "OP2E.Elemento.Label"}}
+      <input type="text" name="system.elemento" value="{{system.elemento}}">
+    </label>
+  </div>
+</header>
+
+<section class="op2e-recursos">
+  <div class="op2e-recurso op2e-pv">
+    <label>{{localize "OP2E.Recurso.PV"}}</label>
+    <div class="op2e-recurso-valores">
+      <input type="number" name="system.recursos.pv.value" value="{{system.recursos.pv.value}}" data-dtype="Number">
+      <span>/</span>
+      <input type="number" name="system.recursos.pv.max" value="{{system.recursos.pv.max}}" data-dtype="Number">
+    </div>
+  </div>
+</section>
+
+<section class="op2e-biografia">
+  <h3>{{localize "OP2E.Secao.Notas"}}</h3>
+  <p class="op2e-aviso">{{localize "OP2E.Aviso.RegrasCombate"}}</p>
+  <textarea name="system.notas">{{system.notas}}</textarea>
+</section>

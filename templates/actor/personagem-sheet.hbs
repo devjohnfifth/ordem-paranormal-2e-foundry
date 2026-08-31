@@ -1,0 +1,178 @@
+<header class="op2e-cabecalho">
+  <img class="op2e-retrato" data-action="editImage" data-edit="img" src="{{actor.img}}" alt="{{actor.name}}">
+
+  <div class="op2e-titulo">
+    <input type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'OP2E.Nome'}}">
+
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Perfil.Label"}}
+        <select name="system.perfil">{{selectOptions config.perfis selected=system.perfil localize=true}}</select>
+      </label>
+      <label>{{localize "OP2E.Ocupacao"}}
+        <input type="text" name="system.ocupacao" value="{{system.ocupacao}}">
+      </label>
+    </div>
+
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Papel.Label"}}
+        <select name="system.papel">{{selectOptions config.papeis selected=system.papel localize=true}}</select>
+      </label>
+      <label>{{localize "OP2E.Nivel"}}
+        <input type="number" name="system.nivel" value="{{system.nivel}}" min="1" max="10" data-dtype="Number">
+      </label>
+      <label>NEX
+        <input type="number" name="system.nex" value="{{system.nex}}" min="0" max="100" step="5" data-dtype="Number">%
+      </label>
+    </div>
+  </div>
+</header>
+
+<section class="op2e-recursos">
+  <div class="op2e-recurso op2e-pv">
+    <label>{{localize "OP2E.Recurso.PV"}}</label>
+    <div class="op2e-recurso-valores">
+      <input type="number" name="system.recursos.pv.value" value="{{system.recursos.pv.value}}" data-dtype="Number">
+      <span>/</span>
+      <input type="number" name="system.recursos.pv.max" value="{{system.recursos.pv.max}}" data-dtype="Number">
+    </div>
+    <button type="button" data-action="rolarFerimento">{{localize "OP2E.Teste.Ferimento"}}</button>
+  </div>
+  <div class="op2e-recurso op2e-pd">
+    <label>{{localize "OP2E.Recurso.PD"}}</label>
+    <div class="op2e-recurso-valores">
+      <input type="number" name="system.recursos.pd.value" value="{{system.recursos.pd.value}}" data-dtype="Number">
+      <span>/</span>
+      <input type="number" name="system.recursos.pd.max" value="{{system.recursos.pd.max}}" data-dtype="Number">
+    </div>
+    <button type="button" data-action="rolarTrauma">{{localize "OP2E.Teste.Trauma"}}</button>
+  </div>
+</section>
+
+<div class="op2e-corpo">
+
+  <section class="op2e-atributos">
+    <h3>{{localize "OP2E.Secao.Atributos"}}</h3>
+    <div class="op2e-atributo">
+      <span class="nome">{{localize "OP2E.Atributo.fisico"}}</span>
+      <select name="system.atributos.fisico.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.fisico.dado}}</select>
+    </div>
+    <div class="op2e-atributo">
+      <span class="nome">{{localize "OP2E.Atributo.mente"}}</span>
+      <select name="system.atributos.mente.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.mente.dado}}</select>
+    </div>
+    <div class="op2e-atributo">
+      <span class="nome">{{localize "OP2E.Atributo.emocao"}}</span>
+      <select name="system.atributos.emocao.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.emocao.dado}}</select>
+    </div>
+  </section>
+
+  <section class="op2e-pericias">
+    <h3>{{localize "OP2E.Secao.Pericias"}}</h3>
+
+    <div class="op2e-pericias-coluna">
+      <h4>{{localize "OP2E.Atributo.fisico"}}</h4>
+      {{#each (array "acrobacia" "atletismo" "crime" "furtividade" "luta" "pontaria" "vigor") as |chave|}}
+        <div class="op2e-pericia-linha">
+          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
+          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="op2e-pericias-coluna">
+      <h4>{{localize "OP2E.Atributo.mente"}}</h4>
+      {{#each (array "maquinas" "medicina" "ocultismo" "percepcao" "pesquisar" "sobrevivencia" "tecnologia") as |chave|}}
+        <div class="op2e-pericia-linha">
+          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
+          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+        </div>
+      {{/each}}
+
+      <h4>{{localize "OP2E.Pericia.aptidao"}}</h4>
+      {{#each (array "artes" "atualidades" "burocracia" "exatas" "humanas" "tatica") as |campo|}}
+        <div class="op2e-pericia-linha">
+          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{campo}}">{{localize (concat "OP2E.Aptidao." campo)}}</button>
+          <select name="system.pericias.aptidao.campos.{{campo}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup ../system.pericias.aptidao.campos campo)}}</select>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="op2e-pericias-coluna">
+      <h4>{{localize "OP2E.Atributo.emocao"}}</h4>
+      {{#each (array "disciplina" "enganacao" "intimidar" "intuicao" "persuasao") as |chave|}}
+        <div class="op2e-pericia-linha">
+          <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
+          <select name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+        </div>
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="op2e-lista">
+    <header>
+      <h3>{{localize "OP2E.Secao.Habilidades"}}</h3>
+      <a data-action="itemCriar" data-tipo="habilidade" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
+    </header>
+    <ol>
+      {{#each habilidades as |item|}}
+      <li class="op2e-item-linha" data-item-id="{{item.id}}">
+        <img src="{{item.img}}">
+        <span class="nome" data-action="itemEditar">{{item.name}}</span>
+        <span class="origem">{{localize (concat "OP2E.Origem." item.system.origem)}}</span>
+        <a data-action="itemUsar" title="{{localize 'OP2E.Acao.Usar'}}"><i class="fa-solid fa-comment"></i></a>
+        <a data-action="itemEditar" title="{{localize 'OP2E.Acao.Editar'}}"><i class="fa-solid fa-pen"></i></a>
+        <a data-action="itemExcluir" title="{{localize 'OP2E.Acao.Excluir'}}"><i class="fa-solid fa-trash"></i></a>
+      </li>
+      {{else}}
+      <li class="op2e-vazio">{{localize "OP2E.ListaVazia"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="op2e-lista">
+    <header>
+      <h3>{{localize "OP2E.Secao.Ferramentas"}}</h3>
+      <a data-action="itemCriar" data-tipo="ferramenta" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
+    </header>
+    <ol>
+      {{#each ferramentas as |item|}}
+      <li class="op2e-item-linha" data-item-id="{{item.id}}">
+        <img src="{{item.img}}">
+        <span class="nome" data-action="itemEditar">{{item.name}}</span>
+        {{#if item.system.possuiCargas}}<span class="cargas">{{item.system.cargas.value}}/{{item.system.cargas.max}}</span>{{/if}}
+        <a data-action="itemUsar" title="{{localize 'OP2E.Acao.Usar'}}"><i class="fa-solid fa-comment"></i></a>
+        <a data-action="itemEditar" title="{{localize 'OP2E.Acao.Editar'}}"><i class="fa-solid fa-pen"></i></a>
+        <a data-action="itemExcluir" title="{{localize 'OP2E.Acao.Excluir'}}"><i class="fa-solid fa-trash"></i></a>
+      </li>
+      {{else}}
+      <li class="op2e-vazio">{{localize "OP2E.ListaVazia"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="op2e-lista">
+    <header>
+      <h3>{{localize "OP2E.Secao.Itens"}}</h3>
+      <a data-action="itemCriar" data-tipo="item" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
+    </header>
+    <ol>
+      {{#each itens as |item|}}
+      <li class="op2e-item-linha" data-item-id="{{item.id}}">
+        <img src="{{item.img}}">
+        <span class="nome" data-action="itemEditar">{{item.name}}</span>
+        <span class="quantidade">x{{item.system.quantidade}}</span>
+        <a data-action="itemEditar" title="{{localize 'OP2E.Acao.Editar'}}"><i class="fa-solid fa-pen"></i></a>
+        <a data-action="itemExcluir" title="{{localize 'OP2E.Acao.Excluir'}}"><i class="fa-solid fa-trash"></i></a>
+      </li>
+      {{else}}
+      <li class="op2e-vazio">{{localize "OP2E.ListaVazia"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="op2e-biografia">
+    <h3>{{localize "OP2E.Secao.Biografia"}}</h3>
+    <textarea name="system.biografia">{{system.biografia}}</textarea>
+  </section>
+
+</div>

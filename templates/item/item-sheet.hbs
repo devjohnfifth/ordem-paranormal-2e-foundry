@@ -1,0 +1,63 @@
+<header class="op2e-cabecalho">
+  <img class="op2e-retrato" data-action="editImage" data-edit="img" src="{{item.img}}" alt="{{item.name}}">
+  <div class="op2e-titulo">
+    <input type="text" name="name" value="{{item.name}}" placeholder="{{localize 'OP2E.Nome'}}">
+    <span class="op2e-tipo">{{localize (concat "TYPES.Item." item.type)}}</span>
+  </div>
+</header>
+
+<div class="op2e-corpo">
+
+  {{#if (eq item.type "habilidade")}}
+    <label>{{localize "OP2E.Item.Origem"}}
+      <select name="system.origem">
+        <option value="perfil" {{#if (eq system.origem "perfil")}}selected{{/if}}>{{localize "OP2E.Perfil.Label"}}</option>
+        <option value="ocupacao" {{#if (eq system.origem "ocupacao")}}selected{{/if}}>{{localize "OP2E.Ocupacao"}}</option>
+        <option value="nivel" {{#if (eq system.origem "nivel")}}selected{{/if}}>{{localize "OP2E.Nivel"}}</option>
+        <option value="outro" {{#if (eq system.origem "outro")}}selected{{/if}}>{{localize "OP2E.Outro"}}</option>
+      </select>
+    </label>
+    <section class="op2e-editor">
+      <h3>{{localize "OP2E.Descricao"}}</h3>
+      <textarea name="system.descricao">{{system.descricao}}</textarea>
+    </section>
+  {{/if}}
+
+  {{#if (eq item.type "ferramenta")}}
+    <label class="op2e-checkbox">
+      <input type="checkbox" name="system.possuiCargas" {{#if system.possuiCargas}}checked{{/if}}>
+      {{localize "OP2E.Item.PossuiCargas"}}
+    </label>
+    {{#if system.possuiCargas}}
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Item.Cargas"}}
+        <input type="number" name="system.cargas.value" value="{{system.cargas.value}}" data-dtype="Number" min="0">
+      </label>
+      <span>/</span>
+      <input type="number" name="system.cargas.max" value="{{system.cargas.max}}" data-dtype="Number" min="0">
+    </div>
+    {{/if}}
+    <label>{{localize "OP2E.Item.ElementosDetectados"}}
+      <input type="text" name="system.elementosDetectados" value="{{system.elementosDetectados}}">
+    </label>
+    <section class="op2e-editor">
+      <h3>{{localize "OP2E.Descricao"}}</h3>
+      <textarea name="system.descricao">{{system.descricao}}</textarea>
+    </section>
+    <section class="op2e-editor">
+      <h3>{{localize "OP2E.Item.Mecanica"}}</h3>
+      <textarea name="system.mecanica">{{system.mecanica}}</textarea>
+    </section>
+  {{/if}}
+
+  {{#if (eq item.type "item")}}
+    <label>{{localize "OP2E.Item.Quantidade"}}
+      <input type="number" name="system.quantidade" value="{{system.quantidade}}" data-dtype="Number" min="0">
+    </label>
+    <section class="op2e-editor">
+      <h3>{{localize "OP2E.Descricao"}}</h3>
+      <textarea name="system.descricao">{{system.descricao}}</textarea>
+    </section>
+  {{/if}}
+
+</div>
