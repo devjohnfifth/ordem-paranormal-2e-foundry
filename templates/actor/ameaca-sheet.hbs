@@ -23,6 +23,6 @@
 <section class="op2e-biografia">
   <h3>{{localize "OP2E.Secao.Notas"}}</h3>
   <p class="op2e-aviso">{{localize "OP2E.Aviso.RegrasCombate"}}</p>
-  <textarea name="system.notas">{{system.notas}}</textarea>
+  {{editor system.notas target="system.notas" button=true editable=true engine="prosemirror"}}
 </section>
 </div>

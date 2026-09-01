@@ -119,8 +119,8 @@
 
 .op2e .op2e-pericias {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 1rem;
   margin-bottom: 0.75rem;
 }
 
@@ -210,11 +210,23 @@
   padding: 0.25rem 0;
 }
 
-.op2e .op2e-biografia textarea,
-.op2e .op2e-editor textarea {
+.op2e .op2e-biografia .editor,
+.op2e .op2e-editor .editor {
+  position: relative;
   width: 100%;
   min-height: 6rem;
-  resize: vertical;
+}
+
+.op2e .op2e-biografia .editor-content,
+.op2e .op2e-editor .editor-content {
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.op2e .op2e-biografia .editor-content img,
+.op2e .op2e-editor .editor-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .op2e .op2e-checkbox {
