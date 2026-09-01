@@ -67,7 +67,8 @@
       "burocracia": "Burocracia",
       "exatas": "Exatas",
       "humanas": "Humanas",
-      "tatica": "Tática"
+      "tatica": "Tática",
+      "Vazio": "Nenhuma Aptidão treinada ainda."
     },
 
     "Elemento": {
@@ -121,12 +122,15 @@
       "Criar": "Criar",
       "Editar": "Editar",
       "Excluir": "Excluir",
-      "Usar": "Enviar para o chat"
+      "Usar": "Enviar para o chat",
+      "Adicionar": "Adicionar",
+      "Remover": "Remover"
     },
 
     "Aviso": {
       "RegrasCombate": "As regras completas de combate e criaturas ainda não foram publicadas neste playtest. Use este campo de notas livremente até o próximo pacote trazer as regras oficiais.",
-      "ImpetoInsuficiente": "Espaços de Ímpeto insuficientes para esse gasto."
+      "ImpetoInsuficiente": "Espaços de Ímpeto insuficientes para esse gasto.",
+      "AptidaoCompleta": "Todos os campos de Aptidão já estão em uso."
     },
 
     "Dialogo": {
@@ -143,6 +147,11 @@
         "Titulo": "Gastar Ímpeto",
         "Quantidade": "Quantos espaços gastar?",
         "Confirmar": "Gastar"
+      },
+      "AdicionarAptidao": {
+        "Titulo": "Adicionar Campo de Aptidão",
+        "Campo": "Qual campo?",
+        "Confirmar": "Adicionar"
       }
     },
 

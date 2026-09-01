@@ -14,6 +14,8 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
       rolarFerimento: OP2PersonagemSheet.#rolarFerimento,
       rolarTrauma: OP2PersonagemSheet.#rolarTrauma,
       gastarImpeto: OP2PersonagemSheet.#gastarImpeto,
+      adicionarAptidao: OP2PersonagemSheet.#adicionarAptidao,
+      removerAptidao: OP2PersonagemSheet.#removerAptidao,
       itemCriar: OP2PersonagemSheet.#itemCriar,
       itemEditar: OP2PersonagemSheet.#itemEditar,
       itemExcluir: OP2PersonagemSheet.#itemExcluir,
@@ -34,6 +36,9 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     context.habilidades = this.actor.items.filter((i) => i.type === "habilidade");
     context.ferramentas = this.actor.items.filter((i) => i.type === "ferramenta");
     context.itens = this.actor.items.filter((i) => i.type === "item");
+    context.aptidaoCampos = Object.entries(this.actor.system.pericias.aptidao.campos)
+      .filter(([, dado]) => dado > 4)
+      .map(([chave, dado]) => ({ chave, dado }));
     return context;
   }
 
@@ -127,6 +132,43 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     });
     if (!dados) return;
     await this.actor.gastarImpeto(Number(dados.quantidade));
+  }
+
+  /** Escolhe um campo de Aptidão ainda não treinado (dado <= d4) e o define como d6 (treinado). */
+  static async #adicionarAptidao() {
+    const campos = this.actor.system.pericias.aptidao.campos;
+    const restantes = Object.entries(campos)
+      .filter(([, dado]) => dado <= 4)
+      .map(([chave]) => chave);
+
+    if (restantes.length === 0) {
+      ui.notifications.info(game.i18n.localize("OP2E.Aviso.AptidaoCompleta"));
+      return;
+    }
+
+    const opcoes = restantes
+      .map((chave) => `<option value="${chave}">${game.i18n.localize(OP2E.camposAptidao[chave])}</option>`)
+      .join("");
+
+    const dados = await foundry.applications.api.DialogV2.input({
+      window: { title: game.i18n.localize("OP2E.Dialogo.AdicionarAptidao.Titulo") },
+      content: `
+        <div class="form-group">
+          <label>${game.i18n.localize("OP2E.Dialogo.AdicionarAptidao.Campo")}</label>
+          <select name="campo">${opcoes}</select>
+        </div>`,
+      rejectClose: false,
+      ok: { label: game.i18n.localize("OP2E.Dialogo.AdicionarAptidao.Confirmar") }
+    });
+    if (!dados) return;
+
+    await this.actor.update({ [`system.pericias.aptidao.campos.${dados.campo}`]: 6 });
+  }
+
+  /** Remove um campo de Aptidão da lista, voltando o dado para d4 (destreinado). */
+  static async #removerAptidao(event, target) {
+    const campo = target.closest("[data-campo]").dataset.campo;
+    await this.actor.update({ [`system.pericias.aptidao.campos.${campo}`]: 4 });
   }
 
   static async #itemCriar(event, target) {
