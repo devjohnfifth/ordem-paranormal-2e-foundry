@@ -106,7 +106,7 @@
       {{#each aptidaoCampos as |c|}}
         <div class="op2e-pericia-linha" data-campo="{{c.chave}}">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{c.chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Aptidao." c.chave)}}</button>
-          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{c.chave}}" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=c.dado}}</select>
+          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{c.chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=c.dado}}</select>
           <a data-action="removerAptidao" title="{{localize 'OP2E.Acao.Remover'}}"><i class="fa-solid fa-xmark"></i></a>
         </div>
       {{else}}

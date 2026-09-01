@@ -1,6 +1,6 @@
 import { OP2E } from "../config.mjs";
 
-const { SchemaField, StringField, NumberField, HTMLField } = foundry.data.fields;
+const { SchemaField, StringField, NumberField, BooleanField, HTMLField } = foundry.data.fields;
 
 function campoDado(inicial = 4) {
   return new NumberField({
@@ -23,9 +23,15 @@ export default class PersonagemData extends foundry.abstract.TypeDataModel {
       pericias[chave] = campoPericia();
     }
 
+    // Cada campo de Aptidão guarda o dado E se está "ativo" (visível na ficha) separadamente:
+    // o jogador pode deixar um campo em d4 e mesmo assim mantê-lo visível (ex.: enquanto decide
+    // se vale a pena treinar), sem ele sumir sozinho só porque o dado voltou pro destreinado.
     const camposAptidao = {};
     for (const campo of OP2E.pericias.aptidao.campos) {
-      camposAptidao[campo] = campoDado(4);
+      camposAptidao[campo] = new SchemaField({
+        dado: campoDado(4),
+        ativo: new BooleanField({ required: true, initial: false })
+      });
     }
     pericias.aptidao = new SchemaField({ campos: new SchemaField(camposAptidao) });
 

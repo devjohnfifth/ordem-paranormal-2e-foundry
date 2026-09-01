@@ -37,8 +37,8 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     context.ferramentas = this.actor.items.filter((i) => i.type === "ferramenta");
     context.itens = this.actor.items.filter((i) => i.type === "item");
     context.aptidaoCampos = Object.entries(this.actor.system.pericias.aptidao.campos)
-      .filter(([, dado]) => dado > 4)
-      .map(([chave, dado]) => ({ chave, dado }));
+      .filter(([, c]) => c.ativo)
+      .map(([chave, c]) => ({ chave, dado: c.dado }));
     return context;
   }
 
@@ -134,11 +134,15 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     await this.actor.gastarImpeto(Number(dados.quantidade));
   }
 
-  /** Escolhe um campo de Aptidão ainda não treinado (dado <= d4) e o define como d6 (treinado). */
+  /**
+   * Escolhe um campo de Aptidão ainda não visível na ficha e o marca como ativo. Se o dado
+   * dele ainda estiver em d4 (nunca foi mexido), sobe pra d6 — mas preserva um valor maior
+   * já existente (ex.: campo removido e adicionado de novo não perde o progresso).
+   */
   static async #adicionarAptidao() {
     const campos = this.actor.system.pericias.aptidao.campos;
     const restantes = Object.entries(campos)
-      .filter(([, dado]) => dado <= 4)
+      .filter(([, c]) => !c.ativo)
       .map(([chave]) => chave);
 
     if (restantes.length === 0) {
@@ -162,13 +166,17 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     });
     if (!dados) return;
 
-    await this.actor.update({ [`system.pericias.aptidao.campos.${dados.campo}`]: 6 });
+    const atualizacoes = { [`system.pericias.aptidao.campos.${dados.campo}.ativo`]: true };
+    if (campos[dados.campo].dado <= 4) {
+      atualizacoes[`system.pericias.aptidao.campos.${dados.campo}.dado`] = 6;
+    }
+    await this.actor.update(atualizacoes);
   }
 
-  /** Remove um campo de Aptidão da lista, voltando o dado para d4 (destreinado). */
+  /** Tira um campo de Aptidão da lista visível. O dado treinado NÃO é apagado, só escondido. */
   static async #removerAptidao(event, target) {
     const campo = target.closest("[data-campo]").dataset.campo;
-    await this.actor.update({ [`system.pericias.aptidao.campos.${campo}`]: 4 });
+    await this.actor.update({ [`system.pericias.aptidao.campos.${campo}.ativo`]: false });
   }
 
   static async #itemCriar(event, target) {

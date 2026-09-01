@@ -26,7 +26,7 @@ export default class OP2Actor extends Actor {
     let rotuloPericia = game.i18n.localize(`OP2E.Pericia.${chavePericia}`);
     if (chavePericia === "aptidao") {
       if (!campo) throw new Error("É necessário informar o campo de Aptidão.");
-      dadoPericia = this.system.pericias.aptidao.campos[campo];
+      dadoPericia = this.system.pericias.aptidao.campos[campo]?.dado;
       rotuloPericia += ` (${game.i18n.localize(OP2E.camposAptidao[campo])})`;
     } else {
       dadoPericia = this.system.pericias[chavePericia]?.dado;

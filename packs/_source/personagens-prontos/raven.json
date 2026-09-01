@@ -147,12 +147,30 @@
       },
       "aptidao": {
         "campos": {
-          "artes": 4,
-          "atualidades": 4,
-          "burocracia": 4,
-          "exatas": 4,
-          "humanas": 4,
-          "tatica": 10
+          "artes": {
+            "dado": 4,
+            "ativo": false
+          },
+          "atualidades": {
+            "dado": 4,
+            "ativo": false
+          },
+          "burocracia": {
+            "dado": 4,
+            "ativo": false
+          },
+          "exatas": {
+            "dado": 4,
+            "ativo": false
+          },
+          "humanas": {
+            "dado": 4,
+            "ativo": false
+          },
+          "tatica": {
+            "dado": 10,
+            "ativo": true
+          }
         }
       }
     },
