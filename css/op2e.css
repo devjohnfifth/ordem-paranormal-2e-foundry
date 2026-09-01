@@ -363,7 +363,7 @@
 .op2e select.op2e-dado-pericia[data-dado="4"] {
   clip-path: polygon(50% 6%, 4% 96%, 96% 96%);
   border-radius: 0;
-  padding-top: 0.5em;
+  padding-top: 0.15em;
 }
 
 /* d6 — quadrado (sem recorte, só cantos levemente arredondados) */
