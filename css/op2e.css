@@ -271,3 +271,172 @@
 .op2e.chat-teste.falha .op2e-veredito {
   color: #b71c1c;
 }
+
+/* =====================================================================
+   Páginas de Journal dos pontos de interesse (compêndio Compêndio da
+   Ordem) -- visual inspirado nas tabelas coloridas e nos selos numerados
+   do livro oficial, mas com estilo/paleta próprios (não é a arte deles).
+   Escopo separado de ".op2e" porque páginas de Journal não são fichas.
+   ===================================================================== */
+
+.op2e-jornal {
+  --op2e-preto: #1b1512;
+  --op2e-creme: #f1e3c6;
+  --op2e-creme-fraco: #cbb98f;
+}
+
+.op2e-jornal.op2e-ponto {
+  border: 1px solid #7a2f2f;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.op2e-ponto-cabecalho {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: var(--op2e-preto);
+  color: var(--op2e-creme);
+  padding: 0.6rem 0.75rem;
+}
+
+.op2e-ponto-icone {
+  margin-top: 0.2rem;
+  opacity: 0.85;
+}
+
+.op2e-ponto-titulos {
+  flex: 1;
+  min-width: 0;
+}
+
+.op2e-ponto-titulos h4 {
+  margin: 0;
+  color: var(--op2e-creme);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 1.05rem;
+  border: none;
+}
+
+.op2e-ponto-descricao {
+  margin: 0.15rem 0 0;
+  font-style: italic;
+  color: var(--op2e-creme-fraco);
+  font-size: 0.85rem;
+}
+
+.op2e-ponto-selo {
+  flex: 0 0 auto;
+  min-width: 2.2rem;
+  text-align: center;
+  background: #6b5f4f;
+  color: var(--op2e-creme);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+}
+
+.op2e-desafio {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #7a2f2f;
+  border-bottom: 1px solid #7a2f2f;
+}
+
+.op2e-desafio-rotulo {
+  flex: 0 0 auto;
+  min-width: 9rem;
+  background: var(--op2e-preto);
+  color: var(--op2e-creme);
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.op2e-desafio-texto {
+  flex: 1;
+  min-width: 60%;
+  background: #eab3ac;
+  color: #3a1712;
+  padding: 0.5rem 0.75rem;
+}
+
+table.op2e-tabela-pericia {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+table.op2e-tabela-pericia th {
+  background: #e4e1d8;
+  color: #191813;
+  text-align: left;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #b8b3a5;
+}
+
+table.op2e-tabela-pericia td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #b8b3a5;
+  vertical-align: top;
+  color: #191813;
+}
+
+table.op2e-tabela-pericia .op2e-col-pericia {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+table.op2e-tabela-pericia .op2e-col-dt {
+  text-align: center;
+  font-weight: bold;
+  width: 2.5rem;
+}
+
+.op2e-cadeado {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
+
+tr.op2e-cor-teal td { background: #a9dfd8; }
+tr.op2e-cor-lavanda td { background: #c9c2ea; }
+tr.op2e-cor-verde td { background: #b7e0a4; }
+tr.op2e-cor-areia td { background: #e6d6a3; }
+tr.op2e-cor-salmão td { background: #eab3ac; }
+tr.op2e-cor-neutro td { background: #e2ded4; }
+
+.op2e-handouts-rotulo {
+  margin: 0.6rem 0.75rem 0;
+}
+
+.op2e-ponto ul {
+  margin: 0 0.75rem 0.6rem;
+}
+
+.op2e-nota-gm {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: #efece4;
+  color: #191813;
+  padding: 0.6rem 0.75rem;
+  margin: 0.6rem 0.75rem 0.75rem;
+  border-radius: 4px;
+}
+
+.op2e-nota-gm i {
+  margin-top: 0.2rem;
+  color: #7a2f2f;
+  flex: 0 0 auto;
+}
+
+.op2e-nota-gm p {
+  margin: 0;
+}
