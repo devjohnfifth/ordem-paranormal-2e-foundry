@@ -366,16 +366,65 @@
   text-transform: uppercase;
   padding: 0.5rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.35rem;
+  line-height: 1.3;
 }
 
-.op2e-desafio-texto {
+.op2e-desafio-sub {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.85;
+}
+
+.op2e-desafio-corpo {
   flex: 1;
   min-width: 60%;
   background: #eab3ac;
   color: #3a1712;
-  padding: 0.5rem 0.75rem;
+}
+
+.op2e-desafio-linha {
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid rgba(58, 23, 18, 0.25);
+}
+
+.op2e-desafio-linha:last-child {
+  border-bottom: none;
+}
+
+.op2e-desafio-nota {
+  font-size: 0.85rem;
+}
+
+.op2e-desafio-pergunta {
+  font-weight: bold;
+}
+
+.op2e-desafio-resposta {
+  margin-top: 0.25rem;
+  font-weight: normal;
+  background: #b7e0a4;
+  color: #1c2e14;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+table.op2e-tabela-equacao {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.3rem 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+table.op2e-tabela-equacao th,
+table.op2e-tabela-equacao td {
+  border: 1px solid rgba(58, 23, 18, 0.3);
+  padding: 0.2rem 0.5rem;
+  text-align: left;
 }
 
 .op2e-tabela-scroll {

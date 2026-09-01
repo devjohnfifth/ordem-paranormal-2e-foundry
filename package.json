@@ -1,6 +1,6 @@
 {
   "name": "op2e-playtest",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "private": true,
   "description": "Sistema não-oficial para Foundry VTT do Playtest Alpha de Ordem Paranormal RPG 2.",
   "type": "module",
