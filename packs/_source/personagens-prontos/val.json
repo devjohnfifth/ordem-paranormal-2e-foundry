@@ -1,5 +1,6 @@
 {
   "_id": "CKszyU7Wm2X1QSbK",
+  "_key": "!actors!CKszyU7Wm2X1QSbK",
   "name": "Val",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/val-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "V4PiSXxfIVrUlO2f",
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.V4PiSXxfIVrUlO2f",
       "name": "Prontidão",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>No início de qualquer conflito, você pode gastar 3 PD. Se fizer isso, ganha uma rodada na qual pode agir antes dos demais personagens e NPCs.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!CKszyU7Wm2X1QSbK.V4PiSXxfIVrUlO2f"
+      }
     },
     {
       "_id": "ln7EgaX0RAWFtrHI",
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.ln7EgaX0RAWFtrHI",
       "name": "Técnica Medicinal",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,15 +47,14 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Sempre que você usa um efeito que cura pontos de vida, esse efeito cura +1 PV adicional (ou +1 PV por dado, se a cura envolver múltiplos dados).</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!CKszyU7Wm2X1QSbK.ln7EgaX0RAWFtrHI"
+      }
     },
     {
       "_id": "3J3CQPdmeOuULAsy",
+      "_key": "!actors.items!CKszyU7Wm2X1QSbK.3J3CQPdmeOuULAsy",
       "name": "Varredura Ampla",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {
@@ -63,9 +63,7 @@
       "system": {
         "origem": "nivel",
         "descricao": "<p>Quando investiga um ponto de interesse, você pode escolher duas perícias e receber as informações de ambas.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!CKszyU7Wm2X1QSbK.3J3CQPdmeOuULAsy"
+      }
     }
   ],
   "effects": [],
@@ -190,6 +188,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!CKszyU7Wm2X1QSbK"
+  }
 }

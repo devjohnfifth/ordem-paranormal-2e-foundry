@@ -1,5 +1,6 @@
 {
   "_id": "YsGGShnCS3P7oxKf",
+  "_key": "!actors!YsGGShnCS3P7oxKf",
   "name": "Amanda",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/amanda-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "qopSjN8udttM1kis",
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.qopSjN8udttM1kis",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!YsGGShnCS3P7oxKf.qopSjN8udttM1kis"
+      }
     },
     {
       "_id": "Akwn5V62E1KFjWDw",
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.Akwn5V62E1KFjWDw",
       "name": "Foco Mental",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,15 +47,14 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Quando faz um teste mental, você pode gastar 4 PD para receber +d8 no teste.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!YsGGShnCS3P7oxKf.Akwn5V62E1KFjWDw"
+      }
     },
     {
       "_id": "1XDlGt21qdyWDCRf",
+      "_key": "!actors.items!YsGGShnCS3P7oxKf.1XDlGt21qdyWDCRf",
       "name": "Olhar Infalível",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 300000,
       "ownership": {
@@ -63,9 +63,7 @@
       "system": {
         "origem": "nivel",
         "descricao": "<p>Quando faz um teste de examinar, você pode gastar 2 PD para rolar novamente um dos dados do teste.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!YsGGShnCS3P7oxKf.1XDlGt21qdyWDCRf"
+      }
     }
   ],
   "effects": [],
@@ -190,6 +188,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!YsGGShnCS3P7oxKf"
+  }
 }

@@ -3,7 +3,7 @@
   "_key": "!items!nwP9lCIiZfUsbOZM",
   "name": "Molho de Chaves 1",
   "type": "item",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/op2e-playtest/assets/icones/molho-de-chaves.svg",
   "system": {
     "quantidade": 1,
     "descricao": "<p>Um molho com três chaves — duas grandes e uma pequena — manchadas de sangue. Encontrado jogado dentro do Depósito A (arremessado ali por Victor, para que Alan não pudesse usá-lo para escapar).</p>",

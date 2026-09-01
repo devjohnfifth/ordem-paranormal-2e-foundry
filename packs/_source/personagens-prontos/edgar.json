@@ -1,5 +1,6 @@
 {
   "_id": "rReVtNVD13o2ojJg",
+  "_key": "!actors!rReVtNVD13o2ojJg",
   "name": "Edgar",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/edgar-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "x1NaWnKbpncszK37",
+      "_key": "!actors.items!rReVtNVD13o2ojJg.x1NaWnKbpncszK37",
       "name": "Esforço e Suor",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Você possui uma perícia física aumentada para d6 (já contabilizado na ficha).</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!rReVtNVD13o2ojJg.x1NaWnKbpncszK37"
+      }
     },
     {
       "_id": "kGGZHK4Su8AFLDgf",
+      "_key": "!actors.items!rReVtNVD13o2ojJg.kGGZHK4Su8AFLDgf",
       "name": "Ímpeto",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,9 +47,7 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>Você possui uma barra de Ímpeto com 3 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li></ul>"
-      },
-      "effects": [],
-      "_key": "!actors.items!rReVtNVD13o2ojJg.kGGZHK4Su8AFLDgf"
+      }
     }
   ],
   "effects": [],
@@ -173,6 +172,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!rReVtNVD13o2ojJg"
+  }
 }

@@ -1,5 +1,6 @@
 {
   "_id": "vvDcT6oeKXcrWPQy",
+  "_key": "!actors!vvDcT6oeKXcrWPQy",
   "name": "Alan",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/alan-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "kU1gMmva8zYwOtFV",
+      "_key": "!actors.items!vvDcT6oeKXcrWPQy.kU1gMmva8zYwOtFV",
       "name": "Foco Mental",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Quando faz um teste mental, você pode gastar 2 PD para receber +d4 no teste.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!vvDcT6oeKXcrWPQy.kU1gMmva8zYwOtFV"
+      }
     },
     {
       "_id": "B7QIUTOxv8PYMPpw",
+      "_key": "!actors.items!vvDcT6oeKXcrWPQy.B7QIUTOxv8PYMPpw",
       "name": "Ímpeto",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,9 +47,7 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>Você possui uma barra de Ímpeto com 3 espaços. Sempre que falha em um teste, preenche um espaço na barra. Você pode gastar espaços preenchidos para:</p><ul><li><strong>1 espaço</strong> — receber +d4 em um teste.</li><li><strong>3 espaços</strong> — aumentar um atributo em um passo até o fim da cena.</li></ul>"
-      },
-      "effects": [],
-      "_key": "!actors.items!vvDcT6oeKXcrWPQy.B7QIUTOxv8PYMPpw"
+      }
     }
   ],
   "effects": [],
@@ -173,6 +172,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!vvDcT6oeKXcrWPQy"
+  }
 }

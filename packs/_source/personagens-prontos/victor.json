@@ -1,5 +1,6 @@
 {
   "_id": "rcrVMqcUiDYYGWM7",
+  "_key": "!actors!rcrVMqcUiDYYGWM7",
   "name": "Victor",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/victor-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "zwnp2AjaKjHVmzbd",
+      "_key": "!actors.items!rcrVMqcUiDYYGWM7.zwnp2AjaKjHVmzbd",
       "name": "Prontidão",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>No início de qualquer conflito, você pode gastar 3 PD. Se fizer isso, ganha uma rodada na qual pode agir antes dos demais personagens e NPCs.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!rcrVMqcUiDYYGWM7.zwnp2AjaKjHVmzbd"
+      }
     },
     {
       "_id": "SN6X8RiQmeJNlU6s",
+      "_key": "!actors.items!rcrVMqcUiDYYGWM7.SN6X8RiQmeJNlU6s",
       "name": "Mentoria",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,9 +47,7 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Quando ajuda outro personagem, você pode fazer um teste da perícia que usou para ajudar contra DT 7. Se passar, o personagem ajudado pode substituir um dos dados rolados por ele pela sua rolagem alta (RA).</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!rcrVMqcUiDYYGWM7.SN6X8RiQmeJNlU6s"
+      }
     }
   ],
   "effects": [],
@@ -173,6 +172,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!rcrVMqcUiDYYGWM7"
+  }
 }

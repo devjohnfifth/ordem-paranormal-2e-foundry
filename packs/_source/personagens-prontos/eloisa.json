@@ -1,5 +1,6 @@
 {
   "_id": "fvodPiiEls2rgHFp",
+  "_key": "!actors!fvodPiiEls2rgHFp",
   "name": "Eloísa",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/eloisa-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "fQuKk0ScIyhLrvo2",
+      "_key": "!actors.items!fvodPiiEls2rgHFp.fQuKk0ScIyhLrvo2",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!fvodPiiEls2rgHFp.fQuKk0ScIyhLrvo2"
+      }
     },
     {
       "_id": "j14eSE8GThVtHrX7",
+      "_key": "!actors.items!fvodPiiEls2rgHFp.j14eSE8GThVtHrX7",
       "name": "Foco Emocional",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,9 +47,7 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Quando faz um teste emocional, você pode gastar 2 PD para receber +d4 no teste.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!fvodPiiEls2rgHFp.j14eSE8GThVtHrX7"
+      }
     }
   ],
   "effects": [],
@@ -173,6 +172,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!fvodPiiEls2rgHFp"
+  }
 }

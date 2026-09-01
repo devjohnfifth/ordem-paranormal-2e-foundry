@@ -1,5 +1,6 @@
 {
   "_id": "7oBJTN9yNnQ0ipbT",
+  "_key": "!actors!7oBJTN9yNnQ0ipbT",
   "name": "Kênia",
   "type": "personagem",
   "img": "systems/op2e-playtest/assets/personagens/kenia-token.webp",
@@ -18,9 +19,10 @@
   "items": [
     {
       "_id": "yreL9gUJHwstKbIC",
+      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.yreL9gUJHwstKbIC",
       "name": "Avaliação",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 100000,
       "ownership": {
@@ -29,15 +31,14 @@
       "system": {
         "origem": "perfil",
         "descricao": "<p>Você pode gastar uma ação e 2 PD para observar um ser ou um ambiente. Você recebe 2d4 que pode usar em testes relativos àquele ser ou ambiente, como quiser: +2d4 em um teste, ou +d4 em dois testes diferentes. Você não pode acumular mais do que dois dados bônus por esta habilidade.</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.yreL9gUJHwstKbIC"
+      }
     },
     {
       "_id": "c271uTQQRRYvDMu4",
+      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.c271uTQQRRYvDMu4",
       "name": "Conhecimento Técnico",
       "type": "habilidade",
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/op2e-playtest/assets/icones/habilidade.svg",
       "folder": null,
       "sort": 200000,
       "ownership": {
@@ -46,9 +47,7 @@
       "system": {
         "origem": "ocupacao",
         "descricao": "<p>Você possui uma perícia mental aumentada para d6 (já contabilizado na ficha).</p>"
-      },
-      "effects": [],
-      "_key": "!actors.items!7oBJTN9yNnQ0ipbT.c271uTQQRRYvDMu4"
+      }
     }
   ],
   "effects": [],
@@ -173,6 +172,5 @@
     },
     "testesFerimento": 0,
     "testesTrauma": 0
-  },
-  "_key": "!actors!7oBJTN9yNnQ0ipbT"
+  }
 }
