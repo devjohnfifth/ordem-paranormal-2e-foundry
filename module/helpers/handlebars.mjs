@@ -13,6 +13,11 @@ export function registrarHandlebarsHelpers() {
   Handlebars.registerHelper("and", (...args) => args.slice(0, -1).every(Boolean));
   Handlebars.registerHelper("or", (...args) => args.slice(0, -1).some(Boolean));
   Handlebars.registerHelper("not", (a) => !a);
+
+  // Gera um array [0, 1, ..., n-1] -- usado para desenhar as barras de PV/PD/Ímpeto em
+  // "pips" (um quadradinho por ponto), com {{#each (range max) as |i|}}.
+  Handlebars.registerHelper("range", (n) => Array.from({ length: Math.max(0, Number(n) || 0) }, (_, i) => i));
+  Handlebars.registerHelper("inc", (n) => Number(n) + 1);
 }
 
 export async function preCarregarTemplates() {

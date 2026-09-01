@@ -48,11 +48,15 @@
   gap: 0.25rem;
 }
 
-.op2e .op2e-titulo > input[name="name"] {
-  font-size: 1.3rem;
+.op2e .op2e-titulo > input.op2e-nome {
+  font-size: 1.5rem;
   font-weight: bold;
+  font-family: Georgia, "Times New Roman", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--op2e-tema, #191813);
   border: none;
-  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-bottom: 2px solid var(--op2e-tema, #4b1f1f);
   background: transparent;
 }
 
@@ -239,6 +243,194 @@
   font-size: 0.8rem;
   font-style: italic;
   opacity: 0.75;
+}
+
+/* =====================================================================
+   Tema por Perfil -- Executor (vermelho), Analista (azul), Vigilante
+   (verde), inspirado nas fichas oficiais dos pregens.
+   ===================================================================== */
+
+.op2e .op2e-ficha {
+  --op2e-tema: #7a2f2f;
+  --op2e-tema-escuro: #4b1f1f;
+  border: 2px solid var(--op2e-tema);
+  border-radius: 6px;
+}
+
+/* `data-perfil` é escrito tanto no elemento raiz da janela (this.element, via
+   actor-personagem-sheet.mjs#_onRender -- garante que a cor troque em tempo real ao
+   mudar o Perfil) quanto no `.op2e-ficha` do próprio template (redundância inofensiva). */
+.op2e[data-perfil="executor"],
+.op2e .op2e-ficha[data-perfil="executor"] {
+  --op2e-tema: #c0392b;
+  --op2e-tema-escuro: #7a2015;
+}
+
+.op2e[data-perfil="analista"],
+.op2e .op2e-ficha[data-perfil="analista"] {
+  --op2e-tema: #2f6fa8;
+  --op2e-tema-escuro: #1c4266;
+}
+
+.op2e[data-perfil="vigilante"],
+.op2e .op2e-ficha[data-perfil="vigilante"] {
+  --op2e-tema: #3f7d3f;
+  --op2e-tema-escuro: #244c24;
+}
+
+.op2e .op2e-campo-simples {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+/* "Fita" -- rótulo em forma de bandeirola, usado nos títulos de seção e no
+   seletor de Perfil, imitando os banners coloridos das fichas oficiais. */
+.op2e .op2e-fita {
+  display: inline-block;
+  background: var(--op2e-tema);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0.9rem 0.25rem 0.6rem;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+  margin: 0.4rem 0 0.3rem;
+  border: none;
+}
+
+.op2e h3.op2e-fita {
+  font-size: 0.85rem;
+}
+
+.op2e .op2e-fita-perfil {
+  padding: 0;
+  margin: 0;
+}
+
+.op2e .op2e-fita-perfil select {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.25rem 0.9rem 0.25rem 0.6rem;
+  cursor: pointer;
+}
+
+.op2e .op2e-fita-perfil select option {
+  color: #191813;
+}
+
+/* Selo de cada dado -- o <select> continua funcional (clicável, editável),
+   só ganha um recorte de forma via clip-path com a cor do tema no lugar do
+   retângulo padrão. A FORMA acompanha o valor do dado (convenção do livro:
+   d4 triângulo, d6 quadrado, d8 losango, d10 pentágono, d12 hexágono,
+   d20 círculo) via `data-dado`, escrito pelo JS da ficha (actor-personagem-
+   sheet.mjs) a cada render e a cada troca de valor. */
+.op2e select.op2e-dado-atributo,
+.op2e select.op2e-dado-pericia {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: 0 0 auto;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-align-last: center;
+  cursor: pointer;
+  padding: 0;
+  clip-path: none;
+  border-radius: 3px;
+}
+
+.op2e select.op2e-dado-atributo {
+  width: 2.3em;
+  height: 2.3em;
+  background: var(--op2e-tema-escuro);
+}
+
+.op2e select.op2e-dado-pericia {
+  width: 2.1em;
+  height: 2.1em;
+  background: var(--op2e-tema);
+  font-size: 0.8rem;
+}
+
+/* d4 — triângulo */
+.op2e select.op2e-dado-atributo[data-dado="4"],
+.op2e select.op2e-dado-pericia[data-dado="4"] {
+  clip-path: polygon(50% 6%, 4% 96%, 96% 96%);
+  border-radius: 0;
+  padding-top: 0.5em;
+}
+
+/* d6 — quadrado (sem recorte, só cantos levemente arredondados) */
+.op2e select.op2e-dado-atributo[data-dado="6"],
+.op2e select.op2e-dado-pericia[data-dado="6"] {
+  clip-path: none;
+  border-radius: 3px;
+}
+
+/* d8 — losango (quadrado deitado) */
+.op2e select.op2e-dado-atributo[data-dado="8"],
+.op2e select.op2e-dado-pericia[data-dado="8"] {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  border-radius: 0;
+}
+
+/* d10 — pentágono */
+.op2e select.op2e-dado-atributo[data-dado="10"],
+.op2e select.op2e-dado-pericia[data-dado="10"] {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  border-radius: 0;
+}
+
+/* d12 — hexágono */
+.op2e select.op2e-dado-atributo[data-dado="12"],
+.op2e select.op2e-dado-pericia[data-dado="12"] {
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  border-radius: 0;
+}
+
+/* d20 — círculo (só existe em Atributos) */
+.op2e select.op2e-dado-atributo[data-dado="20"] {
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+}
+
+.op2e .op2e-pericia-nome:hover {
+  color: var(--op2e-tema);
+}
+
+/* Barra de "pips" de PV/PD/Ímpeto -- um quadradinho por ponto, clicável pra
+   ajustar o valor rápido, igual a um marcador de dano na ficha impressa. */
+.op2e .op2e-pips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin: 0.3rem 0;
+  max-width: 100%;
+}
+
+.op2e .op2e-pip {
+  width: 9px;
+  height: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid var(--op2e-tema-escuro);
+  transform: skewX(-15deg);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.op2e .op2e-pip-cheio {
+  background: var(--op2e-tema);
+}
+
+.op2e .op2e-pips-impeto .op2e-pip {
+  width: 20px;
+  height: 18px;
 }
 
 .op2e.chat-teste {

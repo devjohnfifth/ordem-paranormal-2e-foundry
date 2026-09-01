@@ -14,6 +14,7 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
       rolarFerimento: OP2PersonagemSheet.#rolarFerimento,
       rolarTrauma: OP2PersonagemSheet.#rolarTrauma,
       gastarImpeto: OP2PersonagemSheet.#gastarImpeto,
+      definirRecurso: OP2PersonagemSheet.#definirRecurso,
       adicionarAptidao: OP2PersonagemSheet.#adicionarAptidao,
       removerAptidao: OP2PersonagemSheet.#removerAptidao,
       itemCriar: OP2PersonagemSheet.#itemCriar,
@@ -26,6 +27,35 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
   static PARTS = {
     form: { template: "systems/op2e-playtest/templates/actor/personagem-sheet.hbs", scrollable: [".op2e-corpo"] }
   };
+
+  /**
+   * O tema de cor (Executor/Analista/Vigilante) e a forma do selo de cada dado (d4=triângulo,
+   * d6=quadrado, d8=losango...) são lidos via `data-perfil`/`data-dado` no CSS. Fazemos isso
+   * em JS, não só no template, por dois motivos:
+   * 1) O elemento raiz da janela (`this.element`) não é recriado entre renders do
+   *    ApplicationV2 -- só o conteúdo das PARTS é -- então `data-perfil` precisa ser
+   *    reaplicado a cada render pra realmente trocar de cor ao mudar o Perfil.
+   * 2) Um listener de `change` atualiza `data-dado` na hora (antes do roundtrip de
+   *    salvar+re-renderizar terminar), pra trocar a forma do selo assim que o jogador
+   *    escolhe outro dado, sem esperar/piscar.
+   */
+  /** @override */
+  async _onFirstRender(context, options) {
+    await super._onFirstRender(context, options);
+    this.element.addEventListener("change", (event) => {
+      const select = event.target.closest("select.op2e-dado");
+      if (select) select.dataset.dado = select.value;
+    });
+  }
+
+  /** @override */
+  async _onRender(context, options) {
+    await super._onRender(context, options);
+    this.element.dataset.perfil = this.actor.system.perfil;
+    for (const select of this.element.querySelectorAll("select.op2e-dado")) {
+      select.dataset.dado = select.value;
+    }
+  }
 
   /** @override */
   async _prepareContext(options) {
@@ -116,6 +146,19 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
 
   static async #rolarTrauma() {
     await this.actor.rolarTesteTrauma();
+  }
+
+  /**
+   * Clique num "pip" da barra de PV/PD/Ímpeto define o valor atual pra posição clicada
+   * (ex.: clicar no 5º quadradinho de PV deixa PV em 5). Clicar de novo no último pip
+   * já preenchido reduz em 1, pra poder "desmarcar" sem digitar no campo numérico.
+   */
+  static async #definirRecurso(event, target) {
+    const { recurso, valor } = target.dataset;
+    const caminho = `system.${recurso === "impeto" ? "impeto" : `recursos.${recurso}`}.value`;
+    const atual = foundry.utils.getProperty(this.actor, caminho);
+    const alvo = Number(valor);
+    await this.actor.update({ [caminho]: atual === alvo ? alvo - 1 : alvo });
   }
 
   static async #gastarImpeto() {
