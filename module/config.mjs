@@ -8,11 +8,14 @@ OP2E.escalaDados = [4, 6, 8, 10, 12, 20];
 /** Passo máximo alcançável por perícias (sem influência paranormal). */
 OP2E.dadoMaximoPericia = 12;
 
-/** Opções de dado (4-12) para uso em <select> de perícias. */
-OP2E.escalaDadosOptions = { 4: "d4", 6: "d6", 8: "d8", 10: "d10", 12: "d12" };
+/**
+ * Opções de dado (4-12) para uso em <select> de perícias. Só o número: o selo já usa uma
+ * forma diferente por tamanho de dado (ver op2e.css), então o "d" na frente é redundante.
+ */
+OP2E.escalaDadosOptions = { 4: "4", 6: "6", 8: "8", 10: "10", 12: "12" };
 
 /** Opções de dado (4-20) para uso em <select> de atributos. */
-OP2E.escalaAtributoOptions = { 4: "d4", 6: "d6", 8: "d8", 10: "d10", 12: "d12", 20: "d20" };
+OP2E.escalaAtributoOptions = { 4: "4", 6: "6", 8: "8", 10: "10", 12: "12", 20: "20" };
 
 OP2E.atributos = {
   fisico: "OP2E.Atributo.fisico",
