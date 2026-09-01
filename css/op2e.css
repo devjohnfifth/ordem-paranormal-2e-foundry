@@ -285,10 +285,20 @@
   --op2e-creme-fraco: #cbb98f;
 }
 
+/* Trava geral contra overflow horizontal: nada aqui dentro deve conseguir esticar a
+   janela do Journal além do que ela tem de largura (mesmo problema já visto nas fichas). */
+.op2e-jornal, .op2e-jornal * {
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .op2e-jornal.op2e-ponto {
   border: 1px solid #7a2f2f;
   border-radius: 6px;
   overflow: hidden;
+  max-width: 100%;
   margin-bottom: 0.75rem;
 }
 
@@ -324,7 +334,7 @@
   margin: 0.15rem 0 0;
   font-style: italic;
   color: var(--op2e-creme-fraco);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 .op2e-ponto-selo {
@@ -352,7 +362,7 @@
   background: var(--op2e-preto);
   color: var(--op2e-creme);
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   padding: 0.5rem;
   display: flex;
@@ -368,8 +378,14 @@
   padding: 0.5rem 0.75rem;
 }
 
+.op2e-tabela-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 table.op2e-tabela-pericia {
   width: 100%;
+  min-width: 320px;
   border-collapse: collapse;
   margin: 0;
 }
@@ -380,6 +396,7 @@ table.op2e-tabela-pericia th {
   text-align: left;
   padding: 0.35rem 0.6rem;
   border: 1px solid #b8b3a5;
+  white-space: nowrap;
 }
 
 table.op2e-tabela-pericia td {
@@ -391,18 +408,18 @@ table.op2e-tabela-pericia td {
 
 table.op2e-tabela-pericia .op2e-col-pericia {
   font-weight: bold;
-  white-space: nowrap;
+  min-width: 6.5rem;
 }
 
 table.op2e-tabela-pericia .op2e-col-dt {
   text-align: center;
   font-weight: bold;
-  width: 2.5rem;
+  white-space: nowrap;
 }
 
 .op2e-cadeado {
-  font-size: 0.75rem;
-  opacity: 0.75;
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
 
 tr.op2e-cor-teal td { background: #a9dfd8; }
