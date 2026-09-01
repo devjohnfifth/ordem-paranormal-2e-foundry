@@ -1,0 +1,84 @@
+{
+  "_id": "pFGWuXx4LGQ2oh6Q",
+  "_key": "!journal!pFGWuXx4LGQ2oh6Q",
+  "name": "Mecânicas de Acesso",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "h0GIVnKoV1Ir7wJ8",
+      "name": "Abrir Fechaduras (Destrancar / Arrombar)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Para abrir uma fechadura trancada — porta, cofre ou outro objeto — os personagens podem\n<strong>Destrancar</strong> (usando técnica) ou <strong>Arrombar</strong> (usando força bruta).</p>\n\n<h2>Destrancar</h2>\n<p>Você tenta abrir a fechadura com técnica, vencendo o desafio a seguir:</p>\n<ol>\n<li>O mestre rola uma quantidade de dados que varia conforme a complexidade da tranca. O\nresultado dos dados, na ordem em que foram rolados, é a \"senha\" a ser descoberta — e deve\nficar escondida do jogador.</li>\n<li>O jogador pega a mesma quantidade de dados e, em vez de rolar, os posiciona com os\nnúmeros que quiser virados para cima. Esta é a tentativa de descobrir a senha.</li>\n<li>O mestre indica, na sequência, se cada número está <strong>alto</strong>, <strong>baixo</strong>\nou <strong>exato</strong>.</li>\n</ol>\n<p><em>Exemplo:</em> numa fechadura \"d6 3 \" o mestre rola 3-5-2 (mantido em segredo). O jogador\npropõe 4-5-1. O mestre responde \"baixo, exato, alto\".</p>\n<p>Se não acertar de primeira, dá pra continuar tentando: a cada rodada, o número de tentativas é\ndeterminado pelo valor de <strong>Crime</strong> do personagem (d4 = 1 tentativa por rodada; d6 = 2;\nd8 = 3; d10 = 4; d12 = 5). A fechadura tem um número máximo de tentativas, definido pela missão\n— se for excedido, ela é danificada e só pode mais ser aberta arrombando ou com a chave certa.</p>\n<p><em>Dica de imersão:</em> o mestre pode trocar \"baixo/alto/exato\" por sons (\"tic/toc/click\"), e o\njogador precisa interpretar o que cada som significa — uma camada extra de dificuldade.</p>\n\n<h2>Arrombar</h2>\n<p>Você tenta abrir a fechadura na força. Gaste 1 PV (pelo esforço) e faça um teste de\n<strong>Atletismo</strong> contra a DT definida pelo objeto. Se passar, anote uma pontuação igual\nao valor da sua <strong>RA</strong>. É preciso acumular uma <strong>Pontuação Alvo (PA)</strong>\ndefinida pelo objeto — quanto mais resistente, maior a PA necessária.</p>\n<p>Arrombar pode ter consequências: fazer barulho e atrair atenção, ou danificar o conteúdo do\nque foi arrombado.</p>"
+      },
+      "_key": "!journal.pages!pFGWuXx4LGQ2oh6Q.h0GIVnKoV1Ir7wJ8"
+    },
+    {
+      "_id": "sGvlTq8WE8WPVncv",
+      "name": "Hackear Dispositivos (Técnico / Social)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Para invadir um dispositivo tecnológico — celular, computador, painel eletrônico — os\npersonagens podem fazer um <strong>hack técnico</strong> ou um <strong>hack social</strong>.\nSe falharem, podem tentar de novo na rodada seguinte, mas dependendo do dispositivo a falha\npode bloqueá-lo ou disparar um alarme/armadilha.</p>\n\n<h2>Hack Técnico</h2>\n<p>Você invade o dispositivo com base em conhecimentos técnicos. Faça um teste de\n<strong>Tecnologia</strong> e, em seguida, resolva um problema matemático em 10 segundos reais.\nA dificuldade da equação varia conforme o resultado do teste de Tecnologia: quanto maior o\nresultado, mais fácil a equação.</p>\n\n<h2>Hack Social</h2>\n<p>Você invade usando conhecimentos sobre o dono do dispositivo para adivinhar a senha. Faça um\nteste de <strong>Intuição</strong>. Se passar, deverá responder a algumas perguntas sobre a pessoa\nque criou a senha — o número de respostas certas necessárias varia conforme a missão. Para cada\n3 pontos pelos quais o resultado do teste exceder a DT, você ganha uma chance adicional de\nresponder (ou seja, pode errar uma vez sem falhar).</p>\n<p><em>Exemplos de pergunta:</em> nome completo de quem criou a senha; o que essa pessoa mais\npreza; em que ano nasceu; nome da mãe/filho/cachorro/pessoa querida; ou qualquer outra pergunta\nrelevante à história da missão.</p>"
+      },
+      "_key": "!journal.pages!pFGWuXx4LGQ2oh6Q.sGvlTq8WE8WPVncv"
+    },
+    {
+      "_id": "CpWFva6C4JUumzly",
+      "name": "Alcançar",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Às vezes um personagem precisa alcançar algo de difícil acesso — muito alto, do outro lado de\num buraco, atrás de um espaço apertado. Pode tentar de forma <strong>segura</strong> ou\n<strong>arriscada</strong>.</p>\n\n<h2>Do jeito seguro</h2>\n<p>Você tenta alcançar de forma lenta e cuidadosa. Gaste duas ações em sequência (está se\npreparando para um salto, escalando devagar etc.). Para cada ação, faça um teste de\n<strong>Acrobacia</strong> (DT definida pelo ambiente). Se passar nos dois, alcança o que queria\nao final da segunda ação. Se falhar em qualquer um, recebe dano igual à sua <strong>RB</strong> e\nprecisa começar de novo.</p>\n\n<h2>Do jeito arriscado</h2>\n<p>Você tenta alcançar de forma rápida e ousada. Gaste uma ação e faça um teste de\n<strong>Acrobacia</strong> (DT definida pelo ambiente +3). Se passar, alcança o que queria. Se\nfalhar, recebe dano igual à sua <strong>RA</strong>.</p>"
+      },
+      "_key": "!journal.pages!pFGWuXx4LGQ2oh6Q.CpWFva6C4JUumzly"
+    },
+    {
+      "_id": "j6KSagvkZ06C4ule",
+      "name": "Sustentar",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Em alguns cenários é preciso erguer ou empurrar algo pesado, enquanto outro personagem analisa\numa pista embaixo dele ou atravessa uma passagem aberta dessa maneira.</p>\n<p>Para mover o objeto, gaste 1 PV e faça um teste de <strong>Atletismo</strong>. No final de cada\nrodada, se quiser continuar sustentando, faça um novo teste de Atletismo — esse teste sofre uma\n<strong>redução de passo por rodada</strong>, representando o cansaço acumulado.</p>"
+      },
+      "_key": "!journal.pages!pFGWuXx4LGQ2oh6Q.j6KSagvkZ06C4ule"
+    }
+  ]
+}

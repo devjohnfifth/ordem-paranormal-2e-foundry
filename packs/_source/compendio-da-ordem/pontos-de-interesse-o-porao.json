@@ -1,0 +1,354 @@
+{
+  "_id": "Z0foE2vHPAtqZ8VK",
+  "_key": "!journal!Z0foE2vHPAtqZ8VK",
+  "name": "O Porão (Ato I)",
+  "folder": "RSGz9pzwk45yODMa",
+  "sort": 0,
+  "ownership": {
+    "default": -1
+  },
+  "pages": [
+    {
+      "_id": "iERBOLD3g1UAH30f",
+      "name": "Mapa-Cola — Legenda (pág. 34)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Legenda numerada do mapa do porão (Mapa 01), correspondente aos pontos de interesse a\nseguir. Entregue o Mapa 01 aos jogadores sem os números — esta legenda é apenas para o mestre.</p>\n<h3>Porão</h3>\n<ol>\n<li>Sala B (Depósito A)</li>\n<li>Chaves</li>\n<li>Painel elétrico</li>\n<li>Sala A (Depósito B)</li>\n<li>Tigela quebrada</li>\n<li>Altar</li>\n<li>Sigilo no teto</li>\n<li>Armário de Ferro</li>\n<li>Celular</li>\n<li>Duto de ar</li>\n<li>Estante (puzzle)</li>\n<li>Pôster 1</li>\n<li>Pôster 2</li>\n<li>Pôster 3</li>\n<li>Pôster 4</li>\n<li>Porta de ferro</li>\n<li>Ídolo de Pedra</li>\n</ol>\n<h3>Sala Secreta</h3>\n<ol start=\"18\">\n<li>Mesa de poker</li>\n<li>Mesa de sinuca</li>\n<li>Churrasqueira</li>\n<li>Roupas</li>\n<li>Computador</li>\n<li>Freezer</li>\n<li>Corpo no freezer</li>\n</ol>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.iERBOLD3g1UAH30f"
+    },
+    {
+      "_id": "Coo2VhsuYGfvbFm3",
+      "name": "01 — Depósito A",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>01 — Depósito A</h2><p>Um pequeno depósito com paredes de grade divisória e uma porta trancada. Há estantes vazias, um aparelho elíptico quebrado num canto e um painel elétrico na parede.</p><p><strong>Desafio de Acesso:</strong> ARROMBAR (DT 10, PA 10) — DESTRANCAR (d6, senha de 3 dígitos, 3 tentativas) — ou usar o Molho de Chaves 1.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Percepção</td><td>6</td><td>Há um molho de chaves caído no chão, com três chaves (duas grandes, uma pequena).</td></tr><tr><td>Pesquisar</td><td>6</td><td>As chaves foram jogadas longe das grades — parecem ter sido arremessadas ali de propósito.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Eloísa e Alan usaram os depósitos do porão como celas improvisadas. Com 3 ou 4 jogadores, foi Victor quem jogou as chaves para a cela vazia, para não arriscar que Alan as pegasse e escapasse. Com 5 jogadores, foi para Kênia, na expectativa de que ela acordasse e os libertasse.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.Coo2VhsuYGfvbFm3"
+    },
+    {
+      "_id": "04gK5r5uRbVkRGpl",
+      "name": "02 — Depósito A — Molho de Chaves",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 110,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>02 — Depósito A — Molho de Chaves</h2><p>Um molho com três chaves, duas grandes e uma pequena.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Percepção</td><td>6</td><td>Há um pouco de sangue nas chaves.</td></tr><tr><td>Pesquisar</td><td>6</td><td>Duas chaves são iguais — provavelmente cada uma abre um depósito diferente.</td></tr><tr><td>Pesquisar</td><td>8</td><td>A terceira chave é menor e, pela forma, abre um cadeado.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Este é o <strong>Molho de Chaves 1</strong>: abre a porta do Depósito A, a porta do Depósito B e o cadeado das correntes de Edgar.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.04gK5r5uRbVkRGpl"
+    },
+    {
+      "_id": "EWMXQsQxU6sLtPxS",
+      "name": "03 — Depósito A — Painel Elétrico",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 120,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>03 — Depósito A — Painel Elétrico</h2><p>Um painel de luz antigo, confuso e mal instalado. Só é possível investigá-lo se conseguir entendê-lo.</p><p><strong>Desafio de Acesso:</strong> HACK TÉCNICO (painel confuso) — equação conforme a rolagem: 10+ → 16 × 5; 7–9 → 192 ÷ 8; 5–6 → 13²; 1–4 → 2209 (raiz quadrada).</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Pesquisar</td><td>6</td><td>Há dois disjuntores etiquetados: \"Porão\" (ligado) e \"Segredo\" (desligado).</td></tr><tr><td>Intuição</td><td>8</td><td>Quem etiqueta um disjuntor como \"Segredo\" não está muito preocupado em escondê-lo de verdade.</td></tr><tr><td>Máquinas</td><td>8</td><td>O disjuntor \"Segredo\" não afeta nenhuma luz desta sala.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Os interruptores \"Porão\" e \"Segredo\" ligam/desligam as luzes e dispositivos do porão e da sala secreta. Se \"Porão\" estiver desligado, a estante de livros e a porta de saída não funcionam (o teclado numérico da porta pisca \"DD/MM/AA\" ao ligar o disjuntor). Se \"Segredo\" estiver desligado, o computador da sala secreta não liga. Se alguém desligar \"Porão\" e ligar \"Segredo\", todos percebem luz vazando por trás da estante de livros.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.EWMXQsQxU6sLtPxS"
+    },
+    {
+      "_id": "Z0fNkNwdikuqYtXn",
+      "name": "04 — Depósito B",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>04 — Depósito B</h2><p>Um pequeno depósito com paredes de grade divisória e porta trancada. Há caixas, um teclado velho quebrado, um ursinho de pelúcia e fragmentos de um vaso ou tigela antiga e pesada, espalhados por todo lado.</p><p><strong>Desafio de Acesso:</strong> ARROMBAR (DT 7, PA 10) — DESTRANCAR (d6, senha de 3 dígitos, 3 tentativas) — ou Molho de Chaves 1.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Humanas)</td><td>6</td><td>A tigela era muito antiga — pelo material, marcas e condições, talvez tenha séculos.</td></tr><tr><td>—</td><td>6</td><td>As caixas não têm nada de útil; o teclado está quebrado; o ursinho tem um bordado com a letra \"L\".</td></tr><tr><td>Percepção</td><td>8</td><td>Os fragmentos mostram que a tigela já estava manchada antes de quebrar, como se guardasse um líquido escurecido — e alguns estão manchados de sangue fresco.</td></tr><tr><td>Percepção</td><td>10</td><td>Provavelmente foi essa tigela que causou o ferimento na cabeça de Alan.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Eloísa e Alan usaram os depósitos como celas. Alan arrastou Victor até aqui, mas Victor fingia estar desacordado e o nocauteou com a tigela ritualística; depois pegou as chaves e trancou a cela para conjurar seu ritual sem que Eloísa interrompesse. O resto do conteúdo é só tralha antiga de Gustavo (ursinho da filha Laura, teclado musical, enfeites natalinos).</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.Z0fNkNwdikuqYtXn"
+    },
+    {
+      "_id": "ZrFHE4ZgZfBloMM4",
+      "name": "05 — Depósito B — Rabiscos no Chão",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 210,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>05 — Depósito B — Rabiscos no Chão</h2><p>Algo foi desenhado ou escrito no chão, mas está completamente borrado e irreconhecível, como se algo tivesse sido arrastado por cima.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Percepção</td><td>6</td><td>O borrão vai em direção ao local onde Victor acordou — provavelmente foi o próprio corpo dele que o arrastou.</td></tr><tr><td>Pesquisar</td><td>6</td><td>O que sobrou do desenho parece algum tipo de diagrama ou símbolo.</td></tr><tr><td>Pesquisar</td><td>10</td><td>Não é o mesmo símbolo das tatuagens ou do teto.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>O símbolo foi desenhado por Victor, tentando apagar da memória de Alan tudo que ele havia descoberto sobre o ritual no início do ano. Quando ambos desmaiaram com o efeito, Victor caiu em cima do desenho e o borrou por completo. Foi o primeiro ritual que ele conjurou, e não saiu como esperado.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.ZrFHE4ZgZfBloMM4"
+    },
+    {
+      "_id": "9lRmHjjgfISguY91",
+      "name": "06 — \"Altar\" de Madeira",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>06 — \"Altar\" de Madeira</h2><p>Parece um altar de sacrifício, mas é na verdade uma cômoda de madeira com gavetas. Há sangue fresco por todo lado, correntes enroladas e presas aos pés, e uma trilha de sangue que se arrasta até um dos cantos da sala.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Intuição</td><td>6</td><td>Os símbolos entalhados na madeira lembram o símbolo do teto e da tatuagem.</td></tr><tr><td>Percepção</td><td>6</td><td>Símbolos estranhos foram entalhados no tampo usando algum tipo de lâmina.</td></tr><tr><td>Percepção</td><td>8</td><td>Marcas no chão indicam que a cômoda foi puxada recentemente para ficar embaixo do símbolo do teto.</td></tr><tr><td>Pesquisar</td><td>6</td><td>Nas gavetas há toalhas manchadas de sangue ressecado, ervas moídas e um moedor de pedra antigo.</td></tr><tr><td>Pesquisar</td><td>8</td><td>O corpo do homem morto está com a garganta cortada; há uma faca de churrasco ensanguentada caída ao seu lado.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>A cômoda era de Gustavo, convertida em altar. Os símbolos foram entalhados por Alan com uma faca de churrasco (a mesma que, meses depois, usou para matar Gustavo quando ele se recusou a participar do ritual, entregando sua vida como sacrifício ao Ídolo). Com 3 jogadores, foi Eloísa quem matou Edgar com a faca, antes de Alan terminar de arrastar Victor, pois ele parecia prestes a acordar — veja o item <strong>Faca de Churrasco</strong>.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.9lRmHjjgfISguY91"
+    },
+    {
+      "_id": "6XxRm0VcBkyFwJih",
+      "name": "07 — Símbolo no Teto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 310,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>07 — Símbolo no Teto</h2><p>No teto, acima do altar, há um símbolo enorme desenhado com um líquido ou tinta avermelhada. A iluminação baixa dificulta vê-lo em detalhes.</p><p><strong>Desafio de Acesso:</strong> Para observar de perto é preciso subir no altar molhado e escorregadio — ALCANÇAR (DT 7).</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>—</td><td>6</td><td>O símbolo é idêntico ao tatuado no pulso de todos. (Mostre o Handout 02 — Símbolo no Teto.)</td></tr><tr><td>Percepção</td><td>8</td><td>Parece ter sido desenhado duas vezes: primeiro com um líquido marrom já seco, depois com um líquido vermelho — possivelmente sangue fresco. Uma gota cai no altar enquanto observam.</td></tr><tr><td>Percepção</td><td>10</td><td>O traço mais recente parece tremido e apressado.</td></tr><tr><td>Aptidão (Humanas)</td><td>6</td><td>Lembra línguas mesopotâmicas ancestrais, mas não pertence a nenhum alfabeto conhecido.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>O símbolo foi desenhado por Alan seguindo evidências de sua expedição arqueológica ao Iraque. Foi traçado duas vezes: a primeira meses atrás (quando todos fizeram o ritual juntos) e a segunda há poucas horas, quando Alan passou o sangue de Gustavo sobre o desenho anterior para repetir o ritual usando o corpo dele.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.6XxRm0VcBkyFwJih"
+    },
+    {
+      "_id": "SLe57STXwkBuAmn8",
+      "name": "08 — Armário de Metal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>08 — Armário de Metal</h2><p>Um armário de ferramentas enferrujado, no canto do porão, trancado com um cadeado manchado de sangue.</p><p><strong>Desafio de Acesso:</strong> ARROMBAR (DT 7, PA 10) — se escolherem arrombar, o Ídolo de Pedra dentro se quebra, e os papéis do ritual se embaralham (a DT de Pesquisar sobre eles sobe de 6 para 10). DESTRANCAR (d6, senha de 5 dígitos, 3 tentativas) — ou Molho de Chaves 2.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Intuição / Pesquisar</td><td>6</td><td>Olhar para o armário causa uma sensação horripilante — o que estiver trancado ali parece perigoso.</td></tr><tr><td>Aptidão (Humanas) / Percepção (só Alan, se for arrombar)</td><td>6</td><td>Uma hesitação: tem certeza de que quer arrombar à força?</td></tr><tr><td>—</td><td>6</td><td>Dentro há uma jaqueta de couro manchada de sangue; num bolso, uma carteira com documento de identidade. (Mostre o Handout 03 — RG de Gustavo.)</td></tr><tr><td>—</td><td>8</td><td>A jaqueta tem três furos na parte de trás.</td></tr><tr><td>—</td><td>6 ou 10</td><td>Papéis de anotações arqueológicas de uma expedição no Iraque. (Mostre o Handout 04 — Anotações Arqueológicas.)</td></tr><tr><td>—</td><td>6</td><td>As anotações descrevem uma civilização da Antiga Mesopotâmia e parecem traduzir um ritual envolvendo um grupo de pessoas e uma estatueta.</td></tr><tr><td>—</td><td>8</td><td>Analisando mais a fundo, o ritual parece ligado à longevidade e ao renascimento dos líderes de um povoado.</td></tr><tr><td>—</td><td>8</td><td>A letra dos documentos é do próprio investigador que os lê — mas ele não se lembra de tê-los escrito.</td></tr></tbody></table><p><strong>Handouts:</strong></p><ul><li>Handout 03 — RG de Gustavo</li><li>Handout 04 — Anotações Arqueológicas</li></ul><h3>Notas do Mestre</h3><p>Originalmente um armário de ferramentas de Gustavo. Alan guardou ali o Ídolo (enrolado na jaqueta de couro de Gustavo, para não danificá-lo), suas anotações arqueológicas e a faca usada para matar Gustavo — a mesma que esculpiu os sigilos no altar. Ao abrir o armário, ative <strong>A Maldição do Ídolo de Pedra</strong> (página seguinte) e, se quiserem investigar a estatueta, veja o ponto 17 — Ídolo de Pedra. Com 4 ou 5 jogadores, há também uma faca de churrasco suja de sangue ao lado da estatueta.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.SLe57STXwkBuAmn8"
+    },
+    {
+      "_id": "iTQHuYDmOjJTlgSw",
+      "name": "09 — Celular de Gustavo [Evidência-Chave]",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 410,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>09 — Celular de Gustavo [Evidência-Chave]</h2><p>Jogado sobre uma mesa, um celular bloqueado. A tela mostra \"Olá, Gustavo.\" A data exibida é 13 de outubro de 2022.</p><p><strong>Desafio de Acesso:</strong> HACK SOCIAL (senha do celular) — 4 respostas corretas necessárias. Dados-base para as perguntas: Gustavo Alves de Campos, nascido em 07/06/1978; casou em 10/08/1997; filha Laura nasceu em 02/09/2015; esposa Olívia, filha Laura.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Intuição</td><td>6</td><td>O sentimento não é que haja um erro na data do celular... e sim em quem o investiga.</td></tr><tr><td>Pesquisar</td><td>6</td><td>Todos os personagens estão nos contatos de Gustavo.</td></tr><tr><td>Tecnologia</td><td>4</td><td>Há um lembrete de senha: \"Prata = 25\".</td></tr><tr><td>Tecnologia</td><td>6</td><td>Um chat de grupo chamado \"Lidando com Despedidas\" (aparenta ser um grupo de apoio para doenças terminais) mostra que todos os personagens passaram por ele em algum momento do ano, mas saíram eventualmente. A conversa mais recente é entre Victor e Gustavo. (Mostre os Handouts 05A, 05B e 05C.)</td></tr><tr><td>—</td><td>8</td><td>Os e-mails exigem confirmação pelo computador de Gustavo para serem acessados.</td></tr><tr><td>—</td><td>8</td><td>Há um app \"TRANCATRON\" que abre uma porta com tranca de segurança, mas exige senha de 6 dígitos.</td></tr></tbody></table><p><strong>Handouts:</strong></p><ul><li>Handouts 05A, 05B e 05C — conversa entre Victor e Gustavo</li></ul><h3>Notas do Mestre</h3><p>É o celular de Gustavo, deixado na mesa antes de ser pego desprevenido e morto por Alan. É uma evidência-chave: através dele os jogadores podem eventualmente descobrir que a senha da porta de saída é o dia em que realizaram o ritual — mas essa data específica só está no computador, não no celular. Se usarem a lanterna do celular para navegar no escuro, apenas um ponto de interesse pode ser iluminado por vez.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.iTQHuYDmOjJTlgSw"
+    },
+    {
+      "_id": "Vl8oESUDLCpxEJC2",
+      "name": "10 — Duto de Ventilação",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 420,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>10 — Duto de Ventilação</h2><p>Um duto de ventilação alto na parede, fechado por uma grade.</p><p><strong>Desafio de Acesso:</strong> ALCANÇAR (DT 7), depois ARROMBAR (DT 7, PA 10) — nessa ordem.</p><h3>Notas do Mestre</h3><p>O duto conecta o porão à sala secreta e é largo o bastante para uma pessoa se espremer e se arrastar — mas o caminho que leva ar aos andares de cima tem só 10 cm de largura, impossível de escalar para fugir. Se um personagem superar o bloqueio e acessar a sala secreta por aqui, revele o Mapa 03 para ele.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.Vl8oESUDLCpxEJC2"
+    },
+    {
+      "_id": "ExULG0HOKjQ2QZEu",
+      "name": "11 — Estante de Livros",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>11 — Estante de Livros</h2><p>Uma estante de livros com cinco prateleiras, próxima à parede.</p><p><strong>Desafio de Acesso:</strong> Resolver o enigma da estante (puxar os livros certos), depois SUSTENTAR (DT 7) — nessa ordem. Apenas uma pessoa passa por rodada; uma pessoa pode sustentar e outra passar ao mesmo tempo. Se falhar na rodada em que alguém está passando, essa pessoa é esmagada e perde 1d4 PV.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Intuição</td><td>6</td><td>A impressão de que isso não é apenas uma estante — há algo a mais escondido ali.</td></tr><tr><td>Máquinas</td><td>6</td><td>Há trilhos na parte de trás, indicando um mecanismo capaz de arrastá-la para o lado — mas um pedaço de tecido preso nas engrenagens está danificando o sistema.</td></tr><tr><td>Máquinas</td><td>8</td><td>O motor se conecta em quatro pontos: 2ª, 3ª, 4ª e 5ª prateleiras. Não há nada na primeira.</td></tr><tr><td>—</td><td>6</td><td>Os livros não são reais — parecem bem cuidados demais para um porão tão antigo, como se nunca tivessem sido lidos.</td></tr><tr><td>Percepção</td><td>8</td><td>Há ranhuras no chão de tanto a estante ser arrastada, e um adesivo colado num canto da madeira: \"Lembre de checar os pôsteres.\"</td></tr></tbody></table><p><strong>Handouts:</strong></p><ul><li>Handout 06 — Estante de Livros</li></ul><h3>Notas do Mestre</h3><p>A estante é uma porta de isolamento acústico que Gustavo instalou para beber com os amigos sem incomodar a esposa — e, de brincadeira, no estilo \"passagem secreta\". Os livros são falsos (caixas disfarçadas) e só os certos, ao serem puxados, destravam a passagem: Prateleira 2 — <em>O Gol Que Ninguém Viu</em> (Edinho Canhoto); Prateleira 3 — <em>Explosivos Industriais Vol. III</em> (J. Gatilho); Prateleira 4 — <em>Pixel a Pixel</em> (Paulo \"Zika\" Ferreira); Prateleira 5 — <em>Aprenda Guitarra Sem Ter Uma Guitarra</em> (Kurt Hemmis). As dicas de qual livro puxar estão nos 4 pôsteres (pontos 12–15). Com os livros certos puxados, a estante desliza sozinha mas emperra numa fresta — um pedaço da roupa de Alan, rasgada quando ele passou por ali, está preso nas engrenagens. É preciso SUSTENTAR a passagem aberta para permitir o acesso à sala secreta.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.ExULG0HOKjQ2QZEu"
+    },
+    {
+      "_id": "vqzryc2erAusbpVL",
+      "name": "12 — Pôster — Lutadores de Rua",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 510,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>12 — Pôster — Lutadores de Rua</h2><p>Pôster de um videogame de luta famoso nos anos 1990, com um lutador na frente e um homem forte e assustador de olhos dourados ao fundo.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Atualidades)</td><td>8</td><td>Ficou popular no Brasil graças a um jogador profissional apelidado \"Zika\", que usava máscara para preservar o anonimato — até lançar uma autobiografia que revelou sua identidade sem muito sucesso de público.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>É um dos quatro pôsteres da juventude de Gustavo, reaproveitados como lembrete da senha da estante para os amigos. Este indica o livro <em>\"Pixel a Pixel: Como Me Tornei Uma Lenda Dos Games\"</em>. Mostre o Handout 07 — Pôster Lutadores de Rua.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.vqzryc2erAusbpVL"
+    },
+    {
+      "_id": "08tvN4kjXuY3OcfP",
+      "name": "13 — Pôster — Unidos do Invisível Futebol Clube",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 520,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>13 — Pôster — Unidos do Invisível Futebol Clube</h2><p>Pôster antigo de um time de futebol pouco conhecido.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Atualidades)</td><td>8</td><td>O time é conhecido por uma polêmica antiga: um gol supostamente aconteceu num jogo à noite, mas a luz havia caído e ninguém sabe o que realmente ocorreu.</td></tr><tr><td>Intuição</td><td>6</td><td>É o tipo de coisa que um colecionador destacaria — estranho estar pendurado num porão.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Indica o livro <em>\"O Gol Que Ninguém Viu\"</em>. Mostre o Handout 08 — Pôster Unidos do Invisível Futebol Clube.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.08tvN4kjXuY3OcfP"
+    },
+    {
+      "_id": "nj1ZjwEDJpdKduUb",
+      "name": "14 — Pôster — \"Eric Tufão 3: A Explosão Explosiva\"",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 530,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>14 — Pôster — \"Eric Tufão 3: A Explosão Explosiva\"</h2><p>Pôster de um filme de ação dos anos 90, estrelado por Arnaldo Fritz.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Atualidades)</td><td>8</td><td>Terceiro filme de uma franquia de sucesso que se expandiu em spin-offs e um reboot; o ator principal morreu em 2009 num acidente de avião.</td></tr><tr><td>Intuição</td><td>6</td><td>Atrás do protagonista há três explosões.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Indica o terceiro volume de <em>\"Explosivos Industriais\"</em> — existem outros volumes na estante, mas o correto é o terceiro, assim como o filme. Mostre o Handout 09 — Pôster Eric Tufão 3.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.nj1ZjwEDJpdKduUb"
+    },
+    {
+      "_id": "XiTLkHuAikkt3lFx",
+      "name": "15 — Pôster — Thunderland 2008",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 540,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>15 — Pôster — Thunderland 2008</h2><p>Pôster de um festival de música de mais de uma década atrás, com programação de bandas nacionais e internacionais.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Atualidades)</td><td>6</td><td>Lembrado como uma das edições mais marcantes do festival, consagrado como um dos maiores de rock do Brasil — a maioria das bandas já não está mais ativa.</td></tr><tr><td>Aptidão (Atualidades)</td><td>8</td><td>A atração principal, \"Dragões Metálicos\", ocupou manchetes recentemente: todos os membros morreram num acidente de avião na Itália. O guitarrista havia lançado livros sobre música, que voltaram às vendas após sua morte.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Indica o livro <em>\"Aprenda Guitarra Sem Ter Uma Guitarra\"</em>. Mostre o Handout 10 — Pôster Thunderland 2008.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.XiTLkHuAikkt3lFx"
+    },
+    {
+      "_id": "gbqZyfxXevt43iw6",
+      "name": "16 — Porta de Saída",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>16 — Porta de Saída</h2><p>Uma porta de metal reforçada, com tranca eletrônica e painel numérico da marca TRANCATRON.</p><p><strong>Desafio de Acesso:</strong> Senha de 6 dígitos: 160322 (16 de março de 2022).</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Pesquisar</td><td>8</td><td>A tranca não tem marcas de sujeira — foi instalada recentemente.</td></tr><tr><td>—</td><td>6</td><td>Esse modelo bloqueia temporariamente após três tentativas erradas (2 rodadas).</td></tr><tr><td>Tecnologia</td><td>10</td><td>Esse tipo de tranca pode ser desbloqueado remotamente por um app de celular, mas o app também exige a senha.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Única saída do local. A senha antiga era o aniversário de Olívia, mas Gustavo a trocou para o dia em que o grupo realizou o ritual pela primeira vez — para que a esposa não descesse de surpresa. O teclado só aceita 6 dígitos. Se for destruído, ainda dá para abrir a porta pelo app no celular de Gustavo, mas a senha continua sendo necessária.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.gbqZyfxXevt43iw6"
+    },
+    {
+      "_id": "8Hx4jIKyKIyEdd2W",
+      "name": "17 — Ídolo de Pedra",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>17 — Ídolo de Pedra</h2><p>Uma estatueta de cerca de 30 cm e 5 kg, esculpida na forma de uma pequena criatura de membros amarrados. Tem duas faces: de um lado, um sorriso largo de dentes pontudos com fraturas que se conectam aos olhos; do outro, um olhar penetrante e desconfortável.</p><table><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr><td>Aptidão (Humanas)</td><td>8</td><td>Pela estrutura e material, parece ter séculos — mas está muito bem conservada, num estilo que lembra achados da Antiga Mesopotâmia.</td></tr><tr><td>Intuição</td><td>6</td><td>Uma sensação de conexão com o Ídolo — há uma dívida que precisa ser paga.</td></tr><tr><td>Percepção</td><td>6</td><td>Na base há um disco com um símbolo esculpido, sujo mas reconhecível: o mesmo símbolo (e tamanho) das tatuagens.</td></tr><tr><td>Percepção</td><td>8</td><td>O símbolo na base está sujo de sangue seco.</td></tr><tr><td>Percepção (só se o Ídolo estiver quebrado)</td><td>6</td><td>O interior é oco e parece preenchido por um material apodrecido e fedorento — como se o Ídolo tivesse entranhas.</td></tr><tr><td>Percepção (só se o Ídolo estiver quebrado)</td><td>8</td><td>Nas paredes internas há pequenas marcações semelhantes a arranhões, como uma contagem.</td></tr></tbody></table><h3>Notas do Mestre</h3><p>Sempre que alguém toca no Ídolo, todos os marcados sentem um calafrio e um espasmo doloroso na cicatriz do pulso. Recomenda-se trocar a trilha sonora para a faixa \"O Ídolo\" quando ele for descoberto. Veja o item <strong>Ídolo de Pedra</strong> e a mecânica <strong>A Maldição do Ídolo de Pedra</strong>, a seguir.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.8Hx4jIKyKIyEdd2W"
+    },
+    {
+      "_id": "6M8yQaQ7gdzNwYij",
+      "name": "A Maldição do Ídolo de Pedra",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 710,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Meses atrás, os personagens realizaram o ritual do Ídolo de Pedra. Foram fortalecidos, mas\nadquiriram uma dívida — uma dívida que agora devem pagar.</p>\n<p>Esta mecânica é ativada quando os personagens abrem o armário de metal (ponto 08) e encontram\na estatueta. Leia (ou adapte) o texto a seguir:</p>\n<blockquote><p><em>Ao observarem o Ídolo de Pedra, ele observa de volta. Vocês sentem um arrepio,\nsua visão embaça e suas pernas ficam fracas. A pressão cai, o coração erra uma batida e fica\ndifícil respirar. Por fim, a marca nos corpos de vocês começa a pulsar, como se atendendo a um\nchamado.</em></p></blockquote>\n<p>Ao terminar a narração, peça a todos um teste de <strong>Disciplina (DT 7)</strong>: quem\npassar perde 2 PD; quem falhar perde 4 PD e fica a próxima rodada sem agir, chorando de pavor.</p>\n<p>A partir daí, comece uma contagem de rodadas. Um traço na tabela abaixo significa que nada\nacontece naquela rodada.</p>\n<table>\n<thead><tr><th>Rodada</th><th>Efeito</th></tr></thead>\n<tbody>\n<tr><td>0–2</td><td>—</td></tr>\n<tr><td>3</td><td>Ativação da maldição: todos fazem o teste de Disciplina acima.</td></tr>\n<tr><td>4–5</td><td>\"O símbolo pulsa em seus corpos e vocês sentem uma angústia insuportável. Sentem que essa angústia pode ser aplacada... basta ferir outra pessoa marcada. A dívida precisa ser paga.\" No final da rodada 6, cada personagem perde 1 PD, a menos que cause dano em outro personagem vivo.</td></tr>\n<tr><td>6</td><td>Aplica-se a perda de 1 PD descrita acima.</td></tr>\n<tr><td>7–8</td><td>\"O símbolo pulsa mais uma vez. A angústia cresce. A dívida precisa ser paga.\" No final da rodada 9, cada personagem perde 2 PD, a menos que cause dano em outro personagem vivo.</td></tr>\n<tr><td>9</td><td>Aplica-se a perda de 2 PD descrita acima.</td></tr>\n<tr><td>10–12</td><td>\"O símbolo pulsa ainda mais forte, como um coração batendo. Além de angústia, vocês sentem seus órgãos internos se revirando. A dívida precisa ser paga.\" No final da rodada 13, cada personagem perde 2 PV e 3 PD, a menos que cause dano em outro personagem vivo.</td></tr>\n<tr><td>13</td><td>Aplica-se a perda de 2 PV e 3 PD descrita acima. \"Os cadáveres no porão começam a convulsionar e se desdobrar violentamente para dentro de si, como se movidos por uma energia gravitacional interna\" (adapte conforme quais cadáveres existirem). Nada acontece de fato nesta rodada — é o aviso final de que esta é a última chance de escapar.</td></tr>\n<tr><td>14 em diante</td><td>Os cadáveres continuam convulsionando; narrativamente, o fim se aproxima (veja Narração Final).</td></tr>\n</tbody>\n</table>\n<h2>A Dívida Foi Paga</h2>\n<p>Assim que restarem apenas dois personagens vivos, a dívida foi paga e os efeitos da maldição\nse encerram. Se houver cadáveres erguidos, eles se arrastam em direção ao Ídolo e são absorvidos\npor ele, desaparecendo em seu interior.</p>\n<h2>Ídolo Quebrado</h2>\n<p>Se um personagem quebrar ou danificar o Ídolo, todos sentem o símbolo pulsar e o estômago\nrevirar — uma sensação imediata de erro grave. Quem quebrou faz um teste de <strong>Vigor (DT\n7)</strong>: sucesso perde 3 PV e 1 PD; falha perde 4 PV, 2 PD e fica a próxima rodada sem agir,\nse retorcendo de dor. Além disso, com o Ídolo quebrado, cada efeito periódico da maldição (nas\nrodadas 4, 7 e 10 na tabela acima) passa a causar +1 PV e +1 PD extras.</p>"
+      },
+      "_key": "!journal.pages!Z0foE2vHPAtqZ8VK.6M8yQaQ7gdzNwYij"
+    }
+  ]
+}

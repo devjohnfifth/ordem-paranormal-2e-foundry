@@ -1,0 +1,12 @@
+{
+  "_id": "ONCqv2uz4r2T8VhV",
+  "_key": "!items!ONCqv2uz4r2T8VhV",
+  "name": "Molho de Chaves 2",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantidade": 1,
+    "descricao": "<p>Duas chaves pequenas com sangue fresco, pelo formato compatíveis com cadeados. Encontradas no bolso de uma jaqueta ensanguentada dentro do armário de roupas — esquecidas por Alan quando trocou de roupa às pressas.</p>",
+    "mecanica": "<p>Este molho abre:</p><ul><li>O cadeado do freezer</li><li>O cadeado do armário de metal</li></ul>"
+  }
+}

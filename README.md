@@ -90,6 +90,19 @@ trazer as mudanças de volta para os arquivos-fonte (e poder commitar o diff).
 - **Compêndio "Materiais de Jogo"**: os 4 mapas oficiais e os 24 handouts de "A Maldição
   do Ídolo de Pedra" (Ato I e II), como páginas de imagem em Journals, visível apenas ao
   mestre.
+- **Pasta "Pontos de Interesse — Ato I"** (dentro do Compêndio da Ordem): os 24 pontos de
+  interesse numerados de "A Maldição do Ídolo de Pedra" — Ato I, com as tabelas de
+  Perícia/DT/Informação, referências aos handouts e as notas de mestre (o que realmente
+  aconteceu). Dividido em dois Journals: **O Porão** (mapa-cola com a legenda numerada,
+  pontos 01–17, e a mecânica de "A Maldição do Ídolo de Pedra") e **A Sala Secreta**
+  (pontos 18–24 e a Narração Final).
+- **Compêndio "Mecânicas de Acesso"**: as regras detalhadas de Destrancar, Arrombar,
+  Hackear (técnico e social), Alcançar (seguro e arriscado) e Sustentar — visível a
+  jogadores, para consulta rápida durante o desafio.
+- **Compêndio "Itens da Aventura"**: os itens narrativos de "A Maldição do Ídolo de
+  Pedra" — Faca de Churrasco (arma improvisada, dano RA+2), Molho de Chaves 1, Molho de
+  Chaves 2 e o Ídolo de Pedra — prontos para arrastar para a ficha de um personagem
+  quando encontrados em jogo.
 
 ## Usando os mapas e a trilha sonora
 
@@ -105,12 +118,9 @@ mesmo motivo — arraste os arquivos `.mp3` para a aba Playlists para usá-los.
 
 ## O que falta (de propósito)
 
-- **A missão "A Maldição do Ídolo de Pedra"** (pontos de interesse sala-a-sala, com DTs,
-  perícias e textos de investigação) não foi transcrita para Journal: é conteúdo
-  narrativo extenso e protegido por direitos autorais da Jambô Editora — reproduzi-lo por
-  completo, mesmo para uso pessoal, ultrapassa o que é razoável. Os mapas e handouts
-  oficiais (que a própria editora distribui como "arquivos para o público") já estão no
-  compêndio; a descrição de cada ponto de interesse fica por sua conta, com o PDF em mãos.
+- **Os pontos de interesse do Ato II** ("A Maldição do Ídolo de Pedra", parte exclusiva
+  dos assinantes dos Arquivos Secretos) ainda não foram transcritos — só o Ato I (conteúdo
+  gratuito) está pronto por enquanto. Fica para uma rodada futura.
 - **Cenas e Playlist prontas**: ver seção acima — é rápido de montar você mesmo pelo
   Foundry.
 - **Rituais, poderes e NEX**: fora do escopo deste playtest.
