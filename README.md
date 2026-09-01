@@ -21,6 +21,13 @@ da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambi
 
 ## Instalação
 
+> O repositório é **privado** (a partir da v0.3.1) porque o compêndio "Compêndio da Ordem
+> (GM)" passou a incluir conteúdo estruturado da própria missão, inclusive do Ato II —
+> exclusivo para assinantes dos Arquivos Secretos. Isso significa que **não dá mais para
+> instalar por link de manifesto** direto no Foundry (a tela de "Instalar Sistema" não
+> consegue baixar de um repositório privado sem autenticação). O jeito de instalar agora é
+> copiar/linkar a pasta localmente, como no passo 2 abaixo.
+
 1. Feche o Foundry, se estiver aberto.
 2. Copie (ou crie um link simbólico para) esta pasta dentro de `Data/systems/` da sua
    instalação do Foundry, com o nome `op2e-playtest`:
