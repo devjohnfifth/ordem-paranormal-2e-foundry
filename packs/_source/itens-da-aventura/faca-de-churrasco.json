@@ -6,7 +6,7 @@
   "img": "systems/op2e-playtest/assets/icones/faca-de-churrasco.svg",
   "system": {
     "quantidade": 1,
-    "descricao": "<p>Uma faca longa e afiada, encontrada suja de sangue perto do altar de madeira no porão — a mesma usada para entalhar os símbolos rituais na cômoda e, mais tarde, como arma no assassinato de Gustavo.</p>",
+    "descricao": "<p>Uma faca de cozinha longa e afiada, com cabo revestido de borracha preta. A lâmina está manchada de sangue seco.</p>",
     "mecanica": "<p><strong>Arma corpo a corpo.</strong> Se acertar um ataque usando esta faca, o dano causado é igual à sua <strong>RA + 2</strong> (por exemplo, se sua rolagem de ataque for 4 e 5, você causa 7 pontos de dano).</p>"
   }
 }

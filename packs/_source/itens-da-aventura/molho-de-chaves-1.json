@@ -6,7 +6,7 @@
   "img": "systems/op2e-playtest/assets/icones/molho-de-chaves.svg",
   "system": {
     "quantidade": 1,
-    "descricao": "<p>Um molho com três chaves — duas grandes e uma pequena — manchadas de sangue. Encontrado jogado dentro do Depósito A (arremessado ali por Victor, para que Alan não pudesse usá-lo para escapar).</p>",
+    "descricao": "<p>Um molho com três chaves — duas grandes, praticamente idênticas entre si, e uma bem menor, do tipo usado em cadeados. Há um pouco de sangue nas chaves.</p>",
     "mecanica": "<p>Este molho abre:</p><ul><li>A porta do Depósito A</li><li>A porta do Depósito B</li><li>O cadeado das correntes de Edgar, no altar</li></ul>"
   }
 }
