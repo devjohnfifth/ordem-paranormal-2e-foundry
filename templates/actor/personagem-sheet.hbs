@@ -1,27 +1,27 @@
-<div class="op2e-ficha">
+﻿<div class="op2e-ficha" data-perfil="{{system.perfil}}">
 <header class="op2e-cabecalho">
   <img class="op2e-retrato" data-action="editImage" data-edit="img" src="{{actor.img}}" alt="{{actor.name}}">
 
   <div class="op2e-titulo">
-    <input type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'OP2E.Nome'}}">
+    <input type="text" class="op2e-nome" name="name" value="{{actor.name}}" placeholder="{{localize 'OP2E.Nome'}}">
 
     <div class="op2e-linha">
-      <label>{{localize "OP2E.Perfil.Label"}}
+      <span class="op2e-fita op2e-fita-perfil">
         <select name="system.perfil">{{selectOptions config.perfis selected=system.perfil localize=true}}</select>
-      </label>
-      <label>{{localize "OP2E.Ocupacao"}}
+      </span>
+      <label class="op2e-campo-simples">{{localize "OP2E.Ocupacao"}}
         <input type="text" name="system.ocupacao" value="{{system.ocupacao}}">
       </label>
     </div>
 
     <div class="op2e-linha">
-      <label>{{localize "OP2E.Papel.Label"}}
+      <label class="op2e-campo-simples">{{localize "OP2E.Papel.Label"}}
         <select name="system.papel">{{selectOptions config.papeis selected=system.papel localize=true}}</select>
       </label>
-      <label>{{localize "OP2E.Nivel"}}
+      <label class="op2e-campo-simples">{{localize "OP2E.Nivel"}}
         <input type="number" name="system.nivel" value="{{system.nivel}}" min="1" max="10" data-dtype="Number">
       </label>
-      <label>NEX
+      <label class="op2e-campo-simples">NEX
         <input type="number" name="system.nex" value="{{system.nex}}" min="0" max="100" step="5" data-dtype="Number">%
       </label>
     </div>
@@ -30,30 +30,48 @@
 
 <section class="op2e-recursos">
   <div class="op2e-recurso op2e-pv">
-    <label>{{localize "OP2E.Recurso.PV"}}</label>
+    <span class="op2e-fita">{{localize "OP2E.Recurso.PV"}}</span>
     <div class="op2e-recurso-valores">
       <input type="number" name="system.recursos.pv.value" value="{{system.recursos.pv.value}}" data-dtype="Number">
       <span>/</span>
       <input type="number" name="system.recursos.pv.max" value="{{system.recursos.pv.max}}" data-dtype="Number">
     </div>
+    <div class="op2e-pips">
+      {{#each (range system.recursos.pv.max) as |i|}}
+        <span class="op2e-pip {{#if (lte (inc i) ../system.recursos.pv.value)}}op2e-pip-cheio{{/if}}"
+              data-action="definirRecurso" data-recurso="pv" data-valor="{{inc i}}"></span>
+      {{/each}}
+    </div>
     <button type="button" data-action="rolarFerimento">{{localize "OP2E.Teste.Ferimento"}}</button>
   </div>
   <div class="op2e-recurso op2e-pd">
-    <label>{{localize "OP2E.Recurso.PD"}}</label>
+    <span class="op2e-fita">{{localize "OP2E.Recurso.PD"}}</span>
     <div class="op2e-recurso-valores">
       <input type="number" name="system.recursos.pd.value" value="{{system.recursos.pd.value}}" data-dtype="Number">
       <span>/</span>
       <input type="number" name="system.recursos.pd.max" value="{{system.recursos.pd.max}}" data-dtype="Number">
     </div>
+    <div class="op2e-pips">
+      {{#each (range system.recursos.pd.max) as |i|}}
+        <span class="op2e-pip {{#if (lte (inc i) ../system.recursos.pd.value)}}op2e-pip-cheio{{/if}}"
+              data-action="definirRecurso" data-recurso="pd" data-valor="{{inc i}}"></span>
+      {{/each}}
+    </div>
     <button type="button" data-action="rolarTrauma">{{localize "OP2E.Teste.Trauma"}}</button>
   </div>
   {{#if system.impeto.max}}
   <div class="op2e-recurso op2e-impeto">
-    <label>{{localize "OP2E.Recurso.Impeto"}}</label>
+    <span class="op2e-fita">{{localize "OP2E.Recurso.Impeto"}}</span>
     <div class="op2e-recurso-valores">
       <input type="number" name="system.impeto.value" value="{{system.impeto.value}}" min="0" data-dtype="Number">
       <span>/</span>
       <input type="number" name="system.impeto.max" value="{{system.impeto.max}}" min="0" data-dtype="Number">
+    </div>
+    <div class="op2e-pips op2e-pips-impeto">
+      {{#each (range system.impeto.max) as |i|}}
+        <span class="op2e-pip {{#if (lte (inc i) ../system.impeto.value)}}op2e-pip-cheio{{/if}}"
+              data-action="definirRecurso" data-recurso="impeto" data-valor="{{inc i}}"></span>
+      {{/each}}
     </div>
     <button type="button" data-action="gastarImpeto">{{localize "OP2E.Dialogo.GastarImpeto.Titulo"}}</button>
   </div>
@@ -63,30 +81,30 @@
 <div class="op2e-corpo">
 
   <section class="op2e-atributos">
-    <h3>{{localize "OP2E.Secao.Atributos"}}</h3>
+    <h3 class="op2e-fita">{{localize "OP2E.Secao.Atributos"}}</h3>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.fisico"}}</span>
-      <select class="op2e-dado" name="system.atributos.fisico.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.fisico.dado}}</select>
+      <select class="op2e-dado op2e-dado-atributo" name="system.atributos.fisico.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.fisico.dado}}</select>
     </div>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.mente"}}</span>
-      <select class="op2e-dado" name="system.atributos.mente.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.mente.dado}}</select>
+      <select class="op2e-dado op2e-dado-atributo" name="system.atributos.mente.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.mente.dado}}</select>
     </div>
     <div class="op2e-atributo">
       <span class="nome">{{localize "OP2E.Atributo.emocao"}}</span>
-      <select class="op2e-dado" name="system.atributos.emocao.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.emocao.dado}}</select>
+      <select class="op2e-dado op2e-dado-atributo" name="system.atributos.emocao.dado" data-dtype="Number">{{selectOptions config.escalaAtributoOptions selected=system.atributos.emocao.dado}}</select>
     </div>
   </section>
 
   <section class="op2e-pericias">
-    <h3>{{localize "OP2E.Secao.Pericias"}}</h3>
+    <h3 class="op2e-fita">{{localize "OP2E.Secao.Pericias"}}</h3>
 
     <div class="op2e-pericias-coluna">
       <h4>{{localize "OP2E.Atributo.fisico"}}</h4>
       {{#each (array "acrobacia" "atletismo" "crime" "furtividade" "luta" "pontaria" "vigor") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
     </div>
@@ -96,7 +114,7 @@
       {{#each (array "maquinas" "medicina" "ocultismo" "percepcao" "pesquisar" "sobrevivencia" "tecnologia") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
 
@@ -106,7 +124,7 @@
       {{#each aptidaoCampos as |c|}}
         <div class="op2e-pericia-linha" data-campo="{{c.chave}}">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="aptidao" data-campo="{{c.chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Aptidao." c.chave)}}</button>
-          <select class="op2e-dado" name="system.pericias.aptidao.campos.{{c.chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=c.dado}}</select>
+          <select class="op2e-dado op2e-dado-pericia" name="system.pericias.aptidao.campos.{{c.chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=c.dado}}</select>
           <a data-action="removerAptidao" title="{{localize 'OP2E.Acao.Remover'}}"><i class="fa-solid fa-xmark"></i></a>
         </div>
       {{else}}
@@ -119,7 +137,7 @@
       {{#each (array "disciplina" "enganacao" "intimidar" "intuicao" "persuasao") as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
-          <select class="op2e-dado" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
+          <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
     </div>
@@ -127,7 +145,7 @@
 
   <section class="op2e-lista">
     <header>
-      <h3>{{localize "OP2E.Secao.Habilidades"}}</h3>
+      <h3 class="op2e-fita">{{localize "OP2E.Secao.Habilidades"}}</h3>
       <a data-action="itemCriar" data-tipo="habilidade" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
     </header>
     <ol>
@@ -148,7 +166,7 @@
 
   <section class="op2e-lista">
     <header>
-      <h3>{{localize "OP2E.Secao.Ferramentas"}}</h3>
+      <h3 class="op2e-fita">{{localize "OP2E.Secao.Ferramentas"}}</h3>
       <a data-action="itemCriar" data-tipo="ferramenta" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
     </header>
     <ol>
@@ -169,7 +187,7 @@
 
   <section class="op2e-lista">
     <header>
-      <h3>{{localize "OP2E.Secao.Itens"}}</h3>
+      <h3 class="op2e-fita">{{localize "OP2E.Secao.Itens"}}</h3>
       <a data-action="itemCriar" data-tipo="item" title="{{localize 'OP2E.Acao.Criar'}}"><i class="fa-solid fa-plus"></i></a>
     </header>
     <ol>
@@ -188,7 +206,7 @@
   </section>
 
   <section class="op2e-biografia">
-    <h3>{{localize "OP2E.Secao.Biografia"}}</h3>
+    <h3 class="op2e-fita">{{localize "OP2E.Secao.Biografia"}}</h3>
     {{editor system.biografia target="system.biografia" button=true editable=true engine="prosemirror"}}
   </section>
 
