@@ -21,12 +21,23 @@ da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambi
 
 ## Instalação
 
-> O repositório é **privado** (a partir da v0.3.1) porque o compêndio "Compêndio da Ordem
-> (GM)" passou a incluir conteúdo estruturado da própria missão, inclusive do Ato II —
-> exclusivo para assinantes dos Arquivos Secretos. Isso significa que **não dá mais para
-> instalar por link de manifesto** direto no Foundry (a tela de "Instalar Sistema" não
-> consegue baixar de um repositório privado sem autenticação). O jeito de instalar agora é
-> copiar/linkar a pasta localmente, como no passo 2 abaixo.
+> O repositório voltou a ser **público** — sem fins comerciais, só pra facilitar a
+> instalação por link de manifesto. Veja o aviso de direitos autorais no fim deste
+> arquivo: o conteúdo do Ato II (exclusivo dos assinantes dos Arquivos Secretos) ainda
+> não foi incluído por causa disso.
+
+**Opção A — pela tela de instalação do Foundry (mais fácil):**
+
+1. Na tela de Setup do Foundry, vá em **Sistemas de Jogo** → **Instalar Sistema**.
+2. Cole a URL de manifesto:
+
+   ```
+   https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/master/system.json
+   ```
+
+3. Crie um mundo novo escolhendo o sistema **Ordem Paranormal RPG 2 (Playtest)**.
+
+**Opção B — copiando a pasta manualmente:**
 
 1. Feche o Foundry, se estiver aberto.
 2. Copie (ou crie um link simbólico para) esta pasta dentro de `Data/systems/` da sua
