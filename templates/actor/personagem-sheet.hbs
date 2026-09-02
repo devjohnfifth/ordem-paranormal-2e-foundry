@@ -42,7 +42,10 @@
               data-action="definirRecurso" data-recurso="pv" data-valor="{{inc i}}"></span>
       {{/each}}
     </div>
-    <button type="button" data-action="rolarFerimento">{{localize "OP2E.Teste.Ferimento"}}</button>
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="rolarFerimento">{{localize "OP2E.Teste.Ferimento"}}</button>
+      <a class="op2e-resetar-teste" data-action="resetarFerimento" title="{{localize 'OP2E.Teste.ResetarFerimentoDica'}}"><i class="fa-solid fa-rotate-left"></i></a>
+    </div>
   </div>
   <div class="op2e-recurso op2e-pd">
     <span class="op2e-fita">{{localize "OP2E.Recurso.PD"}}</span>
@@ -57,7 +60,10 @@
               data-action="definirRecurso" data-recurso="pd" data-valor="{{inc i}}"></span>
       {{/each}}
     </div>
-    <button type="button" data-action="rolarTrauma">{{localize "OP2E.Teste.Trauma"}}</button>
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="rolarTrauma">{{localize "OP2E.Teste.Trauma"}}</button>
+      <a class="op2e-resetar-teste" data-action="resetarTrauma" title="{{localize 'OP2E.Teste.ResetarTraumaDica'}}"><i class="fa-solid fa-rotate-left"></i></a>
+    </div>
   </div>
   {{#if system.impeto.max}}
   <div class="op2e-recurso op2e-impeto">

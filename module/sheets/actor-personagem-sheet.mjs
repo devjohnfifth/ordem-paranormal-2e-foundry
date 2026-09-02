@@ -13,6 +13,8 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
       rolarPericia: OP2PersonagemSheet.#rolarPericia,
       rolarFerimento: OP2PersonagemSheet.#rolarFerimento,
       rolarTrauma: OP2PersonagemSheet.#rolarTrauma,
+      resetarFerimento: OP2PersonagemSheet.#resetarFerimento,
+      resetarTrauma: OP2PersonagemSheet.#resetarTrauma,
       gastarImpeto: OP2PersonagemSheet.#gastarImpeto,
       definirRecurso: OP2PersonagemSheet.#definirRecurso,
       adicionarAptidao: OP2PersonagemSheet.#adicionarAptidao,
@@ -146,6 +148,14 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
 
   static async #rolarTrauma() {
     await this.actor.rolarTesteTrauma();
+  }
+
+  static async #resetarFerimento() {
+    await this.actor.update({ "system.testesFerimento": 0 });
+  }
+
+  static async #resetarTrauma() {
+    await this.actor.update({ "system.testesTrauma": 0 });
   }
 
   /**
