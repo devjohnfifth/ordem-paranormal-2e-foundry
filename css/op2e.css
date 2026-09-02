@@ -196,6 +196,22 @@
   object-fit: cover;
 }
 
+/* Selo da habilidade de Perfil (Ímpeto/Avaliação/Prontidão) -- círculo com a cor do tema
+   do personagem e a inicial do Perfil, em vez do ícone genérico de habilidade. */
+.op2e .op2e-selo-perfil {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--op2e-tema, #7a2f2f);
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
 .op2e .op2e-item-linha .nome {
   flex: 1;
   cursor: pointer;
