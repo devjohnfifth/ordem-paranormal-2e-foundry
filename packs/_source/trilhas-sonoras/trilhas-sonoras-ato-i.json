@@ -1,0 +1,49 @@
+{
+  "_id": "Xf4cLZxYda94v54W",
+  "_key": "!playlists!Xf4cLZxYda94v54W",
+  "name": "Trilhas Sonoras — Ato I",
+  "description": "Músicas oficiais do Playtest Alpha para o Ato I: \"A Maldição do Ídolo de Pedra\".",
+  "mode": 0,
+  "playing": false,
+  "fade": null,
+  "folder": null,
+  "sorting": "a",
+  "seed": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sounds": [
+    {
+      "_id": "jD9QYF3j2EamrczY",
+      "_key": "!playlists.sounds!Xf4cLZxYda94v54W.jD9QYF3j2EamrczY",
+      "name": "O Porão",
+      "description": "",
+      "path": "systems/op2e-playtest/assets/audio/ato1-musica-01-o-porao.mp3",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.5,
+      "fade": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "1iwDYBWVADNMACHG",
+      "_key": "!playlists.sounds!Xf4cLZxYda94v54W.1iwDYBWVADNMACHG",
+      "name": "O Ídolo",
+      "description": "",
+      "path": "systems/op2e-playtest/assets/audio/ato1-musica-02-o-idolo.mp3",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.5,
+      "fade": null,
+      "sort": 1,
+      "flags": {}
+    }
+  ]
+}
