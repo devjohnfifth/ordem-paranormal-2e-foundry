@@ -18,6 +18,10 @@ export function registrarHandlebarsHelpers() {
   // "pips" (um quadradinho por ponto), com {{#each (range max) as |i|}}.
   Handlebars.registerHelper("range", (n) => Array.from({ length: Math.max(0, Number(n) || 0) }, (_, i) => i));
   Handlebars.registerHelper("inc", (n) => Number(n) + 1);
+
+  // Primeira letra maiúscula de uma string -- usada no selo da habilidade de Perfil
+  // (Executor="E", Analista="A", Vigilante="V").
+  Handlebars.registerHelper("primeiraLetra", (s) => (typeof s === "string" && s ? s.charAt(0).toUpperCase() : ""));
 }
 
 export async function preCarregarTemplates() {

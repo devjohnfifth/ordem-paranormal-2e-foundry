@@ -151,7 +151,11 @@
     <ol>
       {{#each habilidades as |item|}}
       <li class="op2e-item-linha" data-item-id="{{item.id}}">
-        <img src="{{item.img}}">
+        {{#if (eq item.system.origem "perfil")}}
+          <span class="op2e-selo-perfil" title="{{localize (concat 'OP2E.Perfil.' ../system.perfil)}}">{{primeiraLetra ../system.perfil}}</span>
+        {{else}}
+          <img src="{{item.img}}">
+        {{/if}}
         <span class="nome" data-action="itemEditar">{{item.name}}</span>
         <span class="origem">{{localize (concat "OP2E.Origem." item.system.origem)}}</span>
         <a data-action="itemUsar" title="{{localize 'OP2E.Acao.Usar'}}"><i class="fa-solid fa-comment"></i></a>
