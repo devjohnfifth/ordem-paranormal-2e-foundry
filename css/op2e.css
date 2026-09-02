@@ -99,6 +99,30 @@
   text-align: center;
 }
 
+.op2e .op2e-linha-teste {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.op2e .op2e-resetar-teste {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6em;
+  height: 1.6em;
+  flex: 0 0 auto;
+  border-radius: 3px;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.op2e .op2e-resetar-teste:hover {
+  opacity: 1;
+  color: var(--op2e-tema, #7a2f2f);
+}
+
 .op2e .op2e-corpo {
   padding: 0.5rem;
   overflow-y: auto;

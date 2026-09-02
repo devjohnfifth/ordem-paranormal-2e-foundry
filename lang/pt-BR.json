@@ -88,7 +88,9 @@
 
     "Teste": {
       "Ferimento": "Teste de Ferimento (Vigor)",
-      "Trauma": "Teste de Trauma (Disciplina)"
+      "Trauma": "Teste de Trauma (Disciplina)",
+      "ResetarFerimentoDica": "Resetar Teste de Ferimento para a DT inicial (7)",
+      "ResetarTraumaDica": "Resetar Teste de Trauma para a DT inicial (7)"
     },
 
     "Secao": {
