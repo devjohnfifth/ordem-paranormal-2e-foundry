@@ -1,0 +1,16 @@
+{
+  "_id": "dEbxXh8RBo2Ydlg0",
+  "_key": "!macros!dEbxXh8RBo2Ydlg0",
+  "name": "Alternar Luzes da Cena",
+  "type": "script",
+  "author": null,
+  "img": "systems/op2e-playtest/assets/icones/luz.svg",
+  "scope": "global",
+  "command": "const cena = canvas.scene;\nif (!cena) {\n  ui.notifications.warn(\"Nenhuma cena ativa.\");\n  return;\n}\nif (!game.user.isGM) {\n  ui.notifications.warn(\"Apenas o mestre pode alternar as luzes da cena.\");\n  return;\n}\n\nconst luzes = cena.lights;\nif (!luzes.size) {\n  ui.notifications.info(\"Esta cena não tem nenhuma luz.\");\n  return;\n}\n\nconst algumaAcesa = luzes.some((luz) => !luz.hidden);\nawait cena.updateEmbeddedDocuments(\"AmbientLight\", luzes.map((luz) => ({ _id: luz.id, hidden: algumaAcesa })));\nui.notifications.info(algumaAcesa ? \"Todas as luzes da cena foram apagadas.\" : \"Todas as luzes da cena foram acesas.\");\n",
+  "folder": "pVmaGMYVAX2JRq5X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
