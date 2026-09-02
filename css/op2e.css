@@ -716,3 +716,37 @@ tr.op2e-cor-neutro td { background: #e2ded4; }
 .op2e-nota-gm p {
   margin: 0;
 }
+
+/* Mapa-cola com números clicáveis: cada número da imagem oficial vira um hotspot
+   invisível posicionado por porcentagem (acompanha o tamanho real da imagem
+   renderizada), que ao passar o mouse mostra um círculo destacando a área clicável. */
+.op2e-mapa-cola-container {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.op2e-mapa-cola-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a.op2e-mapa-cola-ponto {
+  position: absolute !important;
+  width: 26px !important;
+  height: 26px !important;
+  margin: -13px 0 0 -13px !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+a.op2e-mapa-cola-ponto:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7) !important;
+}
