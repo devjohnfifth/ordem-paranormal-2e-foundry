@@ -516,8 +516,8 @@
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  background: var(--op2e-preto);
-  color: var(--op2e-creme);
+  background: var(--op2e-preto) !important;
+  color: var(--op2e-creme) !important;
   padding: 0.6rem 0.75rem;
 }
 
@@ -533,7 +533,7 @@
 
 .op2e-ponto-titulos h4 {
   margin: 0;
-  color: var(--op2e-creme);
+  color: var(--op2e-creme) !important;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-size: 1.05rem;
@@ -543,7 +543,7 @@
 .op2e-ponto-descricao {
   margin: 0.15rem 0 0;
   font-style: italic;
-  color: var(--op2e-creme-fraco);
+  color: var(--op2e-creme-fraco) !important;
   font-size: 0.95rem;
 }
 
@@ -551,8 +551,8 @@
   flex: 0 0 auto;
   min-width: 2.2rem;
   text-align: center;
-  background: #6b5f4f;
-  color: var(--op2e-creme);
+  background: #6b5f4f !important;
+  color: var(--op2e-creme) !important;
   font-weight: bold;
   font-size: 1.2rem;
   border-radius: 4px;
@@ -569,8 +569,8 @@
 .op2e-desafio-rotulo {
   flex: 0 0 auto;
   min-width: 9rem;
-  background: var(--op2e-preto);
-  color: var(--op2e-creme);
+  background: var(--op2e-preto) !important;
+  color: var(--op2e-creme) !important;
   font-weight: bold;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -592,8 +592,8 @@
 .op2e-desafio-corpo {
   flex: 1;
   min-width: 60%;
-  background: #eab3ac;
-  color: #3a1712;
+  background: #eab3ac !important;
+  color: #3a1712 !important;
 }
 
 .op2e-desafio-linha {
@@ -616,8 +616,8 @@
 .op2e-desafio-resposta {
   margin-top: 0.25rem;
   font-weight: normal;
-  background: #b7e0a4;
-  color: #1c2e14;
+  background: #b7e0a4 !important;
+  color: #1c2e14 !important;
   padding: 0.3rem 0.5rem;
   border-radius: 3px;
   display: inline-block;
@@ -650,8 +650,8 @@ table.op2e-tabela-pericia {
 }
 
 table.op2e-tabela-pericia th {
-  background: #e4e1d8;
-  color: #191813;
+  background: #e4e1d8 !important;
+  color: #191813 !important;
   text-align: left;
   padding: 0.35rem 0.6rem;
   border: 1px solid #b8b3a5;
@@ -662,7 +662,7 @@ table.op2e-tabela-pericia td {
   padding: 0.4rem 0.6rem;
   border: 1px solid #b8b3a5;
   vertical-align: top;
-  color: #191813;
+  color: #191813 !important;
 }
 
 table.op2e-tabela-pericia .op2e-col-pericia {
@@ -681,12 +681,12 @@ table.op2e-tabela-pericia .op2e-col-dt {
   opacity: 0.8;
 }
 
-tr.op2e-cor-teal td { background: #a9dfd8; }
-tr.op2e-cor-lavanda td { background: #c9c2ea; }
-tr.op2e-cor-verde td { background: #b7e0a4; }
-tr.op2e-cor-areia td { background: #e6d6a3; }
-tr.op2e-cor-salmão td { background: #eab3ac; }
-tr.op2e-cor-neutro td { background: #e2ded4; }
+tr.op2e-cor-teal td { background: #a9dfd8 !important; }
+tr.op2e-cor-lavanda td { background: #c9c2ea !important; }
+tr.op2e-cor-verde td { background: #b7e0a4 !important; }
+tr.op2e-cor-areia td { background: #e6d6a3 !important; }
+tr.op2e-cor-salmão td { background: #eab3ac !important; }
+tr.op2e-cor-neutro td { background: #e2ded4 !important; }
 
 .op2e-handouts-rotulo {
   margin: 0.6rem 0.75rem 0;
@@ -700,8 +700,8 @@ tr.op2e-cor-neutro td { background: #e2ded4; }
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  background: #efece4;
-  color: #191813;
+  background: #efece4 !important;
+  color: #191813 !important;
   padding: 0.6rem 0.75rem;
   margin: 0.6rem 0.75rem 0.75rem;
   border-radius: 4px;
@@ -709,7 +709,7 @@ tr.op2e-cor-neutro td { background: #e2ded4; }
 
 .op2e-nota-gm i {
   margin-top: 0.2rem;
-  color: #7a2f2f;
+  color: #7a2f2f !important;
   flex: 0 0 auto;
 }
 
