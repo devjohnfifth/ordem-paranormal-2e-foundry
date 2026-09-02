@@ -15,6 +15,7 @@ import OP2ItemSheet from "./sheets/item-sheet.mjs";
 
 import { registrarHandlebarsHelpers, preCarregarTemplates } from "./helpers/handlebars.mjs";
 import { registrarMapaColaInterativo } from "./helpers/mapa-cola.mjs";
+import { registrarLogoDePausa } from "./helpers/pausa.mjs";
 
 Hooks.once("init", () => {
   console.log("Ordem Paranormal RPG 2 (Playtest) | Inicializando sistema");
@@ -55,6 +56,7 @@ Hooks.once("init", () => {
   CONFIG.Combat.initiative = { formula: "1d20", decimals: 0 };
 
   registrarMapaColaInterativo();
+  registrarLogoDePausa();
 });
 
 Hooks.once("ready", () => {
