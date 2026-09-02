@@ -721,12 +721,17 @@ tr.op2e-cor-neutro td { background: #e2ded4; }
    invisível posicionado por porcentagem (acompanha o tamanho real da imagem
    renderizada), que ao passar o mouse mostra um círculo destacando a área clicável.
 
-   A posição de cada um é uma regra CSS fixa por "data-ponto", NÃO um style inline
-   no HTML -- o Foundry sanitiza o HTML salvo em HTMLField (contra XSS) e remove
-   atributos "style" arbitrários, o que fazia os 24 hotspots perderem a posição e
-   ficarem todos empilhados num canto só (o clique caía na <img> por baixo, abrindo
-   o popout de imagem do Foundry em vez da página certa). As coordenadas vêm de
-   scripts/gerar_conteudo_aventura.py (extraídas do texto vetorial do PDF oficial). */
+   O que fica salvo na página do Journal é só a <img class="op2e-mapa-cola-img">
+   pura -- nenhum overlay, nenhum atributo de posição. O Foundry sanitiza o HTML
+   salvo em HTMLField (proteção contra XSS): uma primeira versão usava style inline
+   por hotspot e o atributo "style" era removido; a segunda usava um atributo
+   data-ponto customizado no <a> e isso também não sobrevivia (ou não disparava a
+   navegação) dentro do editor/sanitizador de página do Foundry. Por isso os 24
+   pontos clicáveis (.op2e-mapa-cola-ponto) e sua posição (style.left/top) são
+   criados ao vivo via JavaScript depois que a página renderiza -- ver
+   module/helpers/mapa-cola.mjs -- e nunca passam por serialização/sanitização.
+   As coordenadas de origem vêm de scripts/gerar_conteudo_aventura.py (extraídas
+   do texto vetorial do PDF oficial). */
 .op2e-mapa-cola-container {
   position: relative;
   display: block;
@@ -757,28 +762,3 @@ a.op2e-mapa-cola-ponto:hover {
   background: rgba(255, 255, 255, 0.3) !important;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7) !important;
 }
-
-a.op2e-mapa-cola-ponto[data-ponto="1"] { left: 40.24%; top: 7.59%; }
-a.op2e-mapa-cola-ponto[data-ponto="2"] { left: 57.34%; top: 13.23%; }
-a.op2e-mapa-cola-ponto[data-ponto="3"] { left: 48.07%; top: 13.63%; }
-a.op2e-mapa-cola-ponto[data-ponto="4"] { left: 40.35%; top: 17.95%; }
-a.op2e-mapa-cola-ponto[data-ponto="5"] { left: 54.29%; top: 26.48%; }
-a.op2e-mapa-cola-ponto[data-ponto="6"] { left: 26.56%; top: 31.97%; }
-a.op2e-mapa-cola-ponto[data-ponto="7"] { left: 18.24%; top: 23.82%; }
-a.op2e-mapa-cola-ponto[data-ponto="8"] { left: 9.94%; top: 8.27%; }
-a.op2e-mapa-cola-ponto[data-ponto="9"] { left: 25.12%; top: 52.35%; }
-a.op2e-mapa-cola-ponto[data-ponto="10"] { left: 30.87%; top: 54.44%; }
-a.op2e-mapa-cola-ponto[data-ponto="11"] { left: 75.02%; top: 50.67%; }
-a.op2e-mapa-cola-ponto[data-ponto="12"] { left: 19.59%; top: 4.92%; }
-a.op2e-mapa-cola-ponto[data-ponto="13"] { left: 5.58%; top: 15.58%; }
-a.op2e-mapa-cola-ponto[data-ponto="14"] { left: 5.70%; top: 43.60%; }
-a.op2e-mapa-cola-ponto[data-ponto="15"] { left: 68.69%; top: 40.75%; }
-a.op2e-mapa-cola-ponto[data-ponto="16"] { left: 11.12%; top: 54.01%; }
-a.op2e-mapa-cola-ponto[data-ponto="17"] { left: 17.89%; top: 14.19%; }
-a.op2e-mapa-cola-ponto[data-ponto="18"] { left: 81.66%; top: 41.83%; }
-a.op2e-mapa-cola-ponto[data-ponto="19"] { left: 75.58%; top: 23.05%; }
-a.op2e-mapa-cola-ponto[data-ponto="20"] { left: 85.54%; top: 21.55%; }
-a.op2e-mapa-cola-ponto[data-ponto="21"] { left: 69.22%; top: 28.57%; }
-a.op2e-mapa-cola-ponto[data-ponto="22"] { left: 74.83%; top: 4.65%; }
-a.op2e-mapa-cola-ponto[data-ponto="23"] { left: 86.95%; top: 10.96%; }
-a.op2e-mapa-cola-ponto[data-ponto="24"] { left: 81.81%; top: 14.94%; }
