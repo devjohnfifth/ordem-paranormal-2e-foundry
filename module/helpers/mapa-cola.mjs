@@ -78,9 +78,16 @@ function montarPontosClicaveis(img, mapaNumeros, pack) {
     ponto.title = `Ponto ${String(numero).padStart(2, "0")}`;
     ponto.addEventListener("click", async (event) => {
       event.preventDefault();
-      const uuid = `Compendium.${pack}.JournalEntry.${alvo.journalId}.JournalEntryPage.${alvo.pageId}`;
-      const documento = await fromUuid(uuid);
-      documento?.sheet?.render(true);
+      // Abre o JournalEntry (não a página sozinha): o sheet da página isolada
+      // reabre no último modo usado (geralmente edição, já que este é o
+      // conteúdo que a gente mexeu o tempo todo), enquanto o "livro" do
+      // JournalEntry sempre abre em modo de leitura e tem goToPage() para
+      // virar direto pra pagina certa -- é o mesmo comportamento de clicar
+      // num link comum @UUID[...] pra uma pagina de Journal.
+      const journal = await fromUuid(`Compendium.${pack}.JournalEntry.${alvo.journalId}`);
+      if (!journal) return;
+      const app = await journal.sheet.render(true);
+      (app ?? journal.sheet).goToPage?.(alvo.pageId);
     });
     container.appendChild(ponto);
   }
