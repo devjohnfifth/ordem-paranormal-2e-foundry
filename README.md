@@ -149,7 +149,15 @@ qualquer uma delas do compêndio pra sua hotbar para usar:
   Journal do mundo chamado "Handouts Revelados" (criado automaticamente na primeira vez),
   visível a qualquer jogador dali em diante. Assim dá pra ir liberando os handouts aos
   poucos, conforme a investigação avança, em vez de tudo de uma vez — e o jogador sempre
-  consegue voltar e conferir um handout que já foi mostrado antes.
+  consegue voltar e conferir um handout que já foi mostrado antes. Na primeira vez que um
+  handout é revelado, ela também cria a macro **Meus Handouts** e fixa ela no **slot 3 da
+  hotbar de todo jogador** (inclusive jogadores que entrarem depois) — um "livrinho" que
+  abre o Journal "Handouts Revelados" com um clique, só com o que já foi mostrado pra
+  aquele jogador, sem aparecer nada pros outros.
+- **Resetar Handouts Revelados** — apaga todas as páginas do Journal "Handouts Revelados",
+  voltando tudo ao estado inicial (como se nenhum handout tivesse sido mostrado ainda).
+  Pede confirmação antes, porque não dá pra desfazer. Útil pra recomeçar uma campanha ou
+  corrigir um handout revelado por engano.
 
 ## Usando com o módulo Party Sheet
 
