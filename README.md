@@ -163,6 +163,15 @@ Pra corrigir o item 2, vá em **Configurar Ajustes → Módulos → PartyWatch**
 - **HP Data Path** → `system.recursos.pv.value`
 - **Max HP Data Path** → `system.recursos.pv.max`
 
+Pra também mostrar os **Pontos de Determinação (PD)**, ainda em Configurar Ajustes →
+Módulos → PartyWatch: ligue **"Enable Extra Attributes"** e, na lista de atributos
+extras, adicione um com:
+- **Path** → `system.recursos.pd.value`
+- **Max Path** → `system.recursos.pd.max`
+- **Type** → `Badge`
+
+Isso mostra um selo com o PD atual/máximo ao lado da barra de PV de cada personagem.
+
 ## Módulos "agnósticos de sistema" que precisam de configuração extra
 
 Nem todo módulo que se anuncia como "system-agnostic" funciona pronto — vários dependem
