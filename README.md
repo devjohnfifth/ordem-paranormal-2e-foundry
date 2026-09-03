@@ -117,12 +117,11 @@ trazer as mudanças de volta para os arquivos-fonte (e poder commitar o diff).
 
 ## Usando os mapas e a trilha sonora
 
-Por segurança (o schema de Scene mudou bastante entre o Foundry v13 e v14, e eu não
-consigo testar ao vivo neste ambiente), os mapas ficam disponíveis como imagens no
-compêndio **Materiais de Jogo**, não como Cenas prontas. Para criar a cena: abra a
-página do mapa no Journal, clique com o botão direito na imagem e escolha **"Criar
-Cena"** (ou arraste o arquivo de `assets/mapas/` direto para a aba Cenas) — o próprio
-Foundry monta a Scene no formato certo para a sua versão.
+Os mapas ficam disponíveis como imagens no compêndio **Materiais de Jogo**, não como
+Cenas prontas (o schema de Scene mudou bastante entre o Foundry v13 e v14, e cada mesa
+configura grid/iluminação diferente). Para criar a cena: arraste o arquivo de
+`assets/mapas/` direto para a aba **Cenas** na sidebar — o próprio Foundry cria a Scene
+já apontando pra imagem certa, e depois é só ajustar o grid.
 
 A trilha sonora ("O Porão" e "O Ídolo") já vem pronta no compêndio **Trilhas Sonoras — Ato
 I** (tipo Playlist) — arraste a playlist de lá pro mundo e as duas faixas já vêm dentro,
@@ -143,6 +142,31 @@ próprio Foundry, não em `Data/systems/`). O template já pronto está em
 `extras/party-sheet/op2e-playtest.json`: copie esse arquivo para a pasta
 `<Foundry>/Data/partysheets/` (ou envie pelo botão de upload do próprio módulo) e reabra a
 Party Sheet.
+
+Se a Party Sheet abrir vazia ("No players are currently logged in") mesmo com o template
+instalado, é a configuração **"Enable Only Online"** do próprio módulo (ligada por
+padrão) — ela só lista personagens de jogadores conectados no momento. Desligue em
+**Configurar Ajustes → Módulos → Party Sheet** pra ver todos os personagens
+independente de quem está online (útil pra preparar mesa sozinho).
+
+## Módulos "agnósticos de sistema" que precisam de configuração extra
+
+Nem todo módulo que se anuncia como "system-agnostic" funciona pronto — vários dependem
+de um arquivo/plugin específico por sistema pra saber onde ler os dados (perícias, PV,
+etc.), e esse arquivo só existe pros sistemas mais populares por padrão:
+
+- **Party Sheet** — resolvido, ver seção acima.
+- **Token Action HUD** — o módulo-base (`token-action-hud-core`) não gera nenhuma ação
+  sozinho: ele depende de um módulo companheiro por sistema (ex.:
+  `token-action-hud-dnd5e`) que ainda não existe pra Ordem Paranormal RPG 2. Sem ele, o
+  HUD abre vazio ou com poucas opções genéricas — isso não é um bug deste sistema, é a
+  ausência de um módulo companheiro (criar um é um projeto separado, bem maior que uma
+  correção pontual).
+- Outros módulos desse tipo (barras de recurso customizadas, macros de automação
+  genéricas etc.) tendem a funcionar para o que é realmente genérico (nome, imagem,
+  PV/PD via `system.recursos.pv`/`system.recursos.pd`, que são os *token attributes*
+  declarados no `system.json`), mas qualquer recurso que dependa de um mapeamento
+  específico por sistema (como o Party Sheet) vai precisar da mesma configuração manual.
 
 ## O que falta (de propósito)
 
