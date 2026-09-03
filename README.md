@@ -1,5 +1,11 @@
 # Ordem Paranormal RPG 2 — Playtest (Foundry VTT)
 
+> ⚠️ **Este é o branch `dev` — versão de desenvolvimento, instável.** É onde o trabalho
+> em andamento acontece; pode quebrar a qualquer commit. A versão **estável**, a que é
+> compartilhada publicamente pra outras pessoas instalarem, fica congelada no branch
+> [`master`](https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/tree/master) e
+> só recebe atualizações quando o trabalho daqui é promovido pra lá.
+
 Sistema **não-oficial** para Foundry VTT, feito para uso pessoal de mesa, baseado no
 primeiro Playtest Alpha de **Ordem Paranormal RPG 2** (Rafael "Cellbit" Lange / Jambô Editora),
 lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
@@ -10,8 +16,8 @@ lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
 > combate completo ainda não foram publicadas — os campos existem na ficha, mas ficam
 > em aberto até um próximo pacote trazer as regras oficiais.
 
-Compatível com **Foundry VTT v13+** (testado como alvo a v14.365 — verifique o número exato
-da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambiente).
+Compatível com **Foundry VTT v13+** (testado ao vivo em v14.365 — verifique o número exato
+da sua instalação).
 
 > O sistema só tem conteúdo em português. Se a interface do **Foundry em si** (menus,
 > botões como "Search"/"Create") aparecer em inglês, isso é uma configuração global do
@@ -32,10 +38,14 @@ da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambi
 2. Cole a URL de manifesto:
 
    ```
-   https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/master/system.json
+   https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/dev/system.json
    ```
 
-3. Crie um mundo novo escolhendo o sistema **Ordem Paranormal RPG 2 (Playtest)**.
+   (Esse é o manifesto do branch `dev`, instável. Pra instalar a versão **estável**, use o
+   manifesto do branch `master` em vez desse:
+   `https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/master/system.json`)
+
+3. Crie um mundo novo escolhendo o sistema **Ordem Paranormal RPG 2 (Playtest) [DEV]**.
 
 **Opção B — copiando a pasta manualmente:**
 
