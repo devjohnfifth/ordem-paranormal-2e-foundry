@@ -9,6 +9,18 @@
   min-width: 0;
 }
 
+/* Marca "Quinto Dado" inserida via JS (module/helpers/marca-quinto-dado.mjs) na barra
+   de título de toda ficha do sistema, entre o nome da janela e os ícones de controle. */
+.op2e-marca-quinto-dado {
+  height: 1.6em;
+  max-width: 8em;
+  width: auto;
+  object-fit: contain;
+  border-radius: 3px;
+  margin: 0 0.4em;
+  flex: 0 0 auto;
+}
+
 /* O core do Foundry costuma esticar <select> para 100% do contêiner. Nas fichas, os selects
    de dado (d4-d20) são sempre curtos, então travamos a largura deles em vez de deixar o
    layout flexível "adivinhar" — do contrário eles tomam todo o espaço da linha e o rótulo
