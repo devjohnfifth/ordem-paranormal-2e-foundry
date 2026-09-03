@@ -149,6 +149,20 @@ padrão) — ela só lista personagens de jogadores conectados no momento. Desli
 **Configurar Ajustes → Módulos → Party Sheet** pra ver todos os personagens
 independente de quem está online (útil pra preparar mesa sozinho).
 
+## Usando com o módulo PartyWatch
+
+O [PartyWatch](https://foundryvtt.com/packages/partywatch) mostra um overlay com a
+barra de vida do grupo, mas por padrão ele:
+
+1. só lista jogadores com um **Personagem atribuído** (Configurar Jogadores → clique no
+   ator de cada usuário — sem isso ele mostra "No active characters found");
+2. lê o HP de campos no formato do dnd5e (`system.attributes.hp.value`/`.max`), que não
+   existem neste sistema, então mesmo com o personagem atribuído a barra fica vazia.
+
+Pra corrigir o item 2, vá em **Configurar Ajustes → Módulos → PartyWatch** e troque:
+- **HP Data Path** → `system.recursos.pv.value`
+- **Max HP Data Path** → `system.recursos.pv.max`
+
 ## Módulos "agnósticos de sistema" que precisam de configuração extra
 
 Nem todo módulo que se anuncia como "system-agnostic" funciona pronto — vários dependem
@@ -156,6 +170,7 @@ de um arquivo/plugin específico por sistema pra saber onde ler os dados (períc
 etc.), e esse arquivo só existe pros sistemas mais populares por padrão:
 
 - **Party Sheet** — resolvido, ver seção acima.
+- **PartyWatch** — resolvido, ver seção acima.
 - **Token Action HUD** — o módulo-base (`token-action-hud-core`) não gera nenhuma ação
   sozinho: ele depende de um módulo companheiro por sistema (ex.:
   `token-action-hud-dnd5e`) que ainda não existe pra Ordem Paranormal RPG 2. Sem ele, o
