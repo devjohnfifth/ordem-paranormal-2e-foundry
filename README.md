@@ -139,9 +139,17 @@ prontas pra tocar.
 
 ## Macros
 
-O compêndio **Macros Úteis** traz uma pasta "Macros" com utilitários pro mestre — hoje só a
-**Alternar Luzes da Cena** (apaga/acende todas as luzes da cena atual num clique só). Arraste
-a macro do compêndio pra sua hotbar para usar.
+O compêndio **Macros Úteis** traz uma pasta "Macros" com utilitários pro mestre. Arraste
+qualquer uma delas do compêndio pra sua hotbar para usar:
+
+- **Alternar Luzes da Cena** — apaga/acende todas as luzes da cena atual num clique só.
+- **Revelar Handout** — em vez de só "Mostrar Imagem" (que aparece na hora e depois some),
+  essa macro deixa escolher qual handout (de qualquer um dos compêndios de Materiais de
+  Jogo) liberar pros jogadores: ela mostra o pop-up na hora **e** salva a página num
+  Journal do mundo chamado "Handouts Revelados" (criado automaticamente na primeira vez),
+  visível a qualquer jogador dali em diante. Assim dá pra ir liberando os handouts aos
+  poucos, conforme a investigação avança, em vez de tudo de uma vez — e o jogador sempre
+  consegue voltar e conferir um handout que já foi mostrado antes.
 
 ## Usando com o módulo Party Sheet
 
