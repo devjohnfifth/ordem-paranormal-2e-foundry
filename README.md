@@ -172,6 +172,19 @@ extras, adicione um com:
 
 Isso mostra um selo com o PD atual/máximo ao lado da barra de PV de cada personagem.
 
+## Barras de recurso do token (módulo Bar Brawl)
+
+Se o módulo [Bar Brawl](https://foundryvtt.com/packages/barbrawl) estiver ativo, o
+sistema já registra sozinho (na primeira vez que o mundo carrega) um visual padrão pras
+barras de PV/PD no token: gradiente vermelho→verde (PV) e escuro→azul (PD), com **5
+divisões marcando visualmente a quantidade** em vez de uma barra lisa — em
+`module/helpers/barbrawl.mjs`. Isso só é aplicado a atores que ainda não têm bars
+configuradas; se você já personalizou os seus, nada é sobrescrito.
+
+Pra deixar ainda mais "encorpado", em **Configurar Ajustes → Módulos → Bar Brawl**
+troque **Bar Style** de "Default" para **"Large"** (mais grosso) — isso é uma preferência
+de cada mestre, então o sistema não mexe nela sozinho.
+
 ## Módulos "agnósticos de sistema" que precisam de configuração extra
 
 Nem todo módulo que se anuncia como "system-agnostic" funciona pronto — vários dependem
@@ -180,6 +193,7 @@ etc.), e esse arquivo só existe pros sistemas mais populares por padrão:
 
 - **Party Sheet** — resolvido, ver seção acima.
 - **PartyWatch** — resolvido, ver seção acima.
+- **Bar Brawl** — o sistema já configura sozinho, ver seção acima.
 - **Token Action HUD** — o módulo-base (`token-action-hud-core`) não gera nenhuma ação
   sozinho: ele depende de um módulo companheiro por sistema (ex.:
   `token-action-hud-dnd5e`) que ainda não existe pra Ordem Paranormal RPG 2. Sem ele, o
