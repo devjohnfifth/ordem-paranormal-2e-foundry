@@ -11,6 +11,10 @@ export function registrarLogoDePausa() {
   Hooks.on("renderGamePause", (app, htmlOuElemento) => {
     const raiz = htmlOuElemento instanceof HTMLElement ? htmlOuElemento : htmlOuElemento?.[0];
     const img = raiz?.querySelector?.("img");
-    if (img) img.src = LOGO;
+    if (!img) return;
+    img.src = LOGO;
+    // "fa-spin" é a classe do ícone giratório padrão do Foundry (um cog) -- sem
+    // removê-la, o logo (uma imagem estática) fica girando sem parar.
+    img.classList.remove("fa-spin");
   });
 }
