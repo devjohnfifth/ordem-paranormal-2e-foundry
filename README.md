@@ -175,15 +175,28 @@ Isso mostra um selo com o PD atual/máximo ao lado da barra de PV de cada person
 ## Barras de recurso do token (módulo Bar Brawl)
 
 Se o módulo [Bar Brawl](https://foundryvtt.com/packages/barbrawl) estiver ativo, o
-sistema já registra sozinho (na primeira vez que o mundo carrega) um visual padrão pras
-barras de PV/PD no token: gradiente vermelho→verde (PV) e escuro→azul (PD), com **5
-divisões marcando visualmente a quantidade** em vez de uma barra lisa — em
-`module/helpers/barbrawl.mjs`. Isso só é aplicado a atores que ainda não têm bars
-configuradas; se você já personalizou os seus, nada é sobrescrito.
+sistema já registra sozinho (na primeira vez que o mundo carrega, em
+`module/helpers/barbrawl.mjs`) um visual padrão pras barras de PV/PD no token:
+gradiente vermelho→verde (PV) e escuro→azul (PD), sempre visíveis (não só ao passar o
+mouse). Isso só é aplicado a atores que ainda não têm bars configuradas; se você já
+personalizou os seus, nada é sobrescrito.
 
-Pra deixar ainda mais "encorpado", em **Configurar Ajustes → Módulos → Bar Brawl**
-troque **Bar Style** de "Default" para **"Large"** (mais grosso) — isso é uma preferência
-de cada mestre, então o sistema não mexe nela sozinho.
+O Bar Brawl também tem um modo "subdivisions" que desenha a barra em N segmentos fixos
+(tipo pips) em vez de lisa — mas ele troca o **valor mostrado** pela aproximação em N
+partes (ex.: um PV 18/18 apareceria como "5/5"), então não usamos isso por padrão:
+prioriza mostrar o valor real. Quem preferir o visual segmentado mesmo assim pode ligar
+por token, na engrenagem de configuração de cada barra.
+
+Duas coisas ficam a critério de cada mestre (preferência pessoal, o sistema não mexe
+nelas sozinho), em **Configurar Ajustes → Módulos → Bar Brawl**:
+- **Bar Style** → "Large" deixa as barras mais grossas/encorpadas.
+- **Text Style** → "Fraction" mostra o valor exato (ex. "10/10") escrito na barra.
+
+**Sobre animação:** o Bar Brawl desenha as barras direto no canvas (PIXI/WebGL) e não
+tem transição suave quando o valor muda — ele redesenha na hora, sem animar. Isso é uma
+limitação do próprio módulo, não algo que dá pra ligar. Se animação suave é importante,
+o overlay do **PartyWatch** (seção acima) já tem isso pronto, porque é feito em
+HTML/CSS, uma tecnologia bem diferente do Bar Brawl.
 
 ## Módulos "agnósticos de sistema" que precisam de configuração extra
 
