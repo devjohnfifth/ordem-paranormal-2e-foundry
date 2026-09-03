@@ -1,0 +1,70 @@
+{
+  "name": "Ordem Paranormal RPG 2 (Playtest)",
+  "system": "op2e-playtest",
+  "author": "Compêndio de mesa (não-oficial)",
+  "version": "1.0.0",
+  "minimumSystemVersion": "0.1.0",
+  "offline_excludes_property": "actor.type",
+  "offline_excludes": ["ameaca"],
+  "rows": [
+    [
+      {
+        "name": "Ficha",
+        "type": "charactersheet",
+        "header": "hide",
+        "text": ""
+      },
+      {
+        "name": "Nome",
+        "type": "direct",
+        "header": "show",
+        "text": "{b}{name}{/b}{newline}{i}{system.ocupacao}{/i}",
+        "minwidth": 150
+      },
+      {
+        "name": "Nível",
+        "type": "direct",
+        "header": "show",
+        "text": "{system.nivel}",
+        "align": "center"
+      },
+      {
+        "name": "NEX",
+        "type": "direct",
+        "header": "show",
+        "text": "{system.nex}%",
+        "align": "center"
+      },
+      {
+        "name": "PV",
+        "type": "direct",
+        "header": "show",
+        "text": "{progress {system.recursos.pv.value} {system.recursos.pv.max} #7a2f2f}{newline}{system.recursos.pv.value}/{system.recursos.pv.max}",
+        "align": "center",
+        "minwidth": 90
+      },
+      {
+        "name": "PD",
+        "type": "direct",
+        "header": "show",
+        "text": "{progress {system.recursos.pd.value} {system.recursos.pd.max} #2f5f7a}{newline}{system.recursos.pd.value}/{system.recursos.pd.max}",
+        "align": "center",
+        "minwidth": 90
+      },
+      {
+        "name": "Ímpeto",
+        "type": "direct-complex",
+        "header": "show",
+        "text": [
+          {
+            "type": "exists",
+            "value": "system.impeto.max",
+            "text": "{system.impeto.value}/{system.impeto.max}",
+            "else": "—"
+          }
+        ],
+        "align": "center"
+      }
+    ]
+  ]
+}

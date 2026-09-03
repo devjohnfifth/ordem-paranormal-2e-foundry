@@ -124,8 +124,25 @@ página do mapa no Journal, clique com o botão direito na imagem e escolha **"C
 Cena"** (ou arraste o arquivo de `assets/mapas/` direto para a aba Cenas) — o próprio
 Foundry monta a Scene no formato certo para a sua versão.
 
-A trilha sonora ("O Porão" e "O Ídolo") está em `assets/audio/`, fora dos compêndios pelo
-mesmo motivo — arraste os arquivos `.mp3` para a aba Playlists para usá-los.
+A trilha sonora ("O Porão" e "O Ídolo") já vem pronta no compêndio **Trilhas Sonoras — Ato
+I** (tipo Playlist) — arraste a playlist de lá pro mundo e as duas faixas já vêm dentro,
+prontas pra tocar.
+
+## Macros
+
+O compêndio **Macros Úteis** traz uma pasta "Macros" com utilitários pro mestre — hoje só a
+**Alternar Luzes da Cena** (apaga/acende todas as luzes da cena atual num clique só). Arraste
+a macro do compêndio pra sua hotbar para usar.
+
+## Usando com o módulo Party Sheet
+
+Se você usa o módulo [Party Sheet](https://foundryvtt.com/packages/fvtt-party-sheet), este
+sistema não aparece automaticamente porque o módulo precisa de um arquivo de template JSON
+específico (ele não faz parte do pacote do sistema — vai na pasta `Data/partysheets/` do
+próprio Foundry, não em `Data/systems/`). O template já pronto está em
+`extras/party-sheet/op2e-playtest.json`: copie esse arquivo para a pasta
+`<Foundry>/Data/partysheets/` (ou envie pelo botão de upload do próprio módulo) e reabra a
+Party Sheet.
 
 ## O que falta (de propósito)
 
