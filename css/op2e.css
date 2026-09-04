@@ -724,6 +724,54 @@ tr.op2e-cor-areia td { background: #e6d6a3 !important; }
 tr.op2e-cor-salmão td { background: #eab3ac !important; }
 tr.op2e-cor-neutro td { background: #e2ded4 !important; }
 
+.op2e-ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #2f5a7a;
+  border-bottom: 1px solid #2f5a7a;
+  margin-top: 0.4rem;
+}
+
+.op2e-ferramentas-rotulo {
+  flex: 0 0 auto;
+  min-width: 9rem;
+  background: var(--op2e-preto) !important;
+  color: var(--op2e-creme) !important;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  line-height: 1.3;
+}
+
+.op2e-ferramentas-corpo {
+  flex: 1;
+  min-width: 60%;
+}
+
+table.op2e-tabela-ferramenta {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+table.op2e-tabela-ferramenta td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #b8b3a5;
+  vertical-align: top;
+  background: #cfe3ee !important;
+  color: #0f2733 !important;
+}
+
+table.op2e-tabela-ferramenta .op2e-col-ferramenta {
+  font-weight: bold;
+  min-width: 9rem;
+  white-space: nowrap;
+}
+
 .op2e-handouts-rotulo {
   margin: 0.6rem 0.75rem 0;
 }
