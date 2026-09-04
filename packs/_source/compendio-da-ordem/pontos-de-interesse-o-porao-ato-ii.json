@@ -1,0 +1,481 @@
+{
+  "_id": "zJpt5FsIKgWQfXOE",
+  "_key": "!journal!zJpt5FsIKgWQfXOE",
+  "name": "O Porão (Ato II)",
+  "folder": "tV46XWKkZ7gwOsoQ",
+  "pages": [
+    {
+      "_id": "4CmzhUHNt7Gwd6UM",
+      "name": "Mapa-Cola — Legenda (Ato II)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Legenda numerada do mapa do porão no Ato II (mesmo local do Ato I, agora com a equipe de varredura já tendo posicionado o Ídolo de Pedra, a faca e os pertences separados — porta da sala secreta aberta, freezer aberto). Entregue o Mapa 01 aos jogadores sem os números — esta legenda é apenas para o mestre. Os números na imagem abaixo são clicáveis e abrem a página certa direto.</p><p><img class=\"op2e-mapa-cola-img\" data-op2e-mapa=\"ato2\" src=\"systems/op2e-playtest/assets/mapas/ato2-mapa-cola.webp\" alt=\"Mapa-cola oficial do Porão no Ato II, com os pontos de interesse numerados de 1 a 25\"></p><h3>Porão</h3><ol><li>Pertences de Alan</li><li>Pertences de Edgar</li><li>Pertences de Eloísa</li><li>Pertences de Kênia</li><li>Pertences de Victor</li><li>Faca de churrasco</li><li>Ídolo de Pedra</li><li>\"Altar\" de madeira</li><li>Símbolo no teto</li><li>Depósito A</li><li>Molho de Chaves</li><li>Painel Elétrico</li><li>Depósito B</li><li>Rabiscos no Chão</li><li>Armário de Metal</li><li>Estante de Livros</li><li>Pôsteres</li><li>Duto de Ventilação</li><li>Porta de Saída</li></ol><h3>Sala Secreta</h3><ol start=\"20\"><li>Mesa de poker</li><li>Mesa de sinuca</li><li>Churrasqueira</li><li>Roupas</li><li>Computador</li><li>Freezer</li></ol>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.4CmzhUHNt7Gwd6UM"
+    },
+    {
+      "_id": "jKGfmsdgkgM9eBt0",
+      "name": "01 — Pertences de Alan",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pertences de Alan</h4><p class=\"op2e-ponto-descricao\">Uma mochila de viagem bastante surrada.</p></div><div class=\"op2e-ponto-selo\">01</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Dentro, documentos arqueológicos. Fora, etiquetas de bagagem de uma viagem internacional para o Iraque em janeiro de 2022.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Pelo tamanho dos compartimentos da mochila, suja com restos de componentes, é possível deduzir que Alan trouxe ali dentro todos os componentes para o ritual.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Ocultismo</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Além das notas arqueológicas, há diversos rabiscos de Alan tentando replicar os símbolos e sigilos do ritual, além de algumas anotações como: \"misturar com sangue dentro da tigela\", \"pressionar contra o pulso\" e \"em cima de uma superfície grande cercada por sigilos\".</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-dt\">12</td><td class=\"op2e-col-info\">Ele estudou e treinou o ritual consideravelmente, e não parecia um ritual fácil de executar.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Alan acreditava ser a única pessoa preparada e capaz de realizar um ritual, pois treinou e estudou obsessivamente. Ele não sabia que Victor compartilhava de interesses similares.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.jKGfmsdgkgM9eBt0"
+    },
+    {
+      "_id": "Lc1HXuGWWVmlIn1e",
+      "name": "02 — Pertences de Edgar",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pertences de Edgar</h4><p class=\"op2e-ponto-descricao\">Uma carteira com um pouco de dinheiro.</p></div><div class=\"op2e-ponto-selo\">02</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Edgar foi até a casa de Gustavo levando apenas sua velha carteira de couro marrom. Dentro dela, há um pouco de dinheiro. Não há nenhuma informação relevante aqui.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.Lc1HXuGWWVmlIn1e"
+    },
+    {
+      "_id": "uaevzboiSlATfWVZ",
+      "name": "03 — Pertences de Eloísa",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pertences de Eloísa</h4><p class=\"op2e-ponto-descricao\">Uma bolsa de academia vermelha com listras brancas.</p></div><div class=\"op2e-ponto-selo\">03</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Medicina</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">As caixas são de remédios para dormir tarja preta, muito pesados. Uma dose mal calculada poderia derrubar um cavalo.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Dentro há diversas caixas de remédio e uma garrafa térmica grande para água. Além disso, papéis, recibos e chaves de casa.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Todas as cartelas de remédio estão vazias.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>Sequência mínima: 5. A garrafa de água de Eloísa contém restos pesadíssimos de drogas, além de traços de saliva de pelo menos três pessoas diferentes. Tomar apenas alguns goles dessa água já seria capaz de derrubar uma pessoa adulta em poucos segundos.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Eloísa carregava muitos remédios pesados, pois, devido à insônia e aos pesadelos causados pela maldição, só conseguia dormir com eles.</p><p>Após ser convencida por Alan, Eloísa drogou sua própria garrafa de água e a ofereceu para Edgar e Kênia. Victor fingiu tomar, mas não tomou.</p><p>Eloísa havia deixado a bolsa no andar de cima enquanto ajudava Alan a carregar os corpos desmaiados até o porão.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.uaevzboiSlATfWVZ"
+    },
+    {
+      "_id": "TL8ybBnl4odofpu1",
+      "name": "04 — Pertences de Kênia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pertences de Kênia</h4><p class=\"op2e-ponto-descricao\">Uma mochila comum, com alguns cadernos e livros.</p></div><div class=\"op2e-ponto-selo\">04</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Diversos cadernos e livros de direito, um pacote de salgadinhos.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Ela parece ser uma aluna dedicada e muito organizada, porém, parecia estar indo cada vez pior. Nas aulas mais recentes parece estar muito mais desorganizada e avoada, com informações soltas ou anotações desleixadas.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Após realizar o ritual, Kênia estava cheia de esperança e vontade de viver, focando completamente seu tempo e dedicação aos estudos. Porém, a Maldição e suas consequências estavam afetando diretamente seus sonhos, literais e figurativos.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.TL8ybBnl4odofpu1"
+    },
+    {
+      "_id": "L4iKCNT1qp1hqPQA",
+      "name": "05 — Pertences de Victor",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pertences de Victor</h4><p class=\"op2e-ponto-descricao\">Uma mochila grande, cheia de cadernos, apostilas e livros.</p></div><div class=\"op2e-ponto-selo\">05</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Além de textos acadêmicos sobre literatura, você encontra algumas joias de ouro antigas e uma caixa de giz branco comum.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Um caderno preto se destaca entre os livros, pois não contém anotações sobre literatura, e sim estudos sobre ocultismo.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"4\">Ocultismo (apenas após encontrar o caderno preto)</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Dentro do caderno, há símbolos de rituais reais misturados a diversos materiais falsos e incoerentes. Parecem anotações de um amador tentando entender rituais por conta própria ou com pesquisa superficial na internet.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Algo se destaca no meio das anotações: instruções detalhadas que parecem ter sido copiadas de algum lugar, ensinando a realizar um ritual para \"alívio mental\". Há uma certa confusão por quem fez as anotações ao tentar entender a geometria que determina o alvo e a intensidade do ritual.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Revisando as anotações, fica claro que Victor, buscando aliviar algum tipo de transtorno que estava vivendo, anotou instruções para um ritual de apagamento de memória, mas não sabia como conjurar o ritual em apenas um alvo e nem como apagar apenas uma informação específica.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-dt\">12</td><td class=\"op2e-col-info\">Para conjurar um ritual de Conhecimento como o que Victor tentou, alguns dos componentes ritualísticos podem incluir joias e objetos de valor com memórias importantes associadas a eles.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Lanterna de Estouro Ultravioleta</td><td>No interior da mochila, as joias douradas e o caderno preto brilham intensamente com o estouro da luz, como se emitissem luz própria, e permanecem brilhando por algum tempo depois que a luz UV se desliga.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A mochila de Victor continha, além de seus materiais de ensino, um caderno com anotações de rituais. Ele vinha estudando ocultismo com o objetivo de tentar aliviar a insônia e os pesadelos constantes, e acabou encontrando um ritual de alterar memórias. Não sabia se realmente ia usá-lo, mas estava considerando a possibilidade.</p><p>Em seu celular, há mensagens com Gustavo, alertando sobre o comportamento de Alan, que pretendia realizar o ritual do Ídolo de Pedra novamente.</p><p>Os componentes ritualísticos incluíam joias e objetos de valor sentimental, com memórias importantes associadas, então Victor buscou as joias que sua avó usava e que o faziam lembrar de sua infância com ela.</p><p>O conteúdo da mochila brilha porque foram os materiais usados por Victor para conjurar o ritual de apagamento de memória, que é de Conhecimento. Em outra missão, isso poderia resultar em uma pista falsa de Conhecimento. Porém, como o ritual do Ídolo de Pedra também contém Conhecimento, não irá atrapalhar os jogadores.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.L4iKCNT1qp1hqPQA"
+    },
+    {
+      "_id": "6lDTcLkik37yCtcY",
+      "name": "06 — Faca de Churrasco",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Faca de Churrasco</h4><p class=\"op2e-ponto-descricao\">Uma faca longa e afiada, suja de sangue.</p></div><div class=\"op2e-ponto-selo\">06</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>Sequência mínima: 4. O sangue é de Gustavo. Com 3 jogadores no Ato I, também é de Edgar.</td></tr><tr><td class=\"op2e-col-ferramenta\">Leitor Infravermelho</td><td>As leituras ao redor da faca são movimentos violentos e repetidos, como um rastro fantasma do movimento de facadas.</td></tr><tr><td class=\"op2e-col-ferramenta\">Termômetro Diferencial</td><td>Apesar de aparentar fria ao toque, a lâmina da faca está poucos graus mais quente do que o ambiente.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A faca usada por Alan para entalhar os símbolos na cômoda — transformando-a no altar de sacrifício — e, posteriormente, para matar Gustavo.</p><p>Com 3 jogadores no Ato I, a faca também foi usada por Eloísa para matar Edgar em uma crise nervosa enquanto Alan realizava o ritual dentro do depósito.</p><p>Caso os jogadores tenham deixado a faca para trás no Ato I, a Ordem a colocou próxima ao armário de metal, junto ao Ídolo. Caso contrário, os próprios agentes carregam a faca consigo como evidência.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.6lDTcLkik37yCtcY"
+    },
+    {
+      "_id": "OxF4LJXGCBPGY74p",
+      "name": "07 — O Ídolo de Pedra",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>O Ídolo de Pedra</h4><p class=\"op2e-ponto-descricao\">Uma estatueta com cerca de 30 centímetros de altura e 5 kg, esculpida na forma de uma pequena criatura com as pernas e os braços amarrados. Ela possui duas faces: de um lado, um sorriso largo e de dentes pontudos, com fraturas que se conectam aos olhos; do outro, um olhar penetrante e desconfortável.</p></div><div class=\"op2e-ponto-selo\">07</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Aptidão (Humanas)</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Pela estrutura e material, essa estatueta parece existir há séculos — ou mais! Porém, está muito bem conservada. Seu estilo não é completamente alheio ao de outras obras encontradas na Antiga Mesopotâmia.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Em sua base, há um disco com um símbolo esculpido na pedra, similar a um carimbo. O símbolo está sujo, mas é facilmente reconhecível: é o mesmo (e com o mesmo tamanho) das tatuagens nos corpos dos civis que foram expostos ao paranormal.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">O símbolo na parte inferior está sujo de sangue seco.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Percepção (apenas se o Ídolo for quebrado)</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O interior é oco e parece ter sido preenchido por um material apodrecido, polposo e fedorento, similar a uma fruta nojenta e podre. É como se o Ídolo de Pedra tivesse entranhas.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Nas paredes internas da estatueta é possível perceber pequenas marcações similares a arranhões, como uma contagem.</td></tr><tr class=\"op2e-cor-areia\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Ocultismo</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Essa estatueta é usada em rituais há milênios — provavelmente, desde 2000 a.C.</td></tr><tr class=\"op2e-cor-areia\"><td class=\"op2e-col-dt\">12</td><td class=\"op2e-col-info\">O Ídolo de Pedra é usado como um componente ritualístico, uma ferramenta. Porém, após o uso repetido, tornou-se um artefato amaldiçoado.</td></tr><tr class=\"op2e-cor-salmão\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Ocultismo (apenas se o Ídolo for quebrado)</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">As marcações internas são uma contagem. Esse instrumento já cobrou dezenas de dívidas.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil (apenas se o Ídolo for quebrado)</td><td>Sequência mínima: 6. O material orgânico interno do Ídolo de Pedra não é natural. Sua consistência e estrutura é ilógica e parece estar em constante autofagia, como se expandisse e devorasse a si mesmo.</td></tr><tr><td class=\"op2e-col-ferramenta\">Lanterna de Estouro Ultravioleta</td><td>O Ídolo de Pedra parece ficar transparente momentaneamente, e seu interior se torna visível (veja Percepção acima).</td></tr><tr><td class=\"op2e-col-ferramenta\">Leitor Infravermelho</td><td>O interior orgânico do Ídolo aparece com fluxos quentes e com movimentos orgânicos, quase como um coração pulsando.</td></tr><tr><td class=\"op2e-col-ferramenta\">Medidor EMF</td><td>Envie ou toque o áudio EMF 1 para o jogador. Sem áudio disponível, reproduza com a voz o padrão: \"Bip - Bip - BipBipBip… Bip - Bip - BipBipBip…\" (1 - 1 - 3).</td></tr><tr><td class=\"op2e-col-ferramenta\">Pó Revelador</td><td>Ao tocar a superfície, o pó revelador é absorvido para o interior do Ídolo de Pedra. Se o personagem enxergar o interior (quebrando ou usando a Lanterna de Estouro Ultravioleta), é possível ver o pó ficando completamente escuro ao se misturar com o conteúdo.</td></tr><tr><td class=\"op2e-col-ferramenta\">Rádio Modificado</td><td>Sai um som horripilante similar a gritos. É ininteligível.</td></tr><tr><td class=\"op2e-col-ferramenta\">Termômetro Diferencial</td><td>A estatueta desperta leituras quentes na parte de dentro (o jogador precisa descrever que está medindo no interior da boca aberta, ou com a estatueta quebrada). Caso contrário, sem reação.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>O Ídolo de Pedra, uma estatueta com cerca de 30 centímetros de altura. Encontrado por Alan na Antiga Mesopotâmia, o Ídolo originalmente era apenas uma estatueta de pedra comum, usada como ferramenta em um poderoso ritual. Com o passar das eras — e o uso repetido — tornou-se um artefato amaldiçoado, intensificando os efeitos da própria maldição.</p><p>O símbolo não é exclusivo do Ídolo, e os efeitos desse mesmo ritual já foram registrados e catalogados pela Ordem anteriormente, com pequenas discrepâncias. Contudo, o Ídolo é a versão mais poderosa e intensificada que a Ordem já encontrou dessa maldição.</p><p>Não há evidências sólidas de quem poderia ser o responsável pela criação desse ritual ou da estatueta em si, mas sabe-se que data de pelo menos 2000 a.C., e supõe-se que fosse um ocultista poderoso.</p><p>Caso os jogadores tenham deixado o Ídolo para trás no Ato I, a Ordem o colocou próximo ao armário de metal, junto à faca de churrasco. Caso contrário, os próprios agentes carregam o Ídolo consigo como evidência.</p><p><strong>A Maldição do Ídolo de Pedra:</strong> os agentes não fizeram o ritual e não estão amaldiçoados. Assim, podem olhar e interagir com a estatueta sem problemas. Contudo, se danificarem ou destruírem o Ídolo de Pedra, atrairão a manifestação para si, sofrendo os mesmos efeitos das regras de \"Ídolo Quebrado\" e \"A Dívida Precisa ser Paga\" do Ato I.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.OxF4LJXGCBPGY74p"
+    },
+    {
+      "_id": "KJqRqr1MSZsYXdTn",
+      "name": "08 — \"Altar\" de Madeira",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>\"Altar\" de Madeira</h4><p class=\"op2e-ponto-descricao\">Parece um altar de sacrifício, mas na verdade é uma cômoda de madeira com gavetas. Há sangue fresco por todo lado, e as correntes estão enroladas e presas aos pés. Uma trilha de sangue se arrasta do altar em direção a um dos cantos da sala.</p></div><div class=\"op2e-ponto-selo\">08</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Intuição</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Os símbolos entalhados na madeira lembram o símbolo do teto e das tatuagens.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Símbolos estranhos foram entalhados no tampo usando algum tipo de lâmina.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Marcas no chão indicam que essa cômoda foi puxada recentemente para ficar embaixo do símbolo do teto.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Nas gavetas, há toalhas manchadas de sangue ressecado, restos de ervas moídas e um antigo moedor feito de pedra.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Câmera Modificada</td><td>Ao tirar uma foto do \"Altar\" de Madeira, mostre o Handout 03 — Foto do Altar de Madeira. Sem a imagem: \"Há três silhuetas sombrias. Uma está ajoelhada próxima ao altar, segurando algo que parece uma tigela. Outra está mais ao lado, com os dois braços apoiados no altar. A última é um corpo posicionado em cima do altar. Os sigilos ao redor brilham levemente em dourado.\"</td></tr><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>Sequência mínima: 5. A nível estrutural, o sangue seco do altar parece se movimentar como se tivesse criado vida própria, em constante autofagia.</td></tr><tr><td class=\"op2e-col-ferramenta\">Leitor Infravermelho</td><td>Vultos se agitam rapidamente pelo ar, em uma turbulência efervescente.</td></tr><tr><td class=\"op2e-col-ferramenta\">Medidor EMF</td><td>Envie ou toque o áudio EMF 1 para o jogador. Sem áudio disponível, reproduza com a voz o padrão: \"Bip - Bip - BipBipBip… Bip - Bip - BipBipBip…\" (1 - 1 - 3).</td></tr><tr><td class=\"op2e-col-ferramenta\">Pó Revelador</td><td>O pó se mistura com o sangue do altar e lentamente começa a se mover em movimentos irregulares, como pequenas ondas.</td></tr><tr><td class=\"op2e-col-ferramenta\">Rádio Modificado</td><td>Palavras sussurradas escapam de dentro do rádio. Conjuntos de palavras (os falsos estão em itálico): NOS DEFENDENDO – <em>EDGAR</em> – PENSE NA – MARCA – ELOÍSA – <em>ALAN</em> – NÃO TÊM – <em>VICTOR</em> – SUA FILHA, – OS OUTROS – O SACRIFÍCIO – FAMÍLIA – VAMOS MATAR – ESTAMOS APENAS – O RITUAL. Solução: \"Pense na sua filha, Eloísa! Estamos apenas nos defendendo! Os outros não têm família!\"</td></tr><tr><td class=\"op2e-col-ferramenta\">Termômetro Diferencial</td><td>Temperatura mais quente do que o restante do ambiente.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>O \"Altar\" é apenas uma cômoda de madeira que Gustavo tinha em seu porão, convertida em um altar para o ritual do Ídolo de Pedra.</p><p>Os símbolos esculpidos na madeira foram desenhados por Alan usando uma faca de churrasco. Ele não sabe o que significam, estava apenas replicando os seus achados arqueológicos.</p><p>Quando Gustavo se recusou a participar do plano, Alan o atacou com a mesma faca que meses antes havia usado para esculpir os símbolos na cômoda. Então, puxou o móvel até ficar sob o símbolo no teto e realizou os ritos necessários para entregar a vida de Gustavo como sacrifício para o Ídolo.</p><p>As gavetas têm alguns dos componentes ritualísticos, como ervas moídas, entre roupas e toalhas antigas de Gustavo e sua família. Nenhum desses itens é útil agora.</p><p>Alan e Eloísa acorrentaram Edgar para ser sacrificado primeiro, já que ele é o mais forte fisicamente e seria o mais perigoso caso acordasse.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.KJqRqr1MSZsYXdTn"
+    },
+    {
+      "_id": "m0VLitKRJebrpgHH",
+      "name": "09 — Símbolo no Teto",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Símbolo no Teto</h4><p class=\"op2e-ponto-descricao\">No teto, acima do altar, há um símbolo enorme desenhado com algum líquido ou tinta avermelhada. A iluminação baixa do local torna difícil enxergá-lo em detalhes.</p></div><div class=\"op2e-ponto-selo\">09</div></div><div class=\"op2e-desafio\"><div class=\"op2e-desafio-rotulo\"><i class=\"fa-solid fa-lock\"></i> <span>Desafio de Acesso<br><span class=\"op2e-desafio-sub\">Símbolo Alto</span></span></div><div class=\"op2e-desafio-corpo\"><div class=\"op2e-desafio-linha\">ALCANÇAR (DT 7) — necessário subir no altar molhado e escorregadio para observar o símbolo de perto.</div></div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Aptidão (Humanas)</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O símbolo lembra linguagens mesopotâmicas ancestrais, mas não parece pertencer a nenhum alfabeto conhecido.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"3\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O símbolo é idêntico ao que os sobreviventes tinham tatuados em seu pulso. Mostre o Handout 02 — Símbolo no Teto.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Ele parece ter sido desenhado duas vezes. Primeiro, com um líquido marrom e seco, já apagado e, mais recentemente, com um líquido vermelho — possivelmente sangue, ainda fresco. Enquanto você observa, uma gota cai no altar.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">O desenho fresco parece tremido e mal feito, como se tivesse sido traçado às pressas.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Termômetro Diferencial</td><td>O símbolo todo mede uma temperatura bem mais quente que o restante do ambiente.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>O símbolo da maldição foi desenhado por Alan, seguindo as evidências que encontrou em sua expedição arqueológica ao Iraque.</p><p>Ele foi desenhado duas vezes. A primeira, meses atrás, quando todos realizaram o ritual, e a segunda há poucas horas, quando Alan passou o sangue de Gustavo por cima do símbolo previamente desenhado para realizar o ritual com seu corpo.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.m0VLitKRJebrpgHH"
+    },
+    {
+      "_id": "KyjYfTeddMMGLtZp",
+      "name": "10 — Depósito A",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Depósito A</h4><p class=\"op2e-ponto-descricao\">Um pequeno depósito com paredes de grade divisória e uma porta trancada. Há algumas estantes vazias, um aparelho elíptico quebrado em um canto e um painel elétrico na parede.</p></div><div class=\"op2e-ponto-selo\">10</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Há um molho de chaves caído no chão. O molho tem três chaves, duas grandes e uma pequena.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">As chaves estão jogadas longe das grades, o que indica que foram arremessadas lá dentro de propósito.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Eloísa e Alan usaram os depósitos do porão de Gustavo como celas improvisadas.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.KyjYfTeddMMGLtZp"
+    },
+    {
+      "_id": "Vqf7oEc1PgX8WKoq",
+      "name": "11 — Depósito A, Molho de Chaves",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Depósito A, Molho de Chaves</h4><p class=\"op2e-ponto-descricao\">Um molho com três chaves, sendo duas grandes e uma pequena.</p></div><div class=\"op2e-ponto-selo\">11</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Há um pouco de sangue nas chaves.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Duas chaves são iguais. Provavelmente cada uma abre um depósito diferente.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">A terceira chave é menor e, pela forma, abre um cadeado.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>Sequência exigida: 4. O sangue nas chaves é de Gustavo.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Este é o molho de chaves 1. As chaves abrem: a porta do Depósito A, a porta do Depósito B e o cadeado nas correntes de Edgar.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.Vqf7oEc1PgX8WKoq"
+    },
+    {
+      "_id": "FdgwdWo3TT6xF1U9",
+      "name": "12 — Depósito A, Painel Elétrico",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Depósito A, Painel Elétrico</h4><p class=\"op2e-ponto-descricao\">Um painel de luz antigo, confuso e mal instalado.</p></div><div class=\"op2e-ponto-selo\">12</div></div><div class=\"op2e-desafio\"><div class=\"op2e-desafio-rotulo\"><i class=\"fa-solid fa-lock\"></i> <span>Desafio de Acesso<br><span class=\"op2e-desafio-sub\">Painel Confuso (Hack Técnico)</span></span></div><div class=\"op2e-desafio-corpo\"><div class=\"op2e-desafio-linha\">Só é possível investigá-lo se conseguir entendê-lo.</div><div class=\"op2e-desafio-linha\">10+: 16 × 5 = 80 &nbsp;|&nbsp; 7-9: 192 ÷ 8 = 24 &nbsp;|&nbsp; 5-6: 13² = 169 &nbsp;|&nbsp; 1-4: √2209 = 47</div></div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Pesquisar</td><td class=\"op2e-col-dt\">4</td><td class=\"op2e-col-info\">Há dois disjuntores etiquetados: \"Porão\" (ligado) e \"Segredo\" (desligado).</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Intuição</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Se alguém coloca uma etiqueta escrito \"Segredo\" num painel de luz, provavelmente não está realmente preocupado em esconder um segredo.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Máquinas</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">O disjuntor \"Segredo\" não afeta nenhuma das luzes dessa sala.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Os interruptores \"Porão\" e \"Segredo\" ligam e desligam todas as luzes e dispositivos do porão e da sala secreta.</p><p>Se o disjuntor \"Segredo\" estiver desligado, o computador não liga.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.FdgwdWo3TT6xF1U9"
+    },
+    {
+      "_id": "lPvkb5tB8AAdPAsV",
+      "name": "13 — Depósito B",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Depósito B</h4><p class=\"op2e-ponto-descricao\">Um pequeno depósito com paredes de grade divisória e uma porta trancada. Há caixas, um teclado velho e quebrado e um ursinho de pelúcia. Além disso, há fragmentos de algum tipo de vaso ou tigela antiga e pesada espalhados por todo lado.</p></div><div class=\"op2e-ponto-selo\">13</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Aptidão (Humanas)</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">A tigela era antiga. Muito antiga. Pelo material, marcas e condições, ela devia ter séculos… ou mais.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"3\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Duas chaves são iguais. Provavelmente cada uma abre um depósito diferente.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Vários fragmentos mostram que a tigela já estava bastante manchada antes de quebrar, como se fosse usada para conter um líquido escurecido. Somado a isso, alguns dos fragmentos estão manchados de sangue fresco.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">As manchas na tigela são de sangue em diferentes níveis de deterioração.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção (apenas ao usar a Câmera Modificada)</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">No fundo, quase imperceptível na escuridão, há pequenos sigilos de conhecimento que não deveriam estar lá.</td></tr><tr class=\"op2e-cor-areia\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Ocultismo</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Pelas condições da tigela, ela provavelmente foi usada como parte de rituais de ocultismo no passado.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Câmera Modificada</td><td>Ao tirar uma foto em qualquer lugar dentro do Depósito B, mostre o Handout 04 — Foto Dentro do Depósito B. Sem a imagem: \"Há duas silhuetas sombrias. Uma está caída ao chão, desmaiada. A outra está ao lado, ajoelhada, com as duas mãos no chão como se observasse algo com muita concentração.\"</td></tr><tr><td class=\"op2e-col-ferramenta\">Pó Revelador</td><td>Ao misturar o pó com os fragmentos da tigela, ele se umidifica e absorve um tom escurecido, como um marrom avermelhado.</td></tr><tr><td class=\"op2e-col-ferramenta\">Rádio Modificado</td><td>Palavras sussurradas escapam de dentro do rádio. Conjuntos de palavras (os falsos estão em itálico): RITUAL – CHAVE – ESQUECER – <em>AGORA SIM</em> – FAZER – EDGAR – <em>SACRIFÍCIO</em> – EU VOU – MATAR ELE – <em>ELE</em> – LIVRES – <em>COMO</em> – FAZER ISSO. Solução: \"Eu vou fazer ele esquecer como fazer isso!\"</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Eloísa e Alan usaram os depósitos como celas improvisadas. Alan havia arrastado Victor até a cela, mas Victor fingiu estar desacordado e o nocauteou usando a tigela ritualística.</p><p>Depois disso, pegou as chaves e trancou a cela para que Eloísa não entrasse enquanto ele conjurava seu ritual.</p><p>Os outros pertences são apenas coisas antigas que Gustavo guardou: um ursinho de pelúcia de sua filha Laura, um teclado musical antigo, caixas com tranqueiras inúteis (como decorações natalinas e panos velhos).</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.lPvkb5tB8AAdPAsV"
+    },
+    {
+      "_id": "Q4e2w4azpIRoIOG8",
+      "name": "14 — Depósito B, Rabiscos no Chão",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Depósito B, Rabiscos no Chão</h4><p class=\"op2e-ponto-descricao\">Algo foi desenhado ou escrito no chão, mas está completamente borrado e irreconhecível agora, como se algo tivesse sido arrastado por cima.</p></div><div class=\"op2e-ponto-selo\">14</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O que sobrou no desenho parece algum tipo de diagrama ou símbolo.</td></tr><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">Não é o mesmo símbolo das tatuagens ou do teto.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Ocultismo (apenas ao usar Pó Revelador)</td><td class=\"op2e-col-dt\">12</td><td class=\"op2e-col-info\">É um ritual de Conhecimento, feito de maneira amadora e inexperiente. Os sigilos são tortos, inconsistentes e mal feitos, como uma criança imitando o desenho de letras por ainda não saber escrever. Qualquer que fosse o objetivo desse ritual, é improvável que o resultado tenha sido exatamente como desejado.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Pó Revelador</td><td>Ao espalhar o pó por cima dos rabiscos, ele lentamente cai de maneira organizada, reconstruindo o diagrama original. Mostre o Handout 05 — Ritual de Alterar Memória.</td></tr><tr><td class=\"op2e-col-ferramenta\">Lanterna de Estouro Ultravioleta</td><td>A luz é refletida pelo giz como um grande clarão dourado no formato de um símbolo de ritual.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>O símbolo no chão foi desenhado por Victor, na tentativa de apagar da memória de Alan tudo o que aprendeu no início do ano sobre o ritual. Porém, quando ambos desmaiaram ao terem as memórias apagadas, Victor caiu em cima do símbolo, borrando-o por completo.</p><p>Victor trouxe os componentes ritualísticos escondidos em seu casaco, bem como o giz branco que usa para dar aulas e os papéis contendo rascunhos do símbolo — que usou para copiar. Foi o primeiro ritual que conjurou, e o resultado não saiu como o esperado.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.Q4e2w4azpIRoIOG8"
+    },
+    {
+      "_id": "L1ZHk50nR363RryO",
+      "name": "15 — Armário de Metal",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Armário de Metal</h4><p class=\"op2e-ponto-descricao\">Um armário de ferramentas enferrujado.</p></div><div class=\"op2e-ponto-selo\">15</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Todas as ferramentas no armário em si resultam em leitura normal ou sem reação. O que traz leituras relevantes são o Ídolo de Pedra e a faca de churrasco (veja os pontos de interesse 6 e 7).</p><p>Um armário usado por Gustavo para guardar ferramentas variadas.</p><p>Caso os personagens não tenham aberto o armário no Ato I, a Ordem o fez e o esvaziou, posicionando o Ídolo e a faca no chão ao lado. Não há mais nada de relevante dentro dele.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.L1ZHk50nR363RryO"
+    },
+    {
+      "_id": "nbKMLmxtQgXziWqq",
+      "name": "16 — Estante de Livros",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Estante de Livros</h4><p class=\"op2e-ponto-descricao\">Uma estante de livros com cinco prateleiras próxima à parede. Ela foi instalada sobre um sistema de trilhos e está deslocada para o lado, revelando a passagem para outra sala.</p></div><div class=\"op2e-ponto-selo\">16</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A estante está aberta, não representando nenhum desafio para os agentes. Não há nenhuma informação relevante para ser descoberta aqui. De qualquer maneira, se necessário, veja a descrição completa da estante no Ato I.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.nbKMLmxtQgXziWqq"
+    },
+    {
+      "_id": "RopDjNMwedZlRjzo",
+      "name": "17 — Pôsteres",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Pôsteres</h4><p class=\"op2e-ponto-descricao\">Quatro pôsteres dos anos 90.</p></div><div class=\"op2e-ponto-selo\">17</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Os pôsteres eram importantes para resolver o enigma da estante de livros, mas não possuem nenhuma informação relevante para a investigação dos agentes. De qualquer maneira, se necessário, veja a descrição completa dos pôsteres no Ato I.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.RopDjNMwedZlRjzo"
+    },
+    {
+      "_id": "mnmTaW0W1nXhWJXo",
+      "name": "18 — Duto de Ventilação",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Duto de Ventilação</h4><p class=\"op2e-ponto-descricao\">Um duto de ventilação alto na parede. Ele está fechado por uma grade.</p></div><div class=\"op2e-ponto-selo\">18</div></div><div class=\"op2e-desafio\"><div class=\"op2e-desafio-rotulo\"><i class=\"fa-solid fa-lock\"></i> <span>Desafio de Acesso<br><span class=\"op2e-desafio-sub\">Grade Alta</span></span></div><div class=\"op2e-desafio-corpo\"><div class=\"op2e-desafio-linha\">ALCANÇAR (DT 7)</div><div class=\"op2e-desafio-linha\">ARROMBAR (DT 7, PA 10)</div></div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Um duto de ventilação que conecta o porão à sala secreta. Considerando que a estante de livros está aberta, não há por que usar o duto. Mesmo assim, é possível que um agente tente investigá-lo. Porém, não há nada a ser encontrado nele.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.mnmTaW0W1nXhWJXo"
+    },
+    {
+      "_id": "zXC455zCwPPSukx6",
+      "name": "19 — Porta de Saída",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Porta de Saída</h4><p class=\"op2e-ponto-descricao\">Uma porta de metal reforçada, com uma tranca eletrônica e um painel numérico ao lado. O painel é da marca TRANCATRON.</p></div><div class=\"op2e-ponto-selo\">19</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A porta está aberta. Mesmo que seja fechada, os agentes sabem a senha para abri-la.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.zXC455zCwPPSukx6"
+    },
+    {
+      "_id": "Xldn9PP7K4BE0DKO",
+      "name": "20 — Mesa de Poker",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Mesa de Poker</h4><p class=\"op2e-ponto-descricao\">Uma mesa com cartas jogadas e fichas de poker.</p></div><div class=\"op2e-ponto-selo\">20</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Uma cadeira parece ter sido derrubada seguindo a trilha de sangue no chão.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A mesa era usada por Gustavo e seus amigos para jogar partidas de poker. Até mesmo Alan e Victor participaram de algumas jogatinas, já que se tornaram amigos após os resultados do ritual. A cadeira caída foi resultado de Alan esbarrar enquanto arrastava o corpo. Nenhuma outra informação relevante pode ser encontrada.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.Xldn9PP7K4BE0DKO"
+    },
+    {
+      "_id": "tsn3lsCCQyQxIR3v",
+      "name": "21 — Mesa de Sinuca",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Mesa de Sinuca</h4><p class=\"op2e-ponto-descricao\">Uma mesa de bilhar simples, com bolas espalhadas e um taco de sinuca jogado por cima.</p></div><div class=\"op2e-ponto-selo\">21</div></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Assim como a mesa de poker, a mesa de sinuca era usada por Gustavo e seus amigos. Nada relevante pode ser encontrado aqui.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.tsn3lsCCQyQxIR3v"
+    },
+    {
+      "_id": "1u71D23hztfWxz4m",
+      "name": "22 — Churrasqueira",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Churrasqueira</h4><p class=\"op2e-ponto-descricao\">Uma grelha montada com uma coifa acima.</p></div><div class=\"op2e-ponto-selo\">22</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Intuição</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Considerando o ambiente com isolamento acústico, o dono dessa sala provavelmente preparou um lugar para fazer churrasco e curtir com os amigos até tarde sem se preocupar em acordar o restante da família.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Uma cadeira parece ter sido derrubada seguindo a trilha de sangue no chão.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><p style=\"margin:0.5rem 0.75rem;\">Todas as ferramentas resultam em leitura normal ou sem reação.</p></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>A grelha era usada por Gustavo para fazer churrasco com seus amigos no porão. Não tem informações relevantes.</p><p><em>Nota de digitalização: a linha de Percepção acima repete, no material oficial, a mesma pista da Mesa de Poker (ponto 20) — provável erro de diagramação do playtest, mantido aqui fiel ao texto publicado.</em></p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.1u71D23hztfWxz4m"
+    },
+    {
+      "_id": "gRWFTOC7B6H1py49",
+      "name": "23 — Armário de Roupas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Armário de Roupas</h4><p class=\"op2e-ponto-descricao\">Um armário de roupas aberto e revirado, com algumas peças espalhadas pelo chão.</p></div><div class=\"op2e-ponto-selo\">23</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Percepção</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Há um pouco de sangue nas chaves.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Duas chaves são iguais. Provavelmente cada uma abre um depósito diferente.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">A terceira chave é menor e, pela forma, abre um cadeado.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>O sangue na roupa suja é de Gustavo.</td></tr><tr><td class=\"op2e-col-ferramenta\">Leitor Infravermelho</td><td>A silhueta fria de uma pessoa vasculhando o armário, repetidamente, como se estivesse buscando por algo eternamente.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Ao matar Gustavo e arrastar seu corpo, as roupas de Alan ficaram sujas de sangue. Ele então decidiu se trocar, usando roupas antigas que Gustavo guardava no armário. Para isso, revirou o armário em busca de algo que fosse de seu tamanho, mas não encontrou, então precisou se contentar com roupas grandes demais.</p><p>Alan sabia que o resto do grupo estava quase chegando, por isso fez tudo às pressas. Com isso, jogou suas roupas manchadas de qualquer jeito.</p><p><em>Nota de digitalização: a tabela de Percepção/Pesquisar acima repete, no material oficial, o texto do Molho de Chaves (ponto 11) — provável erro de diagramação do playtest (este armário não deveria ter \"chaves\"), mantido aqui fiel ao texto publicado.</em></p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.gRWFTOC7B6H1py49"
+    },
+    {
+      "_id": "QEcACinYeHCk3uk3",
+      "name": "24 — Computador",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Computador</h4><p class=\"op2e-ponto-descricao\">Um computador antigo sobre uma mesa de escritório no canto da sala. Ao ser ligado, o computador não pede senha. Porém, ele é bastante lento e completamente desorganizado. A área de trabalho tem dezenas de ícones e pastas nomeadas \"dasadasdads123\" e derivados.</p></div><div class=\"op2e-ponto-selo\">24</div></div><div class=\"op2e-desafio\"><div class=\"op2e-desafio-rotulo\"><i class=\"fa-solid fa-lock\"></i> <span>Desafio de Acesso<br><span class=\"op2e-desafio-sub\">Computador Desorganizado (Hack Técnico)</span></span></div><div class=\"op2e-desafio-corpo\"><div class=\"op2e-desafio-linha\">Equação: 23×4-25=67</div><div class=\"op2e-desafio-linha\">10 ou mais: 20s &nbsp;|&nbsp; 7-9: 15s &nbsp;|&nbsp; 6 ou menos: 10s</div></div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Pesquisar</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">A maioria dos papéis jogados ao redor do computador, também bagunçados, são documentos de contabilidade de várias empresas pequenas ou pessoas desconhecidas.</td></tr><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Há também alguns laudos médicos e exames. O mais recente é de abril, que retornou com uma frase destacada: \"Sem evidência de doença ou sintomas\".</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Pesquisar ou Tecnologia</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O computador era usado por Gustavo tanto para trabalho quanto para lazer, e ele claramente era uma pessoa desorganizada. Você encontra a caixa de e-mail (se os personagens quiserem rever os e-mails, entregue a eles os Handouts 12A, 12B e 12C do Ato I).</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">O e-mail de 12 de março marca um encontro \"daqui a 4 dias\", ou seja, eles se encontraram pela primeira vez na casa de Gustavo no dia 16 de março.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Intuição (requer ter encontrado os e-mails)</td><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Pela linguagem e comunicação das mensagens, parecia que Victor havia se tornado a pessoa mais próxima de Gustavo. Com 3 ou 4 jogadores no Ato I, Eloísa não parecia manter muito contato; com 5, Kênia e Eloísa não pareciam manter muito contato.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Rádio Modificado</td><td>Frases de várias pessoas discutindo podem ser escutadas fora de ordem, algumas de trás pra frente, em velocidades inconsistentes e repetidamente. Conjuntos de frases (os falsos estão em itálico): \"Nós vamos todos morrer!\" – \"Tem que ter outro jeito.\" – <em>\"Eles não merecem viver!\"</em> – \"Eu vou ter que te matar, Alan.\" – \"Eu me recuso, Alan.\" – <em>\"Nós precisamos louvar o Ídolo!\"</em> – \"E só eu sei fazer esse ritual!\" – \"Por favor, me ajuda a te salvar.\" – <em>\"Você é meu mestre.\"</em> – \"Eu não vou me tornar um assassino.\" – <em>\"Eles vão te matar!\"</em> – \"Você tem uma filha!\". Solução (Alan / Gustavo, alternando): \"Você tem uma filha! E só eu sei fazer esse ritual!\" — \"Eu me recuso, Alan.\" — \"Nós vamos todos morrer! Por favor, me ajuda a te salvar.\" — \"Tem que ter outro jeito. Eu não vou me tornar um assassino.\"</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>O computador é de Gustavo, que o usava primariamente para jogos de computador ou colocar música na caixa de som enquanto seus amigos estavam ali jogando sinuca e bebendo cerveja. Os papéis ao redor são documentos de contabilidade da empresa de Gustavo e não são relevantes para o caso.</p><p>Por outro lado, no computador é possível encontrar informações sobre o ritual, a doença terminal de Gustavo e os e-mails trocados entre todos, nos quais combinam de se encontrar para realizar o ritual do Ídolo de Pedra.</p><p>O computador não precisa de senha para ser usado, mas navegar pelas pastas bagunçadas requer um hack técnico.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.QEcACinYeHCk3uk3"
+    },
+    {
+      "_id": "TwwVPaTpJza9W5xZ",
+      "name": "25 — Freezer",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"op2e-jornal op2e-ponto\"><div class=\"op2e-ponto-cabecalho\"><i class=\"fa-solid fa-magnifying-glass op2e-ponto-icone\"></i><div class=\"op2e-ponto-titulos\"><h4>Freezer</h4><p class=\"op2e-ponto-descricao\">Um freezer sujo de sangue seco.</p></div><div class=\"op2e-ponto-selo\">25</div></div><div class=\"op2e-tabela-scroll\"><table class=\"op2e-tabela-pericia\"><thead><tr><th>Perícia</th><th>DT</th><th>Informação</th></tr></thead><tbody><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-pericia\" rowspan=\"2\">Percepção</td><td class=\"op2e-col-dt\">4</td><td class=\"op2e-col-info\">Um corpo foi desovado aqui anteriormente, mas não está mais aqui.</td></tr><tr class=\"op2e-cor-teal\"><td class=\"op2e-col-dt\">6</td><td class=\"op2e-col-info\">Há bastante sangue dentro do freezer, completamente congelado.</td></tr><tr class=\"op2e-cor-lavanda\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Medicina</td><td class=\"op2e-col-dt\">10</td><td class=\"op2e-col-info\">O sangue está num tom consideravelmente mais escurecido que o normal.</td></tr><tr class=\"op2e-cor-verde\"><td class=\"op2e-col-pericia\" rowspan=\"1\">Sobrevivência</td><td class=\"op2e-col-dt\">8</td><td class=\"op2e-col-info\">Um rastro de sangue já seco e quase apagado vem do altar de madeira e termina aqui no freezer.</td></tr></tbody></table></div><div class=\"op2e-ferramentas\"><div class=\"op2e-ferramentas-rotulo\"><i class=\"fa-solid fa-toolbox\"></i> <span>Ferramentas</span></div><div class=\"op2e-ferramentas-corpo\"><table class=\"op2e-tabela-ferramenta\"><tbody><tr><td class=\"op2e-col-ferramenta\">Câmera Modificada</td><td>Ao tirar uma foto do Freezer, mostre o Handout 06 — Foto do Freezer. Sem a imagem: \"A foto saiu escura e com bastante ruído, mas é possível ver uma silhueta arrastando o corpo de outra silhueta pelo chão em direção ao freezer no fundo.\"</td></tr><tr><td class=\"op2e-col-ferramenta\">Laboratório Portátil</td><td>Sequência mínima: 5. Analisar o sangue congelado revela que ele não está aqui há muito tempo — parece ter sido derramado na noite em que os civis estiveram aqui.</td></tr><tr><td class=\"op2e-col-ferramenta\">Lanterna de Estouro Ultravioleta</td><td>O sangue escurecido e congelado encontrado dentro do freezer parece se movimentar como se fugisse do estouro da lanterna, como se fosse empurrado por um sopro de vento forte.</td></tr><tr><td class=\"op2e-col-ferramenta\">Medidor EMF</td><td>Envie ou toque o áudio EMF 3 para o jogador. Sem áudio disponível, reproduza com a voz o padrão: \"Bip - Bip - Bip… Bip - Bip - Bip…\" (1 - 1 - 1).</td></tr><tr><td class=\"op2e-col-ferramenta\">Termômetro Diferencial</td><td>Mais frio que o restante do ambiente (afinal, é um freezer). Porém, se desligarem o freezer, ele continua frio e a temperatura não muda.</td></tr></tbody></table></div></div><div class=\"op2e-nota-gm\"><i class=\"fa-solid fa-book-open\"></i><div><p>Gustavo mantinha um freezer aqui, onde gelava a bebida e guardava a carne que seria preparada ao receber os amigos.</p><p>Após matar Gustavo e realizar o ritual usando seu corpo, Alan escondeu o cadáver no freezer e trancou-o usando um dos cadeados que encontrou no porão. Porém, esqueceu as chaves no bolso da jaqueta quando trocou de roupa.</p></div></div></div>"
+      },
+      "_key": "!journal.pages!zJpt5FsIKgWQfXOE.TwwVPaTpJza9W5xZ"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "sort": 0
+}
