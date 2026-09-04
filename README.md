@@ -144,20 +144,24 @@ qualquer uma delas do compêndio pra sua hotbar para usar:
 
 - **Alternar Luzes da Cena** — apaga/acende todas as luzes da cena atual num clique só.
 - **Revelar Handout** — em vez de só "Mostrar Imagem" (que aparece na hora e depois some),
-  essa macro deixa escolher qual handout (de qualquer um dos compêndios de Materiais de
-  Jogo) liberar pros jogadores: ela mostra o pop-up na hora **e** salva a página num
-  Journal do mundo chamado "Handouts Revelados" (criado automaticamente na primeira vez),
-  visível a qualquer jogador dali em diante. Assim dá pra ir liberando os handouts aos
-  poucos, conforme a investigação avança, em vez de tudo de uma vez — e o jogador sempre
-  consegue voltar e conferir um handout que já foi mostrado antes. Na primeira vez que um
-  handout é revelado, ela também cria a macro **Meus Handouts** e fixa ela no **slot 3 da
-  hotbar de todo jogador** (inclusive jogadores que entrarem depois) — um "livrinho" que
-  abre o Journal "Handouts Revelados" com um clique, só com o que já foi mostrado pra
-  aquele jogador, sem aparecer nada pros outros.
-- **Resetar Handouts Revelados** — apaga todas as páginas do Journal "Handouts Revelados",
-  voltando tudo ao estado inicial (como se nenhum handout tivesse sido mostrado ainda).
-  Pede confirmação antes, porque não dá pra desfazer. Útil pra recomeçar uma campanha ou
-  corrigir um handout revelado por engano.
+  essa macro deixa escolher **primeiro de qual Ato** (I ou II) e depois qual handout
+  liberar pros jogadores: ela mostra o pop-up na hora **e** salva a página num Journal do
+  mundo separado por ato ("Handouts Revelados — Ato I" / "— Ato II", criado
+  automaticamente na primeira vez), visível a qualquer jogador dali em diante. Os dois
+  Journals nunca se misturam — mesmo que um handout tenha o mesmo nome nos dois atos, cada
+  um fica revelado (ou não) de forma independente. Assim dá pra ir liberando os handouts
+  aos poucos, conforme a investigação avança, em vez de tudo de uma vez — e o jogador
+  sempre consegue voltar e conferir um handout que já foi mostrado antes. Na primeira vez
+  que um handout é revelado, ela também cria a macro **Meus Handouts** e fixa ela no
+  **slot 3 da hotbar de todo jogador** (inclusive jogadores que entrarem depois) — um
+  "livrinho" que abre o Journal do Ato certo com um clique (pergunta qual Ato ver, se os
+  dois já tiverem conteúdo), só com o que já foi mostrado pra aquele jogador, sem aparecer
+  nada pros outros.
+- **Resetar Handouts Revelados** — apaga as páginas dos Journals "Handouts Revelados — Ato
+  I" e/ou "— Ato II" (pergunta qual Ato resetar, ou os dois), voltando tudo ao estado
+  inicial (como se nenhum handout tivesse sido mostrado ainda). Pede confirmação antes,
+  porque não dá pra desfazer. Útil pra recomeçar uma campanha ou corrigir um handout
+  revelado por engano.
 
 ## Usando com o módulo Party Sheet
 

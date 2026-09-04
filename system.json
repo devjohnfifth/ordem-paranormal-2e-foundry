@@ -2,7 +2,7 @@
   "id": "op2e-playtest",
   "title": "Ordem Paranormal RPG 2 (Playtest) [DEV]",
   "description": "Versão de desenvolvimento (instável) do sistema não-oficial para Foundry VTT baseado no primeiro Playtest Alpha de Ordem Paranormal RPG 2, de Rafael \"Cellbit\" Lange e Jambô Editora. A versão estável, compartilhada publicamente, fica no branch master do mesmo repositório.",
-  "version": "0.8.8",
+  "version": "0.8.9",
   "compatibility": {
     "minimum": "13",
     "verified": "14.365"
@@ -167,5 +167,5 @@
   "readme": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry#readme",
   "bugs": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/issues",
   "manifest": "https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/dev/system.json",
-  "download": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/releases/download/v0.8.8-dev/system.zip"
+  "download": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/releases/download/v0.8.9-dev/system.zip"
 }
