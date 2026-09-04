@@ -2,7 +2,7 @@
   "_id": "Loas9LAzUKb3QS6b",
   "name": "Termômetro Diferencial",
   "type": "ferramenta",
-  "img": "systems/op2e-playtest/assets/icones/termometro-diferencial.svg",
+  "img": "systems/op2e-playtest/assets/ferramentas/termometro-diferencial.webp",
   "folder": null,
   "sort": 900000,
   "ownership": {
