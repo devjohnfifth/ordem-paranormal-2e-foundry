@@ -18,6 +18,7 @@ import { registrarMapaColaInterativo } from "./helpers/mapa-cola.mjs";
 import { registrarLogoDePausa } from "./helpers/pausa.mjs";
 import { registrarBarBrawlPadrao } from "./helpers/barbrawl.mjs";
 import { registrarMarcaQuintoDado } from "./helpers/marca-quinto-dado.mjs";
+import { registrarCombatePorFases } from "./helpers/combate.mjs";
 
 Hooks.once("init", () => {
   console.log("Ordem Paranormal RPG 2 (Playtest) | Inicializando sistema");
@@ -61,6 +62,7 @@ Hooks.once("init", () => {
   registrarLogoDePausa();
   registrarBarBrawlPadrao();
   registrarMarcaQuintoDado();
+  registrarCombatePorFases();
 });
 
 Hooks.once("ready", () => {

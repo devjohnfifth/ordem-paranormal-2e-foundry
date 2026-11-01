@@ -17,6 +17,22 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
       resetarTrauma: OP2PersonagemSheet.#resetarTrauma,
       gastarImpeto: OP2PersonagemSheet.#gastarImpeto,
       definirRecurso: OP2PersonagemSheet.#definirRecurso,
+      rolarMorte: OP2PersonagemSheet.#rolarMorte,
+      rolarLesao: OP2PersonagemSheet.#rolarLesao,
+      rolarTraumaTabela: OP2PersonagemSheet.#rolarTraumaTabela,
+      gastarArmadura: OP2PersonagemSheet.#gastarArmadura,
+      controlarPavor: OP2PersonagemSheet.#controlarPavor,
+      abracarPavor: OP2PersonagemSheet.#abracarPavor,
+      ajustarAnalise: OP2PersonagemSheet.#ajustarAnalise,
+      novaCena: OP2PersonagemSheet.#novaCena,
+      novaMissao: OP2PersonagemSheet.#novaMissao,
+      invocarRelacao: OP2PersonagemSheet.#invocarRelacao,
+      adicionarRelacao: OP2PersonagemSheet.#adicionarRelacao,
+      removerRelacao: OP2PersonagemSheet.#removerRelacao,
+      removerLesao: OP2PersonagemSheet.#removerLesao,
+      removerTrauma: OP2PersonagemSheet.#removerTrauma,
+      atacar: OP2PersonagemSheet.#atacar,
+      alternarEquipado: OP2PersonagemSheet.#alternarEquipado,
       adicionarAptidao: OP2PersonagemSheet.#adicionarAptidao,
       removerAptidao: OP2PersonagemSheet.#removerAptidao,
       itemCriar: OP2PersonagemSheet.#itemCriar,
@@ -71,6 +87,20 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
     context.aptidaoCampos = Object.entries(this.actor.system.pericias.aptidao.campos)
       .filter(([, c]) => c.ativo)
       .map(([chave, c]) => ({ chave, dado: c.dado }));
+
+    const edicao = this.actor.system.edicao;
+    context.beta = edicao === "beta";
+    context.colunas = OP2E.colunasPericias[edicao] ?? OP2E.colunasPericias.alpha;
+    context.edicoes = OP2E.edicoes;
+    context.patamares = OP2E.patamares;
+    context.grausRelacao = { 0: "Neutro", 1: "Afinidade", 2: "Vínculo", 3: "Devoção" };
+    context.pavorOpcoes = { 0: "—", 4: "d4", 6: "d6", 8: "d8", 10: "d10", 12: "d12" };
+    context.armas = context.itens.filter((i) => i.system.categoria === "arma");
+    context.mostrarAnalise = this.actor.system.analise.max > 0;
+    context.condicoes = Object.keys(this.actor.system.condicoes).map((chave) => ({
+      chave,
+      ativa: this.actor.system.condicoes[chave]
+    }));
     return context;
   }
 
@@ -194,8 +224,9 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
    */
   static async #adicionarAptidao() {
     const campos = this.actor.system.pericias.aptidao.campos;
+    const daEdicao = OP2E.aptidaoPorEdicao[this.actor.system.edicao] ?? Object.keys(campos);
     const restantes = Object.entries(campos)
-      .filter(([, c]) => !c.ativo)
+      .filter(([chave, c]) => !c.ativo && daEdicao.includes(chave))
       .map(([chave]) => chave);
 
     if (restantes.length === 0) {
@@ -230,6 +261,91 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
   static async #removerAptidao(event, target) {
     const campo = target.closest("[data-campo]").dataset.campo;
     await this.actor.update({ [`system.pericias.aptidao.campos.${campo}.ativo`]: false });
+  }
+
+  static async #rolarMorte() {
+    await this.actor.rolarTesteMorte();
+  }
+
+  static async #rolarLesao() {
+    await this.actor.rolarLesao();
+  }
+
+  static async #rolarTraumaTabela() {
+    await this.actor.rolarTrauma();
+  }
+
+  static async #gastarArmadura() {
+    await this.actor.gastarArmadura();
+  }
+
+  static async #controlarPavor() {
+    await this.actor.controlarPavor();
+  }
+
+  static async #abracarPavor() {
+    await this.actor.abracarPavor();
+  }
+
+  static async #ajustarAnalise(event, target) {
+    await this.actor.ajustarAnalise(Number(target.dataset.delta));
+  }
+
+  static async #novaCena() {
+    await this.actor.novaCena();
+  }
+
+  static async #novaMissao() {
+    await this.actor.novaMissao();
+  }
+
+  static async #invocarRelacao(event, target) {
+    await this.actor.invocarRelacao(Number(target.closest("[data-indice]").dataset.indice));
+  }
+
+  static async #adicionarRelacao() {
+    const relacoes = foundry.utils.deepClone(this.actor.system.relacoes);
+    relacoes.push({ nome: "", grau: 0, sentimento: "", descricao: "", usada: false });
+    await this.actor.update({ "system.relacoes": relacoes });
+  }
+
+  static async #removerRelacao(event, target) {
+    const indice = Number(target.closest("[data-indice]").dataset.indice);
+    const relacoes = foundry.utils.deepClone(this.actor.system.relacoes);
+    relacoes.splice(indice, 1);
+    await this.actor.update({ "system.relacoes": relacoes });
+  }
+
+  static async #removerLesao(event, target) {
+    const indice = Number(target.closest("[data-indice]").dataset.indice);
+    const lista = foundry.utils.deepClone(this.actor.system.lesoes);
+    lista.splice(indice, 1);
+    await this.actor.update({ "system.lesoes": lista });
+  }
+
+  static async #removerTrauma(event, target) {
+    const indice = Number(target.closest("[data-indice]").dataset.indice);
+    const lista = foundry.utils.deepClone(this.actor.system.traumas);
+    lista.splice(indice, 1);
+    await this.actor.update({ "system.traumas": lista });
+  }
+
+  static async #atacar(event, target) {
+    const item = this.actor.items.get(target.closest("[data-item-id]").dataset.itemId);
+    if (!item) return;
+    if (!event.shiftKey) {
+      await this.actor.rolarAtaque(item);
+      return;
+    }
+    const pericia = item.system.alcance === "distancia" ? "pontaria" : "luta";
+    const opcoes = await OP2PersonagemSheet.#abrirDialogoTeste(pericia);
+    if (!opcoes) return;
+    await this.actor.rolarAtaque(item, opcoes);
+  }
+
+  static async #alternarEquipado(event, target) {
+    const item = this.actor.items.get(target.closest("[data-item-id]").dataset.itemId);
+    await item?.update({ "system.equipado": !item.system.equipado });
   }
 
   static async #itemCriar(event, target) {

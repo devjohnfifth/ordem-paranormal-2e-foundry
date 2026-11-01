@@ -1,0 +1,16 @@
+{
+  "_id": "ygpLAfXSUF3l9Q5v",
+  "_key": "!macros!ygpLAfXSUF3l9Q5v",
+  "name": "Combate por Fases",
+  "type": "script",
+  "author": null,
+  "img": "systems/op2e-playtest/assets/icones/combate-fases.svg",
+  "scope": "global",
+  "command": "await game.op2e.combate.painel();\n",
+  "folder": "pVmaGMYVAX2JRq5X",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

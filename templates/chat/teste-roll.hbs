@@ -3,8 +3,11 @@
 
   <div class="op2e-dados">
     {{#each resultados as |r|}}
-      <span class="op2e-dado">d{{r.tamanho}}: <strong>{{r.valor}}</strong></span>
+      <span class="op2e-dado {{#if r.anulado}}op2e-dado-anulado{{/if}}">d{{r.tamanho}}: <strong>{{r.valor}}</strong></span>
     {{/each}}
+    {{#if pavor}}
+      <span class="op2e-dado op2e-dado-pavor" title="{{localize 'OP2E.Pavor.Dica'}}"><i class="fa-solid fa-skull"></i> d{{pavor.tamanho}}: <strong>{{pavor.valor}}</strong></span>
+    {{/if}}
   </div>
 
   <div class="op2e-resultado-linha">
@@ -28,4 +31,13 @@
       {{localize "OP2E.Chat.Falha"}}
     {{/if}}
   </div>
+
+  {{#if efeitoFalhaCritica}}
+    <div class="op2e-efeito-critico">
+      <strong>{{localize "OP2E.Chat.EfeitoFalhaCritica"}} (1d8 = {{efeitoFalhaCritica.valor}}): {{efeitoFalhaCritica.nome}}.</strong>
+      {{efeitoFalhaCritica.texto}}
+    </div>
+  {{/if}}
+
+  {{#if extra}}<div class="op2e-extra">{{{extra}}}</div>{{/if}}
 </div>

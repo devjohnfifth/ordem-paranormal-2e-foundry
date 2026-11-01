@@ -10,7 +10,6 @@
       "item": "Item"
     }
   },
-
   "OP2E": {
     "Nome": "Nome",
     "Nivel": "Nível",
@@ -18,26 +17,23 @@
     "Descricao": "Descrição",
     "Outro": "Outro",
     "ListaVazia": "Nada por aqui ainda.",
-
     "Perfil": {
       "Label": "Perfil",
       "executor": "Executor",
       "analista": "Analista",
       "vigilante": "Vigilante"
     },
-
     "Papel": {
       "Label": "Papel",
       "sobrevivente": "Sobrevivente",
-      "agente": "Agente da Ordo Realitas"
+      "agente": "Agente da Ordo Realitas",
+      "escolhido": "Escolhido (Contos da Vigília)"
     },
-
     "Atributo": {
       "fisico": "Físico",
       "mente": "Mente",
       "emocao": "Emoção"
     },
-
     "Pericia": {
       "acrobacia": "Acrobacia",
       "aptidao": "Aptidão",
@@ -58,9 +54,12 @@
       "pontaria": "Pontaria",
       "sobrevivencia": "Sobrevivência",
       "tecnologia": "Tecnologia",
-      "vigor": "Vigor"
+      "vigor": "Vigor",
+      "animais": "Animais",
+      "inspecionar": "Inspecionar",
+      "oficio": "Ofício",
+      "Especialidade": "especialidade"
     },
-
     "Aptidao": {
       "artes": "Artes",
       "atualidades": "Atualidades",
@@ -68,9 +67,13 @@
       "exatas": "Exatas",
       "humanas": "Humanas",
       "tatica": "Tática",
-      "Vazio": "Nenhuma Aptidão treinada ainda."
+      "Vazio": "Nenhuma Aptidão treinada ainda.",
+      "erudicao": "Erudição",
+      "folclore": "Folclore",
+      "guerra": "Guerra",
+      "nobreza": "Nobreza",
+      "religiao": "Religião"
     },
-
     "Elemento": {
       "Label": "Elemento",
       "sangue": "Sangue",
@@ -79,20 +82,21 @@
       "energia": "Energia",
       "medo": "Medo"
     },
-
     "Recurso": {
       "PV": "PV",
       "PD": "PD",
-      "Impeto": "Ímpeto"
+      "Impeto": "Ímpeto",
+      "Analise": "Análise",
+      "Armadura": "Armadura",
+      "Pavor": "Pavor"
     },
-
     "Teste": {
-      "Ferimento": "Teste de Ferimento (Vigor)",
+      "Ferimento": "Teste de Ferimento/Lesão (Vigor)",
       "Trauma": "Teste de Trauma (Disciplina)",
       "ResetarFerimentoDica": "Resetar Teste de Ferimento para a DT inicial (7)",
-      "ResetarTraumaDica": "Resetar Teste de Trauma para a DT inicial (7)"
+      "ResetarTraumaDica": "Resetar Teste de Trauma para a DT inicial (7)",
+      "Morte": "Teste de Morte (Vigor)"
     },
-
     "Secao": {
       "Atributos": "Atributos",
       "Pericias": "Perícias",
@@ -100,16 +104,16 @@
       "Ferramentas": "Ferramentas da Ordo Realitas",
       "Itens": "Itens",
       "Biografia": "Biografia",
-      "Notas": "Notas"
+      "Notas": "Notas",
+      "Relacoes": "Relações",
+      "Estado": "Estado, Lesões e Traumas"
     },
-
     "Origem": {
       "perfil": "Perfil",
-      "ocupacao": "Ocupação",
+      "ocupacao": "Ocupação / Vocação",
       "nivel": "Nível",
       "outro": "Outro"
     },
-
     "Item": {
       "NovoNome": "Novo(a) {tipo}",
       "Origem": "Origem",
@@ -118,24 +122,46 @@
       "ElementosDetectados": "Elementos que detecta",
       "Mecanica": "Mecânica (uso pelo mestre)",
       "MecanicaItem": "Mecânica",
-      "Quantidade": "Quantidade"
+      "Quantidade": "Quantidade",
+      "Categoria": {
+        "Label": "Categoria",
+        "comum": "Comum",
+        "arma": "Arma",
+        "armadura": "Armadura",
+        "consumivel": "Consumível"
+      },
+      "Alcance": {
+        "Label": "Alcance",
+        "corpo": "Corpo a corpo",
+        "distancia": "À distância"
+      },
+      "DanoMod": "Dano (RA + )",
+      "PassoAtaque": "Passos no ataque",
+      "IgnoraRD": "Ignora RD",
+      "ArmaduraPontos": "Pontos de armadura",
+      "Equipado": "Equipada",
+      "Restricao": "Restrição / efeito",
+      "CriticoMin": "Crítico (dois dados ≥)"
     },
-
     "Acao": {
       "Criar": "Criar",
       "Editar": "Editar",
       "Excluir": "Excluir",
       "Usar": "Enviar para o chat",
       "Adicionar": "Adicionar",
-      "Remover": "Remover"
+      "Remover": "Remover",
+      "Atacar": "Atacar (Shift+clique: opções)",
+      "Equipar": "Equipar / desequipar"
     },
-
     "Aviso": {
       "RegrasCombate": "As regras completas de combate e criaturas ainda não foram publicadas neste playtest. Use este campo de notas livremente até o próximo pacote trazer as regras oficiais.",
       "ImpetoInsuficiente": "Espaços de Ímpeto insuficientes para esse gasto.",
-      "AptidaoCompleta": "Todos os campos de Aptidão já estão em uso."
+      "AptidaoCompleta": "Todos os campos de Aptidão já estão em uso.",
+      "SemArmadura": "Nenhum ponto de armadura disponível.",
+      "PDInsuficiente": "PD insuficientes.",
+      "RelacaoNeutra": "Relações neutras não podem ser invocadas.",
+      "RelacaoUsada": "Esta relação já foi invocada nesta missão."
     },
-
     "Dialogo": {
       "Teste": {
         "Titulo": "Rolar {pericia}",
@@ -157,7 +183,6 @@
         "Confirmar": "Adicionar"
       }
     },
-
     "Chat": {
       "Teste": "Teste de {atributo} + {pericia}",
       "Total": "Total",
@@ -165,7 +190,53 @@
       "Sucesso": "Sucesso",
       "Falha": "Falha",
       "SucessoCritico": "Sucesso crítico!",
-      "FalhaCritica": "Falha crítica!"
+      "FalhaCritica": "Falha crítica!",
+      "EfeitoFalhaCritica": "Efeito sugerido"
+    },
+    "Vocacao": "Vocação",
+    "Edicao": {
+      "Label": "Edição",
+      "alpha": "Playtest Alpha",
+      "beta": "Playtest Beta"
+    },
+    "Patamar": {
+      "Label": "Patamar",
+      "iniciante": "Iniciante",
+      "veterano": "Veterano",
+      "elite": "Elite",
+      "lenda": "Lenda"
+    },
+    "Armadura": {
+      "Gastar": "Gastar 1 ponto",
+      "Dica": "Ação livre: reduz um dano sofrido em 10. Pontos gastos não se recuperam neste playtest.",
+      "Bonus": "Bônus"
+    },
+    "Pavor": {
+      "Dado": "Dado de pavor",
+      "Controlar": "Controlar (1 PD)",
+      "ControlarDica": "Antes de um teste, gaste 1 PD para reduzir o dado de pavor em um passo.",
+      "Abracar": "Abraçar (5 PD)",
+      "AbracarDica": "Antes de um teste, gaste 5 PD para converter o dado de pavor em um dado bônus.",
+      "Dica": "Dado de pavor: anula os resultados menores que ele."
+    },
+    "Relacao": {
+      "Grau": "Grau da relação",
+      "Sentimento": "Sentimento",
+      "Usada": "Já invocada nesta missão",
+      "Invocar": "Invocar relação (uma vez por missão)",
+      "NovaMissaoDica": "Nova missão: libera as relações e zera armadura gasta e pavor"
+    },
+    "Estado": {
+      "NovaCenaDica": "Nova cena: zera os testes de lesão/trauma/morte e os marcadores",
+      "RolarLesao": "Rolar Lesão",
+      "RolarTrauma": "Rolar Trauma"
+    },
+    "Condicao": {
+      "caido": "Caído",
+      "atordoado": "Atordoado",
+      "agarrado": "Agarrado",
+      "inconsciente": "Inconsciente",
+      "moribundo": "Moribundo"
     }
   }
 }

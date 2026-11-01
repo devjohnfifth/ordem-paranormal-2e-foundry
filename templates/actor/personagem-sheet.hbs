@@ -9,7 +9,7 @@
       <span class="op2e-fita op2e-fita-perfil">
         <select name="system.perfil">{{selectOptions config.perfis selected=system.perfil localize=true}}</select>
       </span>
-      <label class="op2e-campo-simples">{{localize "OP2E.Ocupacao"}}
+      <label class="op2e-campo-simples">{{#if beta}}{{localize "OP2E.Vocacao"}}{{else}}{{localize "OP2E.Ocupacao"}}{{/if}}
         <input type="text" name="system.ocupacao" value="{{system.ocupacao}}">
       </label>
     </div>
@@ -21,8 +21,18 @@
       <label class="op2e-campo-simples">{{localize "OP2E.Nivel"}}
         <input type="number" name="system.nivel" value="{{system.nivel}}" min="1" max="10" data-dtype="Number">
       </label>
+      {{#unless beta}}
       <label class="op2e-campo-simples">NEX
         <input type="number" name="system.nex" value="{{system.nex}}" min="0" max="100" step="5" data-dtype="Number">%
+      </label>
+      {{/unless}}
+      {{#if beta}}
+      <label class="op2e-campo-simples">{{localize "OP2E.Patamar.Label"}}
+        <select name="system.patamar">{{selectOptions patamares selected=system.patamar localize=true}}</select>
+      </label>
+      {{/if}}
+      <label class="op2e-campo-simples">{{localize "OP2E.Edicao.Label"}}
+        <select name="system.edicao">{{selectOptions edicoes selected=system.edicao localize=true}}</select>
       </label>
     </div>
   </div>
@@ -82,6 +92,45 @@
     <button type="button" data-action="gastarImpeto">{{localize "OP2E.Dialogo.GastarImpeto.Titulo"}}</button>
   </div>
   {{/if}}
+  {{#if mostrarAnalise}}
+  <div class="op2e-recurso op2e-analise">
+    <span class="op2e-fita">{{localize "OP2E.Recurso.Analise"}}</span>
+    <div class="op2e-recurso-valores">
+      <span class="op2e-valor-grande">{{system.analise.value}}</span><span>/</span><span>{{system.analise.max}}</span>
+    </div>
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="ajustarAnalise" data-delta="2">+2</button>
+      <button type="button" data-action="ajustarAnalise" data-delta="1">+1</button>
+      <button type="button" data-action="ajustarAnalise" data-delta="-1">–1</button>
+    </div>
+  </div>
+  {{/if}}
+  {{#if beta}}
+  <div class="op2e-recurso op2e-armadura">
+    <span class="op2e-fita">{{localize "OP2E.Recurso.Armadura"}}</span>
+    <div class="op2e-recurso-valores">
+      <span class="op2e-valor-grande">{{system.armadura.disponiveis}}</span><span>/</span><span>{{system.armadura.total}}</span>
+    </div>
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="gastarArmadura" title="{{localize 'OP2E.Armadura.Dica'}}">{{localize "OP2E.Armadura.Gastar"}}</button>
+    </div>
+    <label class="op2e-campo-simples op2e-compacto">{{localize "OP2E.Armadura.Bonus"}}
+      <input type="number" name="system.armadura.bonus" value="{{system.armadura.bonus}}" min="0" data-dtype="Number">
+    </label>
+  </div>
+  <div class="op2e-recurso op2e-pavor">
+    <span class="op2e-fita">{{localize "OP2E.Recurso.Pavor"}}</span>
+    <label class="op2e-campo-simples op2e-compacto">{{localize "OP2E.Pavor.Dado"}}
+      <select name="system.pavor.dado" data-dtype="Number">{{selectOptions pavorOpcoes selected=system.pavor.dado}}</select>
+    </label>
+    {{#if system.pavor.dado}}
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="controlarPavor" title="{{localize 'OP2E.Pavor.ControlarDica'}}">{{localize "OP2E.Pavor.Controlar"}}</button>
+      <button type="button" data-action="abracarPavor" title="{{localize 'OP2E.Pavor.AbracarDica'}}">{{localize "OP2E.Pavor.Abracar"}}</button>
+    </div>
+    {{/if}}
+  </div>
+  {{/if}}
 </section>
 
 <div class="op2e-corpo">
@@ -107,7 +156,7 @@
 
     <div class="op2e-pericias-coluna">
       <h4>{{localize "OP2E.Atributo.fisico"}}</h4>
-      {{#each (array "acrobacia" "atletismo" "crime" "furtividade" "luta" "pontaria" "vigor") as |chave|}}
+      {{#each colunas.fisico as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
           <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
@@ -117,9 +166,10 @@
 
     <div class="op2e-pericias-coluna">
       <h4>{{localize "OP2E.Atributo.mente"}}</h4>
-      {{#each (array "maquinas" "medicina" "ocultismo" "percepcao" "pesquisar" "sobrevivencia" "tecnologia") as |chave|}}
+      {{#each colunas.mente as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
+          {{#if (eq chave "oficio")}}<input type="text" class="op2e-especialidade" name="system.oficioEspecialidade" value="{{../system.oficioEspecialidade}}" placeholder="{{localize 'OP2E.Pericia.Especialidade'}}">{{/if}}
           <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
         </div>
       {{/each}}
@@ -140,7 +190,7 @@
 
     <div class="op2e-pericias-coluna">
       <h4>{{localize "OP2E.Atributo.emocao"}}</h4>
-      {{#each (array "disciplina" "enganacao" "intimidar" "intuicao" "persuasao") as |chave|}}
+      {{#each colunas.emocao as |chave|}}
         <div class="op2e-pericia-linha">
           <button type="button" class="op2e-pericia-nome" data-action="rolarPericia" data-pericia="{{chave}}" title="{{localize 'OP2E.Dialogo.Teste.Dica'}}">{{localize (concat "OP2E.Pericia." chave)}}</button>
           <select class="op2e-dado op2e-dado-pericia" name="system.pericias.{{chave}}.dado" data-dtype="Number">{{selectOptions ../config.escalaDadosOptions selected=(lookup (lookup ../system.pericias chave) "dado")}}</select>
@@ -206,6 +256,8 @@
         <img src="{{item.img}}">
         <span class="nome" data-action="itemEditar">{{item.name}}</span>
         <span class="quantidade">x{{item.system.quantidade}}</span>
+        {{#if (eq item.system.categoria "arma")}}<a data-action="atacar" title="{{localize 'OP2E.Acao.Atacar'}}"><i class="fa-solid fa-burst"></i></a>{{/if}}
+        {{#if (eq item.system.categoria "armadura")}}<a data-action="alternarEquipado" class="{{#if item.system.equipado}}op2e-equipado{{/if}}" title="{{localize 'OP2E.Acao.Equipar'}}"><i class="fa-solid fa-shield-halved"></i></a>{{/if}}
         <a data-action="itemEditar" title="{{localize 'OP2E.Acao.Editar'}}"><i class="fa-solid fa-pen"></i></a>
         <a data-action="itemExcluir" title="{{localize 'OP2E.Acao.Excluir'}}"><i class="fa-solid fa-trash"></i></a>
       </li>
@@ -214,6 +266,62 @@
       {{/each}}
     </ol>
   </section>
+
+  {{#if beta}}
+  <section class="op2e-lista op2e-relacoes">
+    <header>
+      <h3 class="op2e-fita">{{localize "OP2E.Secao.Relacoes"}}</h3>
+      <a data-action="adicionarRelacao" title="{{localize 'OP2E.Acao.Adicionar'}}"><i class="fa-solid fa-plus"></i></a>
+      <a data-action="novaMissao" title="{{localize 'OP2E.Relacao.NovaMissaoDica'}}"><i class="fa-solid fa-rotate"></i></a>
+    </header>
+    <ol>
+      {{#each system.relacoes as |rel i|}}
+      <li class="op2e-relacao-linha {{#if rel.usada}}op2e-usada{{/if}}" data-indice="{{i}}">
+        <input type="text" class="op2e-rel-nome" name="system.relacoes.{{i}}.nome" value="{{rel.nome}}" placeholder="{{localize 'OP2E.Nome'}}">
+        <select name="system.relacoes.{{i}}.grau" data-dtype="Number" title="{{localize 'OP2E.Relacao.Grau'}}">{{selectOptions ../grausRelacao selected=rel.grau}}</select>
+        <input type="text" class="op2e-rel-sent" name="system.relacoes.{{i}}.sentimento" value="{{rel.sentimento}}" placeholder="{{localize 'OP2E.Relacao.Sentimento'}}">
+        <input type="text" class="op2e-rel-desc" name="system.relacoes.{{i}}.descricao" value="{{rel.descricao}}" placeholder="{{localize 'OP2E.Descricao'}}">
+        <label class="op2e-checkbox" title="{{localize 'OP2E.Relacao.Usada'}}"><input type="checkbox" name="system.relacoes.{{i}}.usada" {{#if rel.usada}}checked{{/if}}></label>
+        <a data-action="invocarRelacao" title="{{localize 'OP2E.Relacao.Invocar'}}"><i class="fa-solid fa-heart"></i></a>
+        <a data-action="removerRelacao" title="{{localize 'OP2E.Acao.Remover'}}"><i class="fa-solid fa-xmark"></i></a>
+      </li>
+      {{else}}
+      <li class="op2e-vazio">{{localize "OP2E.ListaVazia"}}</li>
+      {{/each}}
+    </ol>
+  </section>
+
+  <section class="op2e-lista op2e-estado">
+    <header>
+      <h3 class="op2e-fita">{{localize "OP2E.Secao.Estado"}}</h3>
+      <a data-action="novaCena" title="{{localize 'OP2E.Estado.NovaCenaDica'}}"><i class="fa-solid fa-clapperboard"></i></a>
+    </header>
+    <div class="op2e-condicoes">
+      {{#each condicoes as |c|}}
+      <label class="op2e-checkbox"><input type="checkbox" name="system.condicoes.{{c.chave}}" {{#if c.ativa}}checked{{/if}}> {{localize (concat "OP2E.Condicao." c.chave)}}</label>
+      {{/each}}
+    </div>
+    <div class="op2e-linha-teste">
+      <button type="button" data-action="rolarMorte">{{localize "OP2E.Teste.Morte"}}</button>
+      <button type="button" data-action="rolarLesao">{{localize "OP2E.Estado.RolarLesao"}}</button>
+      <button type="button" data-action="rolarTraumaTabela">{{localize "OP2E.Estado.RolarTrauma"}}</button>
+    </div>
+    <ol>
+      {{#each system.lesoes as |l i|}}
+      <li class="op2e-item-linha" data-indice="{{i}}">
+        <span class="nome" title="{{l.texto}}"><i class="fa-solid fa-bandage"></i> {{l.nome}}</span>
+        <a data-action="removerLesao" title="{{localize 'OP2E.Acao.Remover'}}"><i class="fa-solid fa-xmark"></i></a>
+      </li>
+      {{/each}}
+      {{#each system.traumas as |t i|}}
+      <li class="op2e-item-linha" data-indice="{{i}}">
+        <span class="nome" title="{{t.texto}}"><i class="fa-solid fa-brain"></i> {{t.nome}}</span>
+        <a data-action="removerTrauma" title="{{localize 'OP2E.Acao.Remover'}}"><i class="fa-solid fa-xmark"></i></a>
+      </li>
+      {{/each}}
+    </ol>
+  </section>
+  {{/if}}
 
   <section class="op2e-biografia">
     <h3 class="op2e-fita">{{localize "OP2E.Secao.Biografia"}}</h3>

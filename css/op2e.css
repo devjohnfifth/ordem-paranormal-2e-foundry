@@ -846,3 +846,48 @@ a.op2e-mapa-cola-ponto:hover {
   background: rgba(255, 255, 255, 0.3) !important;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7) !important;
 }
+
+
+/* ---------------------------------------------------------------------------
+   Playtest Beta: pavor, armadura, relações, estado
+   --------------------------------------------------------------------------- */
+.op2e-dado-anulado { text-decoration: line-through; opacity: 0.45; }
+.op2e-dado-pavor { color: #c9432f; }
+.op2e-efeito-critico {
+  margin-top: 0.4rem;
+  padding: 0.3rem 0.5rem;
+  border-left: 3px solid #c9432f;
+  background: rgba(122, 47, 47, 0.18);
+  font-size: 0.85rem;
+}
+.op2e-card-regra .op2e-destaque { font-weight: bold; }
+.op2e-card-regra.op2e-morte h3 { color: #c9432f; }
+
+.op2e-valor-grande { font-size: 1.6rem; font-weight: bold; line-height: 1; }
+.op2e-compacto { font-size: 0.75rem; }
+.op2e-compacto input, .op2e-compacto select { width: 4.5rem; }
+
+.op2e-especialidade {
+  width: 5.5rem;
+  min-width: 0;
+  height: 1.4rem;
+  font-size: 0.7rem;
+  flex: 0 1 5.5rem;
+}
+
+.op2e-relacoes .op2e-relacao-linha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(122, 47, 47, 0.3);
+}
+.op2e-relacoes .op2e-relacao-linha.op2e-usada { opacity: 0.55; }
+.op2e-relacoes .op2e-rel-nome { flex: 1 1 7rem; min-width: 0; }
+.op2e-relacoes .op2e-rel-sent { flex: 1 1 7rem; min-width: 0; }
+.op2e-relacoes .op2e-rel-desc { flex: 3 1 12rem; min-width: 0; }
+.op2e-relacoes select { flex: 0 0 6.5rem; }
+
+.op2e-condicoes { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.3rem 0; }
+.op2e-equipado { color: #e8c896; }

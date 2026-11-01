@@ -52,9 +52,57 @@
   {{/if}}
 
   {{#if (eq item.type "item")}}
-    <label>{{localize "OP2E.Item.Quantidade"}}
-      <input type="number" name="system.quantidade" value="{{system.quantidade}}" data-dtype="Number" min="0">
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Item.Quantidade"}}
+        <input type="number" name="system.quantidade" value="{{system.quantidade}}" data-dtype="Number" min="0">
+      </label>
+      <label>{{localize "OP2E.Item.Categoria.Label"}}
+        <select name="system.categoria">
+          <option value="comum" {{#if (eq system.categoria "comum")}}selected{{/if}}>{{localize "OP2E.Item.Categoria.comum"}}</option>
+          <option value="arma" {{#if (eq system.categoria "arma")}}selected{{/if}}>{{localize "OP2E.Item.Categoria.arma"}}</option>
+          <option value="armadura" {{#if (eq system.categoria "armadura")}}selected{{/if}}>{{localize "OP2E.Item.Categoria.armadura"}}</option>
+          <option value="consumivel" {{#if (eq system.categoria "consumivel")}}selected{{/if}}>{{localize "OP2E.Item.Categoria.consumivel"}}</option>
+        </select>
+      </label>
+    </div>
+    {{#if (eq system.categoria "arma")}}
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Item.Alcance.Label"}}
+        <select name="system.alcance">
+          <option value="corpo" {{#if (eq system.alcance "corpo")}}selected{{/if}}>{{localize "OP2E.Item.Alcance.corpo"}}</option>
+          <option value="distancia" {{#if (eq system.alcance "distancia")}}selected{{/if}}>{{localize "OP2E.Item.Alcance.distancia"}}</option>
+        </select>
+      </label>
+      <label>{{localize "OP2E.Item.DanoMod"}}
+        <input type="number" name="system.danoMod" value="{{system.danoMod}}" data-dtype="Number">
+      </label>
+      <label>{{localize "OP2E.Item.PassoAtaque"}}
+        <input type="number" name="system.passoAtaque" value="{{system.passoAtaque}}" data-dtype="Number">
+      </label>
+      <label>{{localize "OP2E.Item.IgnoraRD"}}
+        <input type="number" name="system.ignoraRD" value="{{system.ignoraRD}}" data-dtype="Number" min="0">
+      </label>
+      <label>{{localize "OP2E.Item.CriticoMin"}}
+        <input type="number" name="system.criticoMin" value="{{system.criticoMin}}" data-dtype="Number" min="2" max="20">
+      </label>
+    </div>
+    {{/if}}
+    {{#if (eq system.categoria "armadura")}}
+    <div class="op2e-linha">
+      <label>{{localize "OP2E.Item.ArmaduraPontos"}}
+        <input type="number" name="system.armaduraPontos" value="{{system.armaduraPontos}}" data-dtype="Number" min="0">
+      </label>
+      <label class="op2e-checkbox">
+        <input type="checkbox" name="system.equipado" {{#if system.equipado}}checked{{/if}}>
+        {{localize "OP2E.Item.Equipado"}}
+      </label>
+    </div>
+    {{/if}}
+    {{#if (or (eq system.categoria "arma") (eq system.categoria "armadura"))}}
+    <label>{{localize "OP2E.Item.Restricao"}}
+      <input type="text" name="system.restricao" value="{{system.restricao}}">
     </label>
+    {{/if}}
     <section class="op2e-editor">
       <h3>{{localize "OP2E.Descricao"}}</h3>
       {{editor system.descricao target="system.descricao" button=true editable=true engine="prosemirror"}}
