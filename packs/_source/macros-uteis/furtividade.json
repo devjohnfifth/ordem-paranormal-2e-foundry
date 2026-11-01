@@ -1,0 +1,16 @@
+{
+  "_id": "AlTbhiW8SDGxc1Kt",
+  "_key": "!macros!AlTbhiW8SDGxc1Kt",
+  "name": "Furtividade (Esconderijo)",
+  "type": "script",
+  "author": null,
+  "img": "systems/op2e-playtest/assets/icones/furtividade.svg",
+  "scope": "global",
+  "command": "await game.op2e.furtividade.painel();\n",
+  "folder": "pVmaGMYVAX2JRq5X",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -25,6 +25,9 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
       abracarPavor: OP2PersonagemSheet.#abracarPavor,
       ajustarAnalise: OP2PersonagemSheet.#ajustarAnalise,
       novaCena: OP2PersonagemSheet.#novaCena,
+      desafioPerseguicao: OP2PersonagemSheet.#desafioPerseguicao,
+      desafioFurtividade: OP2PersonagemSheet.#desafioFurtividade,
+      desafioEquilibrio: OP2PersonagemSheet.#desafioEquilibrio,
       novaMissao: OP2PersonagemSheet.#novaMissao,
       invocarRelacao: OP2PersonagemSheet.#invocarRelacao,
       adicionarRelacao: OP2PersonagemSheet.#adicionarRelacao,
@@ -289,6 +292,19 @@ export default class OP2PersonagemSheet extends HandlebarsApplicationMixin(Actor
 
   static async #ajustarAnalise(event, target) {
     await this.actor.ajustarAnalise(Number(target.dataset.delta));
+  }
+
+  static async #desafioPerseguicao() {
+    await game.op2e.perseguicao.acoes(this.actor);
+  }
+
+  static async #desafioFurtividade() {
+    await game.op2e.furtividade.acoes(this.actor);
+  }
+
+  /** Shift+clique começa uma nova travessia (recupera os dados de equilíbrio). */
+  static async #desafioEquilibrio(event) {
+    await game.op2e.equilibrio.rolar(this.actor, { novaTravessia: event.shiftKey });
   }
 
   static async #novaCena() {

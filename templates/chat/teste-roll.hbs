@@ -1,4 +1,4 @@
-<div class="op2e chat-teste {{#if passou}}sucesso{{else}}falha{{/if}}">
+<div class="op2e chat-teste {{#if semVeredito}}neutro{{else if passou}}sucesso{{else}}falha{{/if}}">
   {{#if flavor}}<h3>{{flavor}}</h3>{{/if}}
 
   <div class="op2e-dados">
@@ -12,7 +12,7 @@
 
   <div class="op2e-resultado-linha">
     <span>{{localize "OP2E.Chat.Total"}}: <strong>{{total}}</strong></span>
-    <span>{{localize "OP2E.Chat.DT"}}: {{dt}}</span>
+    {{#unless semVeredito}}<span>{{localize "OP2E.Chat.DT"}}: {{dt}}</span>{{/unless}}
   </div>
 
   <div class="op2e-resultado-linha">
@@ -20,6 +20,7 @@
     <span>RB: {{rb}}</span>
   </div>
 
+  {{#unless semVeredito}}
   <div class="op2e-veredito">
     {{#if falhaCritica}}
       {{localize "OP2E.Chat.FalhaCritica"}}
@@ -31,6 +32,7 @@
       {{localize "OP2E.Chat.Falha"}}
     {{/if}}
   </div>
+  {{/unless}}
 
   {{#if efeitoFalhaCritica}}
     <div class="op2e-efeito-critico">

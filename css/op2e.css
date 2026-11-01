@@ -891,3 +891,35 @@ a.op2e-mapa-cola-ponto:hover {
 
 .op2e-condicoes { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.3rem 0; }
 .op2e-equipado { color: #e8c896; }
+
+/* ---------------------------------------------------------------------------
+   Ficha de ameaça (criaturas)
+   --------------------------------------------------------------------------- */
+.op2e-ameaca .op2e-pericias-ameaca { list-style: none; margin: 0; padding: 0; }
+.op2e-ameaca .op2e-pericias-ameaca .op2e-item-linha { display: flex; gap: 0.3rem; align-items: center; padding: 0.15rem 0; }
+.op2e-ameaca .op2e-pericias-ameaca select:first-child { flex: 1 1 auto; min-width: 0; }
+.op2e-ameaca .op2e-acoes ol { list-style: none; margin: 0; padding: 0; }
+.op2e-acao {
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid rgba(122, 47, 47, 0.45);
+  border-left: 3px solid #7a2f2f;
+  background: rgba(0, 0, 0, 0.18);
+}
+.op2e-acao-topo { display: flex; gap: 0.3rem; align-items: center; }
+.op2e-acao-topo .op2e-acao-nome { flex: 1 1 auto; min-width: 0; font-weight: bold; }
+.op2e-acao-topo select { flex: 0 0 auto; max-width: 7.5rem; }
+.op2e-acao-teste { display: flex; gap: 0.3rem; align-items: center; margin: 0.3rem 0; font-size: 0.8rem; }
+.op2e-acao-teste select { flex: 1 1 0; min-width: 0; }
+.op2e-acao-teste label { display: flex; gap: 0.25rem; align-items: center; white-space: nowrap; }
+.op2e-acao-teste input[type="number"] { width: 3.2rem; }
+.op2e-acao textarea { width: 100%; resize: vertical; font-size: 0.85rem; }
+
+/* ---------------------------------------------------------------------------
+   Desafios: perseguição, furtividade, equilíbrio
+   --------------------------------------------------------------------------- */
+.op2e-desafios button { flex: 1 1 auto; }
+.op2e-tabela-desafio { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.4rem 0; }
+.op2e-tabela-desafio th, .op2e-tabela-desafio td { padding: 0.2rem 0.4rem; border-bottom: 1px solid rgba(122, 47, 47, 0.4); text-align: left; }
+.op2e-participante { display: block; padding: 0.1rem 0; }
+.chat-teste.neutro { border-left-color: #8a7f70; }

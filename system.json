@@ -13,6 +13,7 @@
       "flags": {}
     }
   ],
+  "socket": true,
   "esmodules": ["module/op2e.mjs"],
   "styles": ["css/op2e.css"],
   "media": [
@@ -70,6 +71,17 @@
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiario-beta",
+      "label": "Bestiário — Contos da Vigília",
+      "system": "op2e-playtest",
+      "path": "packs/bestiario-beta",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },

@@ -237,6 +237,27 @@
       "agarrado": "Agarrado",
       "inconsciente": "Inconsciente",
       "moribundo": "Moribundo"
+    },
+    "Ameaca": {
+      "Tipo": "Tipo",
+      "AplicarDano": "Aplicar dano",
+      "RD": "Redução de dano",
+      "Acoes": "Ações",
+      "RolarDica": "Rolar a ação (Shift+clique: opções)",
+      "Dano": "Dano = RA +"
+    },
+    "Sheet": {
+      "Personagem": "Ficha de Personagem",
+      "Ameaca": "Ficha de Ameaça",
+      "Item": "Ficha de Item"
+    },
+    "Desafio": {
+      "Perseguicao": "Perseguição",
+      "PerseguicaoDica": "Ações da perseguição em andamento: avançar, carregar, sacrifício, fôlego",
+      "Furtividade": "Furtividade",
+      "FurtividadeDica": "Teste de esconderijo e ações especiais de furtividade",
+      "Equilibrio": "Equilíbrio",
+      "EquilibrioDica": "Teste de equilíbrio (2d10 + dados de equilíbrio). Shift+clique: nova travessia"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "_id": "pgSQAWbfqLJeWBpF",
+  "_key": "!macros!pgSQAWbfqLJeWBpF",
+  "name": "Perseguição",
+  "type": "script",
+  "author": null,
+  "img": "systems/op2e-playtest/assets/icones/perseguicao.svg",
+  "scope": "global",
+  "command": "await game.op2e.perseguicao.painel();\n",
+  "folder": "pVmaGMYVAX2JRq5X",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

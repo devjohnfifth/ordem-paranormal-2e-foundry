@@ -306,6 +306,11 @@
       <button type="button" data-action="rolarLesao">{{localize "OP2E.Estado.RolarLesao"}}</button>
       <button type="button" data-action="rolarTraumaTabela">{{localize "OP2E.Estado.RolarTrauma"}}</button>
     </div>
+    <div class="op2e-linha-teste op2e-desafios">
+      <button type="button" data-action="desafioPerseguicao" title="{{localize 'OP2E.Desafio.PerseguicaoDica'}}"><i class="fa-solid fa-person-running"></i> {{localize "OP2E.Desafio.Perseguicao"}}</button>
+      <button type="button" data-action="desafioFurtividade" title="{{localize 'OP2E.Desafio.FurtividadeDica'}}"><i class="fa-solid fa-user-secret"></i> {{localize "OP2E.Desafio.Furtividade"}}</button>
+      <button type="button" data-action="desafioEquilibrio" title="{{localize 'OP2E.Desafio.EquilibrioDica'}}"><i class="fa-solid fa-person-walking"></i> {{localize "OP2E.Desafio.Equilibrio"}}</button>
+    </div>
     <ol>
       {{#each system.lesoes as |l i|}}
       <li class="op2e-item-linha" data-indice="{{i}}">

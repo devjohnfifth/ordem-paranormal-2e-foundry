@@ -19,6 +19,10 @@ import { registrarLogoDePausa } from "./helpers/pausa.mjs";
 import { registrarBarBrawlPadrao } from "./helpers/barbrawl.mjs";
 import { registrarMarcaQuintoDado } from "./helpers/marca-quinto-dado.mjs";
 import { registrarCombatePorFases } from "./helpers/combate.mjs";
+import { registrarRelay } from "./helpers/desafios-comum.mjs";
+import { registrarPerseguicao } from "./helpers/perseguicao.mjs";
+import { registrarFurtividade } from "./helpers/furtividade.mjs";
+import { registrarEquilibrio } from "./helpers/equilibrio.mjs";
 
 Hooks.once("init", () => {
   console.log("Ordem Paranormal RPG 2 (Playtest) | Inicializando sistema");
@@ -63,8 +67,12 @@ Hooks.once("init", () => {
   registrarBarBrawlPadrao();
   registrarMarcaQuintoDado();
   registrarCombatePorFases();
+  registrarPerseguicao();
+  registrarFurtividade();
+  registrarEquilibrio();
 });
 
 Hooks.once("ready", () => {
+  registrarRelay();
   console.log("Ordem Paranormal RPG 2 (Playtest) | Sistema pronto");
 });

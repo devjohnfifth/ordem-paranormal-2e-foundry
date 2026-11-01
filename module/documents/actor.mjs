@@ -411,6 +411,76 @@ export default class OP2Actor extends Actor {
   }
 
   /* -------------------------------------------- */
+  /*  Criaturas                                   */
+  /* -------------------------------------------- */
+
+  /**
+   * Executa uma ação de uma ameaça. Ações com perícia rolam o dado do atributo + o da perícia (d4 se a
+   * criatura não listar a perícia); ataques causam dano RA + modificador (duas maiores rolagens em crítico).
+   * Ações sem perícia apenas publicam a descrição no chat.
+   */
+  async rolarAcao(indice, { dt, passo = 0, dadosExtras = [] } = {}) {
+    if (this.type !== "ameaca") return null;
+    const acao = this.system.acoes[indice];
+    if (!acao) return null;
+
+    if (!acao.pericia) {
+      await this.#publicarCard({ titulo: `${this.name}: ${acao.nome}`, linhas: [esc(acao.descricao)] });
+      return null;
+    }
+
+    let dadoAtributo = this.system.atributos[acao.atributo].dado;
+    let dadoPericia = this.system.pericias.find((p) => p.chave === acao.pericia)?.dado ?? 4;
+    if (passo) {
+      dadoAtributo = passoDado(dadoAtributo, passo);
+      dadoPericia = passoDado(dadoPericia, passo);
+    }
+
+    const resultado = await rolarTeste({
+      dadoAtributo,
+      dadoPericia,
+      dadosExtras,
+      dt,
+      flavor: `${this.name}: ${acao.nome}`,
+      actor: this,
+      silencioso: true
+    });
+
+    let extra = acao.descricao ? `<em>${esc(acao.descricao)}</em>` : "";
+    let dano = null;
+    if (acao.danoMod !== null && acao.danoMod !== undefined && acao.categoria === "ataque") {
+      if (resultado.passou) {
+        const base = resultado.critico ? resultado.ra2 : resultado.ra;
+        dano = base + acao.danoMod;
+        extra = `<strong>Dano: ${dano}</strong> (${resultado.critico ? "duas maiores rolagens" : "RA"} ${base} ${
+          acao.danoMod >= 0 ? "+" : "–"
+        } ${Math.abs(acao.danoMod)}). ${extra}`;
+      } else {
+        extra = `O ataque erra. ${extra}`;
+      }
+    }
+
+    await publicarTeste(resultado, { flavor: `${this.name}: ${acao.nome}`, actor: this, extra });
+    return { ...resultado, dano };
+  }
+
+  /**
+   * Aplica dano ao ator descontando a RD (ameaças). Em personagens, use os recursos diretamente (os pontos
+   * de armadura são gastos à parte, com a ação livre "Gastar 1 ponto").
+   */
+  async aplicarDano(valor, { ignoraRD = 0 } = {}) {
+    if (this.type !== "ameaca") return;
+    const rd = Math.max(0, this.system.rd - ignoraRD);
+    const final = Math.max(0, valor - rd);
+    const pv = Math.max(0, this.system.recursos.pv.value - final);
+    await this.update({ "system.recursos.pv.value": pv });
+    await this.#publicarCard({
+      titulo: `${this.name} sofre dano`,
+      destaque: `${valor} de dano${rd ? ` – RD ${rd} = <strong>${final}</strong>` : ""}. PV ${pv}/${this.system.recursos.pv.max}.`
+    });
+  }
+
+  /* -------------------------------------------- */
   /*  Combate                                     */
   /* -------------------------------------------- */
 
