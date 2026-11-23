@@ -4,6 +4,14 @@ Sistema **não-oficial** para Foundry VTT, feito para uso pessoal de mesa, basea
 primeiro Playtest Alpha de **Ordem Paranormal RPG 2** (Rafael "Cellbit" Lange / Jambô Editora),
 lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
 
+![Fichas de personagem e de ameaça no Foundry VTT](.github/readme/ordem-paranormal.jpg)
+
+> **English:** unofficial Foundry VTT game system for the *Ordem Paranormal RPG 2* playtest
+> (Jambô Editora): character sheets, skill tests, injury and trauma tracking and
+> investigation tools, installable by manifest link. The playtest beta (threat sheets,
+> bestiary, chases) is in progress on the `dev` branch. The game content is in Brazilian
+> Portuguese.
+
 > Ordem Paranormal 2 ainda está em desenvolvimento. Este playtest cobre apenas atributos,
 > perícias, perfis psicológicos, testes, cenas de investigação, desafios de acesso e uma
 > versão simplificada de ferimentos/traumas/combate. Regras de rituais, poderes, NEX e
