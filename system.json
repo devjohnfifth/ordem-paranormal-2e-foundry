@@ -1,8 +1,8 @@
 {
   "id": "op2e-playtest",
   "title": "Ordem Paranormal RPG 2 (Playtest)",
-  "description": "Sistema não-oficial para Foundry VTT baseado no primeiro Playtest Alpha de Ordem Paranormal RPG 2, de Rafael \"Cellbit\" Lange e Jambô Editora. Feito para uso pessoal de mesa durante o período de playtest.",
-  "version": "0.8.3",
+  "description": "Sistema não-oficial para Foundry VTT baseado no primeiro Playtest Alpha de Ordem Paranormal RPG 2, de Rafael \"Cellbit\" Lange e Jambô Editora. Feito para uso pessoal de mesa durante o período de playtest. Este é um conteúdo não oficial, publicado sob a Licença da Comunidade de Ordem Paranormal. O conteúdo oficial do playtest (personagens, mapas, handouts, trilhas e textos) não é distribuído aqui.",
+  "version": "0.8.3.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14.365"
@@ -15,13 +15,6 @@
   ],
   "esmodules": ["module/op2e.mjs"],
   "styles": ["css/op2e.css"],
-  "media": [
-    {
-      "type": "setup",
-      "url": "systems/op2e-playtest/assets/ui/capa-sistema.webp",
-      "thumbnail": "systems/op2e-playtest/assets/ui/capa-sistema.webp"
-    }
-  ],
   "languages": [
     {
       "lang": "pt-BR",
@@ -63,99 +56,11 @@
   },
   "packs": [
     {
-      "name": "personagens-prontos",
-      "label": "Personagens Prontos",
-      "system": "op2e-playtest",
-      "path": "packs/personagens-prontos",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "ferramentas-ordo-realitas",
-      "label": "Ferramentas da Ordo Realitas",
-      "system": "op2e-playtest",
-      "path": "packs/ferramentas-ordo-realitas",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "regras-referencia",
-      "label": "Regras do Playtest (Resumo)",
-      "system": "op2e-playtest",
-      "path": "packs/regras-referencia",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "compendio-da-ordem",
-      "label": "Compêndio da Ordem (GM)",
-      "system": "op2e-playtest",
-      "path": "packs/compendio-da-ordem",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "materiais-de-jogo",
-      "label": "Materiais de Jogo (Mapas e Handouts)",
-      "system": "op2e-playtest",
-      "path": "packs/materiais-de-jogo",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "mecanicas-de-acesso",
-      "label": "Mecânicas de Acesso",
-      "system": "op2e-playtest",
-      "path": "packs/mecanicas-de-acesso",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "itens-da-aventura",
-      "label": "Itens da Aventura",
-      "system": "op2e-playtest",
-      "path": "packs/itens-da-aventura",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "macros-uteis",
       "label": "Macros Úteis",
       "system": "op2e-playtest",
       "path": "packs/macros-uteis",
       "type": "Macro",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "trilhas-sonoras",
-      "label": "Trilhas Sonoras — Ato I",
-      "system": "op2e-playtest",
-      "path": "packs/trilhas-sonoras",
-      "type": "Playlist",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
@@ -167,5 +72,5 @@
   "readme": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry#readme",
   "bugs": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/issues",
   "manifest": "https://raw.githubusercontent.com/devjohnfifth/ordem-paranormal-2e-foundry/master/system.json",
-  "download": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/releases/download/v0.8.3/system.zip"
+  "download": "https://github.com/devjohnfifth/ordem-paranormal-2e-foundry/releases/download/v0.8.3.1/system.zip"
 }

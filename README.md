@@ -1,16 +1,16 @@
 # Ordem Paranormal RPG 2 — Playtest (Foundry VTT)
 
+*Este é um conteúdo não oficial, publicado sob a Licença da Comunidade de Ordem Paranormal.*
+
 Sistema **não-oficial** para Foundry VTT, feito para uso pessoal de mesa, baseado no
 primeiro Playtest Alpha de **Ordem Paranormal RPG 2** (Rafael "Cellbit" Lange / Jambô Editora),
 lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
 
-![Fichas de personagem e de ameaça no Foundry VTT](.github/readme/ordem-paranormal.jpg)
-
-> **English:** unofficial Foundry VTT game system for the *Ordem Paranormal RPG 2* playtest
-> (Jambô Editora): character sheets, skill tests, injury and trauma tracking and
-> investigation tools, installable by manifest link. The playtest beta (threat sheets,
-> bestiary, chases) is in progress on the `dev` branch. The game content is in Brazilian
-> Portuguese.
+> **English:** unofficial Foundry VTT game system for the *Ordem Paranormal RPG 2* playtest:
+> character and threat sheets, a dice engine for skill tests, injury and trauma tracking and
+> GM macros, installable by manifest link. Official playtest content (pregenerated characters,
+> maps, handouts, music and adventure text) is not included. The playtest beta is in progress
+> on the `dev` branch. The game content is in Brazilian Portuguese.
 
 > Ordem Paranormal 2 ainda está em desenvolvimento. Este playtest cobre apenas atributos,
 > perícias, perfis psicológicos, testes, cenas de investigação, desafios de acesso e uma
@@ -29,10 +29,10 @@ da sua instalação, pois este projeto não pôde ser testado ao vivo neste ambi
 
 ## Instalação
 
-> O repositório voltou a ser **público** — sem fins comerciais, só pra facilitar a
-> instalação por link de manifesto. Veja o aviso de direitos autorais no fim deste
-> arquivo: o conteúdo do Ato II (exclusivo dos assinantes dos Arquivos Secretos) ainda
-> não foi incluído por causa disso.
+> O repositório é **público só com o código do sistema**. O conteúdo oficial do playtest
+> (personagens prontos, mapas, handouts, trilhas e os textos da aventura) é da Jambô Editora /
+> Rafael "Cellbit" Lange e **não é distribuído aqui**: quem tem acesso pelos Arquivos Secretos
+> usa o próprio material na mesa. Veja o aviso no fim deste arquivo.
 
 **Opção A — pela tela de instalação do Foundry (mais fácil):**
 
@@ -92,48 +92,9 @@ trazer as mudanças de volta para os arquivos-fonte (e poder commitar o diff).
   com botão para gastar espaços preenchidos.
 - **Testes de Ferimento (0 PV) e Trauma (0 PD)**: botões dedicados, com a DT escalando
   +3 a cada tentativa, exatamente como a regra descreve.
-- **Compêndio "Personagens Prontos"**: os 10 pregens oficiais de "A Maldição do Ídolo de
-  Pedra" — Alan, Edgar, Eloísa, Kênia e Victor (Ato I, sobreviventes nível 2) e Amanda,
-  Antônio, Heitor, Raven e Val (Ato II, agentes nível 6) — com atributos, perícias e
-  habilidades transcritos das fichas oficiais, retrato, token e histórico (imagem oficial)
-  na biografia.
-- **Compêndio "Ferramentas da Ordo Realitas"**: os 9 equipamentos de investigação do Ato II
-  (Laboratório Portátil, Câmera Modificada, Lanterna UV, Laser de Varredura, Leitor
-  Infravermelho, Medidor EMF, Pó Revelador, Rádio Modificado, Termômetro Diferencial) mais
-  o item Compêndio da Ordem, como Items do tipo `ferramenta`.
-- **Compêndio "Regras do Playtest (Resumo)"**: um Journal com as regras resumidas
-  (perfis, atributos/perícias, testes, cenas de investigação, desafios de acesso,
-  ferimentos/traumas, combate provisório), visível a jogadores.
-- **Compêndio "Compêndio da Ordem (GM)"**: os 5 casos catalogados (elementos, códigos e
-  pistas) e uma tabela-resumo de sinais por elemento, visível apenas ao mestre.
-- **Compêndio "Materiais de Jogo"**: os 4 mapas oficiais e os 24 handouts de "A Maldição
-  do Ídolo de Pedra" (Ato I e II), como páginas de imagem em Journals, visível apenas ao
-  mestre.
-- **Pasta "Pontos de Interesse — Ato I"** (dentro do Compêndio da Ordem): os 24 pontos de
-  interesse numerados de "A Maldição do Ídolo de Pedra" — Ato I, com as tabelas de
-  Perícia/DT/Informação, referências aos handouts e as notas de mestre (o que realmente
-  aconteceu). Dividido em dois Journals: **O Porão** (mapa-cola com a legenda numerada,
-  pontos 01–17, e a mecânica de "A Maldição do Ídolo de Pedra") e **A Sala Secreta**
-  (pontos 18–24 e a Narração Final).
-- **Compêndio "Mecânicas de Acesso"**: as regras detalhadas de Destrancar, Arrombar,
-  Hackear (técnico e social), Alcançar (seguro e arriscado) e Sustentar — visível a
-  jogadores, para consulta rápida durante o desafio.
-- **Compêndio "Itens da Aventura"**: os itens narrativos de "A Maldição do Ídolo de
-  Pedra" — Faca de Churrasco (arma improvisada, dano RA+2), Molho de Chaves 1, Molho de
-  Chaves 2 e o Ídolo de Pedra — prontos para arrastar para a ficha de um personagem
-  quando encontrados em jogo.
-
-## Usando os mapas e a trilha sonora
-
-Os mapas ficam disponíveis como imagens no compêndio **Materiais de Jogo**, não como
-Cenas prontas (o schema de Scene mudou bastante entre o Foundry v13 e v14, e cada mesa
-configura grid/iluminação diferente). Para criar a cena: arraste o arquivo de
-`assets/mapas/` direto para a aba **Cenas** na sidebar — o próprio Foundry cria a Scene
-já apontando pra imagem certa, e depois é só ajustar o grid.
-
-A trilha sonora ("O Porão" e "O Ídolo") já vem pronta no compêndio **Trilhas Sonoras — Ato
-I** (tipo Playlist) — arraste a playlist de lá pro mundo e as duas faixas já vêm dentro,
-prontas pra tocar.
+- **Conteúdo do playtest à parte**: os personagens prontos, ferramentas, pontos de interesse,
+  mecânicas de acesso, handouts, mapas e trilhas que uso na minha mesa ficam num módulo
+  privado, fora deste repositório. O sistema funciona sem ele.
 
 ## Macros
 
@@ -229,11 +190,6 @@ etc.), e esse arquivo só existe pros sistemas mais populares por padrão:
 
 ## O que falta (de propósito)
 
-- **Os pontos de interesse do Ato II** ("A Maldição do Ídolo de Pedra", parte exclusiva
-  dos assinantes dos Arquivos Secretos) ainda não foram transcritos — só o Ato I (conteúdo
-  gratuito) está pronto por enquanto. Fica para uma rodada futura.
-- **Cenas e Playlist prontas**: ver seção acima — é rápido de montar você mesmo pelo
-  Foundry.
 - **Rituais, poderes e NEX**: fora do escopo deste playtest.
 
 ## Estrutura do projeto
@@ -253,19 +209,15 @@ lang/                     pt-BR (único idioma do sistema)
 css/                      Estilos da ficha
 packs/_source/             Fonte editável dos compêndios (JSON solto)
 packs/                     Compêndios compilados (gerado, não versionar manualmente)
-assets/personagens/         Retratos, tokens e históricos dos 10 pregens
-assets/mapas/                Os 4 mapas oficiais (Ato I e II)
-assets/handouts/              Os 24 handouts oficiais
-assets/audio/                  As 2 faixas de trilha sonora
+assets/icones/             Ícones próprios (SVG) das habilidades, itens e macros
+assets/ui/                 Marca Quinto Dado nas fichas e na tela de pausa
 scripts/                   build-packs.mjs / extract-packs.mjs
 ```
 
 ## Licença e aviso
 
-O código deste sistema (`module/`, `templates/`, `css/` e `scripts/`) está sob a [licença MIT](LICENSE).
+*Este é um conteúdo não oficial, publicado sob a Licença da Comunidade de Ordem Paranormal.*
 
-A licença não cobre o conteúdo do jogo. Este é um projeto de fã para uso pessoal de mesa, sem
-fins comerciais. Ordem Paranormal é uma marca registrada da Jambô Editora / Rafael "Cellbit" Lange,
-e os retratos, mapas, handouts e trilhas do playtest em `assets/` pertencem aos seus autores.
-Este compêndio não deve ser redistribuído publicamente com conteúdo do playtest além do que já é
-gratuito.
+O código deste sistema (`module/`, `templates/`, `css/` e `scripts/`) está sob a [licença MIT](LICENSE).
+É um projeto de fã, sem fins comerciais. Ordem Paranormal é uma marca da Jambô Editora /
+Rafael "Cellbit" Lange; nenhum texto, imagem, mapa ou trilha oficial é distribuído neste repositório.
