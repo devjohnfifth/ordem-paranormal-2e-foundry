@@ -260,8 +260,12 @@ assets/audio/                  As 2 faixas de trilha sonora
 scripts/                   build-packs.mjs / extract-packs.mjs
 ```
 
-## Aviso
+## Licença e aviso
 
-Este é um projeto de fã para uso pessoal de mesa, sem fins comerciais. Ordem Paranormal é
-uma marca registrada da Jambô Editora / Rafael "Cellbit" Lange. Este compêndio não deve ser
-redistribuído publicamente com conteúdo do playtest além do que já é gratuito.
+O código deste sistema (`module/`, `templates/`, `css/` e `scripts/`) está sob a [licença MIT](LICENSE).
+
+A licença não cobre o conteúdo do jogo. Este é um projeto de fã para uso pessoal de mesa, sem
+fins comerciais. Ordem Paranormal é uma marca registrada da Jambô Editora / Rafael "Cellbit" Lange,
+e os retratos, mapas, handouts e trilhas do playtest em `assets/` pertencem aos seus autores.
+Este compêndio não deve ser redistribuído publicamente com conteúdo do playtest além do que já é
+gratuito.
