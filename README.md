@@ -6,6 +6,8 @@ Sistema **não-oficial** para Foundry VTT, feito para uso pessoal de mesa, basea
 primeiro Playtest Alpha de **Ordem Paranormal RPG 2** (Rafael "Cellbit" Lange / Jambô Editora),
 lançado no Pacote #8 dos Arquivos Secretos (agosto/2026).
 
+![Ficha de personagem e ficha de ameaça no Foundry VTT, com personagem e criatura de exemplo](.github/readme/fichas.jpg)
+
 > **English:** unofficial Foundry VTT game system for the *Ordem Paranormal RPG 2* playtest:
 > character and threat sheets, a dice engine for skill tests, injury and trauma tracking and
 > GM macros, installable by manifest link. Official playtest content (pregenerated characters,
